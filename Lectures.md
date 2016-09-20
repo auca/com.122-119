@@ -1,6 +1,6 @@
 ## Lectures
 
-* [Lecture 1, Introduction](https://docs.google.com/presentation/d/1Wvi4-IM32AANMlVzrJ--VHTImPP-t932Vtm9ImOcZL4)
+* [Lecture 1, Introduction](https://drive.google.com/open?id=1jFMIoOdtUOlWMIGfkqr2sAzPT5__6ojdnDI-Sd9HNxA)
 
 ## Practice
 
