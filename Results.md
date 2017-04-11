@@ -7,3 +7,7 @@
 
 ---
 * [Totals and Grades](https://drive.google.com/a/auca.kg/file/d/0B85z_dQxOMgLSGFTb0YtOEgwVEE/view)
+
+### Spring 2017
+
+* [Lecture Examinations](https://drive.google.com/open?id=0B85z_dQxOMgLeVJrb0JaQWg4c28)
