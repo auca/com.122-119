@@ -1,4 +1,4 @@
-DOCUMENT = COM_116_Fall_2016_Syllabus
+DOCUMENT = COM_116-118_2017_Syllabus
 DICTIONARY = en_US
 
 .DEFAULT_GOAL := pdf
@@ -21,3 +21,4 @@ clean :
 	for ext in nav aux toc out snm log ; do\
 	    rm -f $(DOCUMENT).$$ext ;\
 	done
+
