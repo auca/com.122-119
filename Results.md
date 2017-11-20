@@ -15,3 +15,7 @@
 
 ---
 * [Totals and Grades](https://drive.google.com/a/auca.kg/file/d/0B85z_dQxOMgLczJWV2J0SlMtZE0/view)
+
+### Fall 2017
+
+* [Lecture Examinations](https://drive.google.com/a/auca.kg/file/d/1feVc-wut_8uVwd86qLblfhsGsWwRfvEc/view)
