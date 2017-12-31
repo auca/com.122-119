@@ -18,6 +18,8 @@
 
 ### Fall 2017
 
+Grades are not final. The grading process is still in progress.
+
 * [Lecture Examinations](https://drive.google.com/a/auca.kg/file/d/1feVc-wut_8uVwd86qLblfhsGsWwRfvEc/view)
 * [Practice Defence and Projects](https://drive.google.com/a/auca.kg/file/d/1Go9eS93MBdtvxUG05tvURGygv-HHOJfW/view)
 
