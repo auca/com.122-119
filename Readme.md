@@ -5,7 +5,7 @@
 General course information, time, room and lab numbers, rules, grading, and
 books
 
-* <https://github.com/auca/com.116-119/blob/master/Syllabus/COM_116-119_2017_Syllabus.pdf>
+* <https://github.com/auca/com.116-119/blob/master/Syllabus/COM_116-119_2018_Syllabus.pdf>
 
 ## Class Discussions
 
