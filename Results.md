@@ -22,4 +22,13 @@
 * [Practice Defence and Projects](https://drive.google.com/a/auca.kg/file/d/1Go9eS93MBdtvxUG05tvURGygv-HHOJfW/view)
 
 ---
-* [Totals and Grades](https://drive.google.com/a/auca.kg/file/d/122lgCC7QsJj3MOTEnVaKhiI1KPwOBdQp/view)
+
+### Spring 2018
+
+* Lecture Examinations (TBD)
+* Practice Defence and Projects (TBD)
+
+---
+* Totals and Grades (TBD)
+* Totals and Grades (TBD)
+
