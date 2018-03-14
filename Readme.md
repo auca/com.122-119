@@ -24,4 +24,4 @@ For general discussions between students and the course instructor
 
 View the screen of the instructor's machine
 
-* <https://hangouts.google.com/hangouts/_/auca.kg/com-119>
+* <https://hangouts.google.com/hangouts/_/ytl/bvwedrm8Zzlrb9alv1mF7BKp9e6H6Nk9LSMdYoJ6do8=?hl=en_US>
