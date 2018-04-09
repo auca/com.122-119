@@ -25,7 +25,7 @@
 
 ### Spring 2018
 
-* Lecture Examinations (TBD)
+* [Lecture Examinations](https://drive.google.com/file/d/1KJJ8iPCAgYxMigtdqah5lATeaFnqmGVl/view)
 * Practice Defence and Projects (TBD)
 
 ---
