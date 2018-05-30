@@ -26,9 +26,8 @@
 ### Spring 2018
 
 * [Lecture Examinations](https://drive.google.com/file/d/1KJJ8iPCAgYxMigtdqah5lATeaFnqmGVl/view)
-* Practice Defence and Projects (TBD)
+* [Practice Defence and Projects](https://drive.google.com/open?id=1BGF6SuotzuxjYI-F3rhOF3GPA4wJoKUJ)
 
 ---
-* Totals and Grades (TBD)
-* Totals and Grades (TBD)
+* [Totals and Grades](https://drive.google.com/open?id=1U7P-x-YD7A8bxf3_Xo6LOFXB2Yabrhzm)
 
