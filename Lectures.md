@@ -8,4 +8,4 @@
 * [Lecture 6, 7, Single- and Multidimensional Arrays](https://drive.google.com/open?id=1aqY12qG8ntqxC0XCXsrKG9SNk71rX48dJEy8FxDY534)
 * [Lecture 8, Objects and Classes](https://drive.google.com/open?id=1QDEWrkcN4dYdNq5-uxO6MRWoYc2mjU0Le1gTteoS6_s)
 * [Lecture 9, Inheritance and Polymorphism](https://drive.google.com/open?id=1nRiff0It3J3EreFNZXpmjLqPzj741-eml0XaX74iXec)
-* [Lecture 10, Abstract Classes and Inheritance](https://docs.google.com/presentation/d/1q1sKjsu3hLl4XmGuMQmmnMrNv-GVSlY8iecOUftAkts)
+* [Lecture 10, Abstract Classes and Interfaces](https://docs.google.com/presentation/d/1q1sKjsu3hLl4XmGuMQmmnMrNv-GVSlY8iecOUftAkts)
