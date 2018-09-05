@@ -18,11 +18,11 @@ participation grade
 
 View the screen of the instructor's machine
 
-* <TBD>
+* TBD
 
 ## Recordings
 
 View previous class recordings
 
-* <TBD>
+* TBD
   
