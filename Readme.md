@@ -26,3 +26,6 @@ View previous class recordings
 
 * <https://www.youtube.com/playlist?list=PLIWindejDy9Cn9cAPsjegrUCeeCeGrPpY>
   
+## Contact Info Form
+
+* <https://docs.google.com/spreadsheets/d/1ico6q2qRmJGc_Bj6ESoQzy0hPSaUN1nAzI81D3TxYFc/edit?usp=sharing>
