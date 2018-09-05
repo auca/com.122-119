@@ -11,7 +11,7 @@ books
 
 Lab tasks, project requirements...
 
-* <https://drive.google.com/drive/u/1/folders/1Oduw97Lm0JB6nBM1DlRT7dIFaEnhSR-->
+* <https://drive.google.com/drive/folders/1s4cQMabcpr_0y02sjdCvMscwGe4Wr3pm?usp=sharing>
 
 ## Class Discussions
 
