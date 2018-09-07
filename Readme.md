@@ -40,7 +40,7 @@ View previous class recordings
 
 ### Group C
 
-* TBD
+* <https://www.youtube.com/playlist?list=PLIWindejDy9CSwDwz4XgukrZAUPeCvMAG>
 
 ## Contact Info Form
 
