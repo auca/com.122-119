@@ -119,7 +119,7 @@ of the data of the array or the object itself.
 ... static void main... {
     int[] numbers;
     number = new int[1000000];
-    printArray(numbers); // the reference is copied (but no the array data)
+    printArray(numbers); // the reference is copied (but not the array data)
 }
 
 ... static void printArray(int[] numbers) {
