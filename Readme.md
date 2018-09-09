@@ -7,12 +7,6 @@ books
 
 * <https://github.com/auca/com.116-119/blob/master/Syllabus/COM_116-119_2019_Syllabus.pdf>
 
-## Course Files
-
-Lab tasks, project requirements...
-
-* <https://drive.google.com/drive/folders/1s4cQMabcpr_0y02sjdCvMscwGe4Wr3pm?usp=sharing>
-
 ## Class Discussions
 
 For announcements, student questions and student answers to get the
