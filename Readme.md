@@ -24,15 +24,21 @@ View the screen of the instructor's machine
 
 View previous class recordings
 
-### Group A
+### Lectures
+
+* <https://www.youtube.com/playlist?list=PLIWindejDy9A9UDXGNyHRoJQgkGm8O31p>
+
+### Labs
+
+#### Group A
 
 * <https://www.youtube.com/playlist?list=PLIWindejDy9Cn9cAPsjegrUCeeCeGrPpY>
 
-### Group B
+#### Group B
 
 * <https://www.youtube.com/playlist?list=PLIWindejDy9APqWpMEy_STyfnCBZPT6iG>
 
-### Group C
+#### Group C
 
 * <https://www.youtube.com/playlist?list=PLIWindejDy9CSwDwz4XgukrZAUPeCvMAG>
 
