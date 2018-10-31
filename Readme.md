@@ -42,6 +42,6 @@ View previous class recordings
 
 * <https://www.youtube.com/playlist?list=PLIWindejDy9CSwDwz4XgukrZAUPeCvMAG>
 
-## Contact Info Form
+## Midterm SignUp Form
 
-* <https://docs.google.com/spreadsheets/d/1ico6q2qRmJGc_Bj6ESoQzy0hPSaUN1nAzI81D3TxYFc/edit?usp=sharing>
+* <https://docs.google.com/spreadsheets/d/1ZtiEom5HI5uie9-bZ4pZMsJWOb6D4l3OSnHeQ_1ClkU/edit?usp=sharing>
