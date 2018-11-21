@@ -33,6 +33,7 @@ View previous class recordings
 #### Group A
 
 * <https://www.youtube.com/playlist?list=PLIWindejDy9Cn9cAPsjegrUCeeCeGrPpY>
+* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6ehNrtBL8hMHbViBWNajUR7>
 
 #### Group B
 
