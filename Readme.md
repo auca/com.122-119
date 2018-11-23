@@ -18,7 +18,7 @@ participation grade
 
 View the screen of the instructor's machine
 
-* <https://hangouts.google.com/hangouts/_/ytl/_XNy4fdnZR0HR8btBBW6vZRk8jXX2IT5qnpzTQsxzug=?hl=en_US>
+* <https://hangouts.google.com/hangouts/_/ytl/d5sCBJBEN9QOWoXysvHZtBfTRtGoq2jSssT_aYd_wQY=?hl=en_US>
 
 ## Recordings
 
@@ -43,3 +43,4 @@ View previous class recordings
 #### Group C
 
 * <https://www.youtube.com/playlist?list=PLIWindejDy9CSwDwz4XgukrZAUPeCvMAG>
+* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6cjkwsjlR8moVDIGCrrhH1u>
