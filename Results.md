@@ -32,3 +32,6 @@
 ---
 * [Totals and Grades](https://drive.google.com/open?id=1U7P-x-YD7A8bxf3_Xo6LOFXB2Yabrhzm)
 
+### Fall 2018
+
+* [Lecture Examinations](https://drive.google.com/file/d/1KJJ8iPCAgYxMigtdqah5lATeaFnqmGVl/view)
