@@ -27,6 +27,7 @@ View previous class recordings
 ### Lectures
 
 * <https://www.youtube.com/playlist?list=PLIWindejDy9A9UDXGNyHRoJQgkGm8O31p>
+* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6eFyZ7c17rrAMNexrc6lesz>
 
 ### Labs
 
