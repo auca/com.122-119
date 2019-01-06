@@ -34,4 +34,9 @@
 
 ### Fall 2018
 
-* [Lecture Examinations](https://drive.google.com/file/d/1L7vvbnZjfKezGuFi5RDyhV5SLCiGQxs2/view)
+* [Lecture Examinations](https://drive.google.com/file/d/1lrEK8H_6xfI7-CGBcXuuqocHFiZwFW4D/view?usp=sharing)
+* [Practice Defence and Projects](https://drive.google.com/file/d/1rjtMA8Qm9As0VJLHKzP6q-5yVZwsfGGA/view?usp=sharing)
+
+---
+* [Totals and Grades](https://drive.google.com/file/d/1g_-Ou1Eb_KD4UoLwLBYSGRq7EtSVSI62/view?usp=sharing)
+
