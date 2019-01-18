@@ -18,7 +18,7 @@ participation grade
 
 View the screen of the instructor's machine
 
-* <https://hangouts.google.com/hangouts/_/ytl/inxdhdHbiA_wyLm8u_tpKNnGH1qP4gK777NN5YZVll8=?hl=en_US>
+* <https://hangouts.google.com/hangouts/_/ytl/OGD6ll0-XJVZ_7Hnaonb6aMsppsySmVnhKELuc09eQ8=?hl=en_US>
 
 ## Recordings
 
@@ -55,3 +55,7 @@ View previous class recordings
 
 * <https://www.youtube.com/playlist?list=PLIWindejDy9CSwDwz4XgukrZAUPeCvMAG>
 * <https://www.youtube.com/playlist?list=PLHcEzCb_lW6cjkwsjlR8moVDIGCrrhH1u>
+
+##### Spring 2019
+
+* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6d9w_ztJMOC9Ss49iHgqD4K>
