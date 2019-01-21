@@ -65,3 +65,7 @@ View previous class recordings
 ##### Spring 2019
 
 * <https://www.youtube.com/playlist?list=PLHcEzCb_lW6d9w_ztJMOC9Ss49iHgqD4K>
+
+## Registration
+
+* <https://docs.google.com/spreadsheets/d/1qTyq1q30NazpgoSOBmVxa5s_k-nrxVASR3_CYiiLGjg/edit?usp=sharing>
