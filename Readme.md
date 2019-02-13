@@ -68,4 +68,4 @@ View previous class recordings
 
 ## Registration
 
-* <https://docs.google.com/spreadsheets/d/1qTyq1q30NazpgoSOBmVxa5s_k-nrxVASR3_CYiiLGjg/edit?usp=sharing>
+* <https://hangouts.google.com/hangouts/_/ytl/4WZbIzm2-txacbzZ5GgQM4GGYPAED0XGSLkpB7H9fR0=?hl=en_US>
