@@ -74,3 +74,6 @@ View previous class recordings
 
 * <https://docs.google.com/spreadsheets/d/1cuDdXfF2FK0VT28ziYKyZCO-xYp95sLizRZLN7LrrIs/edit?usp=sharing>
 
+## Final Sign Up
+
+* <https://docs.google.com/spreadsheets/d/13Z-7FCpX6VqBC2Zf86ZzmafHnw0S1JUCyP7sh2vVIxY/edit?usp=sharing>
