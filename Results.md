@@ -40,3 +40,10 @@
 ---
 * [Totals and Grades](https://drive.google.com/file/d/1g_-Ou1Eb_KD4UoLwLBYSGRq7EtSVSI62/view?usp=sharing)
 
+### Spring 2019
+
+* [Lecture Examinations](https://drive.google.com/open?id=1GywFkEInwJcEpxcr6QiaPFUrEjO72z_S)
+* [Practice Defence and Projects](https://drive.google.com/open?id=1aTp0FPYvLMrVBZAR_PgUZU-9Y62cxeIG)
+
+---
+* [Totals and Grades](https://drive.google.com/open?id=1k6U-_jNo4CiF0ybH0Psn-CLdX-dQggor)
