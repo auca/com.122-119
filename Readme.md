@@ -48,6 +48,8 @@ View previous class recordings
 
 #### Group B
 
+##### Fall 2018
+
 * <https://www.youtube.com/playlist?list=PLIWindejDy9APqWpMEy_STyfnCBZPT6iG>
 * <https://www.youtube.com/playlist?list=PLHcEzCb_lW6ciRZMKT_HbuHOXp4V0MlXK>
 
@@ -56,6 +58,8 @@ View previous class recordings
 * <https://www.youtube.com/playlist?list=PLHcEzCb_lW6faESnniz1bryWsoioDs-KT>
 
 #### Group C
+
+##### Fall 2018
 
 * <https://www.youtube.com/playlist?list=PLIWindejDy9CSwDwz4XgukrZAUPeCvMAG>
 * <https://www.youtube.com/playlist?list=PLHcEzCb_lW6cjkwsjlR8moVDIGCrrhH1u>
