@@ -1,24 +1,22 @@
-# Structural Programming, Programming I, II
+# Structured Programming, Object-oriented Programming
 
 ## Syllabus
 
 General course information, time, room and lab numbers, rules, grading, and
 books
 
-* <https://github.com/auca/com.116-119/blob/master/Syllabus/COM_116-119_2019_Syllabus.pdf>
+* <https://github.com/auca/com.118-119/blob/master/Syllabus/COM_118-119_2019_Syllabus.pdf>
 
 ## Class Discussions
 
 For announcements, student questions and student answers to get the
 participation grade
 
-* <https://piazza.com/auca.kg/fall2018/com116118>
+* <https://piazza.com/auca.kg/fall2019/com118>
 
 ## Screencast
 
-View the screen of the instructor's machine
-
-* <https://hangouts.google.com/hangouts/_/ytl/ob8hJBVGQp9NI4Zhw23OWjZP2nERRCMeDTizCTB8uG8=?hl=en_US>
+* TBD
 
 ## Recordings
 
