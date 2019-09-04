@@ -34,5 +34,5 @@ View previous class recordings
 
 ## Registration
 
-* <https://docs.google.com/spreadsheets/d/1qTyq1q30NazpgoSOBmVxa5s_k-nrxVASR3_CYiiLGjg/edit?usp=sharing>
+* <https://docs.google.com/spreadsheets/d/1xOptxlFoeyrsT3iYD7ab9FPidZKkPzKmSVVNQwWPx88/edit?usp=sharing>
 
