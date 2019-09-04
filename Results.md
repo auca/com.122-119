@@ -1,4 +1,5 @@
-## Results
+Results
+=======
 
 ### Fall 2016
 
@@ -47,3 +48,4 @@
 
 ---
 * [Totals and Grades](https://drive.google.com/open?id=1k6U-_jNo4CiF0ybH0Psn-CLdX-dQggor)
+

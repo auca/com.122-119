@@ -1,4 +1,5 @@
-# Structured Programming, Object-oriented Programming
+Structured Programming, Object-oriented Programming
+===================================================
 
 ## Syllabus
 
@@ -9,73 +10,29 @@ books
 
 ## Class Discussions
 
-For announcements, student questions and student answers to get the
-participation grade
+For announcements, student questions and student answers, participation grade
 
 * <https://piazza.com/auca.kg/fall2019/com118>
-
-## Screencast
-
-* TBD
 
 ## Recordings
 
 View previous class recordings
 
-### Lectures
-
-##### Fall 2018
-
-* <https://www.youtube.com/playlist?list=PLIWindejDy9A9UDXGNyHRoJQgkGm8O31p>
-* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6eFyZ7c17rrAMNexrc6lesz>
-
-##### Spring 2019
-
-* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6cQ2nDg5xghl9f3AEzTFD2A>
-
 ### Labs
 
-#### Group A
+#### Wednesday 9:25
 
-##### Fall 2018
+* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6cB8GIPdMGBrZ4CIvFlMgHs>
 
-* <https://www.youtube.com/playlist?list=PLIWindejDy9Cn9cAPsjegrUCeeCeGrPpY>
-* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6ehNrtBL8hMHbViBWNajUR7>
+#### Wednesday 12:45
 
-##### Spring 2019
+* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6ds5dQBdQykf9cZOFvRcYeV>
 
-* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6cLbHUKQhUFZoEAUwu_J-Q3>
+#### Friday 12:45
 
-#### Group B
-
-##### Fall 2018
-
-* <https://www.youtube.com/playlist?list=PLIWindejDy9APqWpMEy_STyfnCBZPT6iG>
-* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6ciRZMKT_HbuHOXp4V0MlXK>
-
-##### Spring 2019
-
-* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6faESnniz1bryWsoioDs-KT>
-
-#### Group C
-
-##### Fall 2018
-
-* <https://www.youtube.com/playlist?list=PLIWindejDy9CSwDwz4XgukrZAUPeCvMAG>
-* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6cjkwsjlR8moVDIGCrrhH1u>
-
-##### Spring 2019
-
-* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6d9w_ztJMOC9Ss49iHgqD4K>
+* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6eE-n8sTe4yFvzeLzyxghuH>
 
 ## Registration
 
 * <https://docs.google.com/spreadsheets/d/1qTyq1q30NazpgoSOBmVxa5s_k-nrxVASR3_CYiiLGjg/edit?usp=sharing>
 
-## Midterm Sign Up
-
-* <https://docs.google.com/spreadsheets/d/1cuDdXfF2FK0VT28ziYKyZCO-xYp95sLizRZLN7LrrIs/edit?usp=sharing>
-
-## Final Sign Up
-
-* <https://docs.google.com/spreadsheets/d/13Z-7FCpX6VqBC2Zf86ZzmafHnw0S1JUCyP7sh2vVIxY/edit?usp=sharing>
