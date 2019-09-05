@@ -1,5 +1,5 @@
-# Structured Programming, Practice #1
-=====================================
+Structured Programming, Practice #1
+===================================
 
 ## Work Organization
 
@@ -10,37 +10,37 @@ Here you can find the required organization of your course directory.
 ```
 F:\
 |
-|--Programming01
-|----Lab01Problem01
-|----Lab01Problem02
+|--programming01
+|----lab01problem01
+|----lab01problem02
 |----...
-|----Lab02Problem01
+|----lab02problem01
 |----...
-|----URI2936
-|----URI2937
+|----uri2936
+|----uri2937
 |----...
 ```
 
 ## Developer Tools
 
 * [Java Development Kit](https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html)
-* [IntelliJ IDEA Community](https://www.jetbrains.com/idea/)
+* [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/)
 
-## Task #1: Hello
+## Problem #1: "Hello, World" (0.4%)
 
 Write a program that outputs the "hello, world" message to the screen. 
 
-### Sample I/O
+### Sample Output
 
 ```
 hello, world
 ```
 
-## Task #2: A Message in a Rectangle
+## Problem #2: "A Message in a Rectangle" (0.4%)
 
-Create a program that prints the same greeting surrounded by asterisks.
+Create a program that prints the "hello, world" greeting surrounded by the asterisk symbols.
 
-### Sample I/O
+### Sample Output
 
 ```
 **************
@@ -48,22 +48,22 @@ Create a program that prints the same greeting surrounded by asterisks.
 **************
 ```
 
-## Task #3: Greeting
+## Problem #3: "What is Your Name?" (0.4%)
 
 Write a program that reads a user name from the console, then forms, and prints a greeting message for that user. 
 
-### Sample I/O
+### Sample Input and Output
 
 ```
 What is your name? Dmitrii
-Hello, Dmitrii.
+Hello, Dmitrii!
 ```
 
-## Task #4: Numbers
+## Problem #4: "Operations on Two Integer Numbers?" (0.4%)
 
-Create a program that reads two numbers from the user and finds sum, difference, product, quotient, and the remainder.
+Create a program that reads two integer numbers from the user and finds their sum, difference, product, quotient, and the remainder.
 
-### Sample I/O
+### Sample Input and Output
 
 ```
 Enter the first number: 5
@@ -75,15 +75,29 @@ Enter the second number: 2
 5 % 2 = 1
 ```
 
-## Task #5: Volume
+## Problem #5: "Operations on Two Real Numbers?" (0.4%)
 
-Write a program that calculates the volume of a parallelepiped.
+Create a program that reads two real numbers from the user and finds their sum, difference, product, quotient, and the remainder.
 
-### Sample I/O
+### Sample Input and Output
 
 ```
-a?: 4
-b?: 3
-c?: 5
-The volume (4 x 3 x 5) is equal to 60.
+Enter the first number: 5.1
+Enter the second number: 2.6
+5.1 + 2.6 = 7.699999999999999
+5.1 - 2.6 = 2.4999999999999996
+5.1 * 2.6 = 13.26
+5.1 / 2.6 = 1.9615384615384612
+5.1 % 2.6 = 2.4999999999999996
 ```
+
+## Homework
+
+Read Introduction to Java Programming, 10th Edition by Y. Daniel Liang, Chapter 1
+
+* Do programming exercises from chapter 1:
+  - 1.3 (0.4%)
+  - 1.4 (0.4%)
+  - 1.6 (0.4%)
+  - 1.7 (0.4%)
+  - 1.11 (0.4%)
