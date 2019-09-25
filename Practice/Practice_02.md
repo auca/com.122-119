@@ -65,8 +65,37 @@ Enter a four-digit integer: 1237
 The sum of all digits is 13
 ```
 
-...
+## Problem #4: "Inches to Centimeters Conversion" (0.4%)
+
+Create an application that converts a specific value consumed from the standard input
+from inches to centimeters. Note that 1 in. = 2.54 cm.
+
+### Sample Input and Output
+
+```
+Enter the length in inches: 17
+17.00 in. = 43.18 cm.
+```
+
+## Problem #5: "Fahrenheit to Celsius Conversion" (0.4%)
+
+Create an application that implements a simple Fahrenheit to Celsius convertor. Note 
+that °C = 5⁄9 × (°F − 32). 
+
+### Sample Input and Output
+
+```
+Enter temperature in degrees Fahrenheit: 114
+The temperature in degrees Celsius is 45.56
+```
 
 ## Homework
 
 Read Introduction to Java Programming, 10th Edition by Y. Daniel Liang, Chapter 2
+
+* Do programming exercises from chapter 2:
+  - 2.1 (0.4%)
+  - 2.2 (0.4%)
+  - 2.4 (0.4%)
+  - 2.7 (0.4%)
+  - 2.11 (0.4%)
