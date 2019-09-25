@@ -1,0 +1,72 @@
+Structured Programming, Practice #1
+===================================
+
+## Work Organization
+
+Here you can find the required organization of your course directory.
+
+### Example
+
+```
+F:\
+|
+|--programming01
+|----lab01problem01
+|----lab01problem02
+|----...
+|----lab02problem01
+|----...
+|----uri2936
+|----uri2937
+|----...
+```
+
+## Developer Tools
+
+* [Java Development Kit](https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html)
+* [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/)
+
+## Problem #1: "Swap Two Numbers" (0.4%)
+
+Declare two integer variables (a and b), initialize them with values derived from the user input, and
+swap the values between these two variables.
+
+### Sample Input and Output
+
+```
+Enter the 1st value: 2
+Enter the 2nd value: 3
+Before swapping: a = 2; b = 3;
+After swapping: a = 3; b = 2;
+```
+
+## Problem #2: "Swap Without Temporary Variables" (0.4%)
+
+Declare two integer variables (a and b), initialize them with values derived from the user input, and
+swap the values between these two variables. In this task, it is prohibited to use temporary variables.
+
+### Sample Input and Output
+
+```
+Enter the 1st value: 2
+Enter the 2nd value: 3
+Before swapping: a = 2; b = 3;
+After swapping: a = 3; b = 2;
+```
+
+## Problem #3: "Sum of Digits" (0.4%)
+
+Read a four-digit integer from the standard input and find the sum of all its digits.
+
+### Sample Input and Output
+
+```
+Enter a four-digit integer: 1237
+The sum of all digits is 13
+```
+
+...
+
+## Homework
+
+Read Introduction to Java Programming, 10th Edition by Y. Daniel Liang, Chapter 2
