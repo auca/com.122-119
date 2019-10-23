@@ -62,4 +62,25 @@ You failed “Structured Programming”!!!
 You can take it again in the fall semester of 2019.
 ```
 
+## Problem #3: "The Maximum Value between Three Numbers" (0.4%)
+
+The application reads three integer numbers from the standard input and finds the greatest
+value between all of them.
+
+### Sample Input and Output
+
+```
+1st number? 12
+2nd number? 7
+3rd number? 539
+The value 539 is the greatest one.
+```
+
+```
+1st number? 74
+2nd number? 23
+3rd number? 23
+The value 74 is the greatest one.
+```
+
 ...
