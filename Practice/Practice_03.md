@@ -83,4 +83,53 @@ The value 539 is the greatest one.
 The value 74 is the greatest one.
 ```
 
+## Problem #4: "Leap Year" (0.4%)
+
+The application determines whether a certain year is a leap year.
+
+Test data:
+
+Leap years:
+1796, 1804, 1896, 1904, 1992, 1996, 2000, 2004, 2008
+
+Common years:
+1799, 1800, 1801, 1802, 1803, 1805, 1899, 1900, 1901
+
+### Sample Input and Output
+
+```
+Year? 2000
+This is a leap year.
+```
+
+```
+Year? 1800
+This is not a leap year.
+```
+
+## Problem #5: "Grades" (0.4%)
+
+For a given grade in points (or percent), the application should give all possible alphabetical
+grades.
+
+Conversion table:
+
+90 <= A <= 100
+80 <= B < 90
+70 <= C < 80
+60 <= D < 70
+Below 60: F
+
+### Sample Input and Output
+
+```
+Number of points? 73
+Grade: C
+```
+
+```
+Number of points? 120
+120 is not in the permitted range.
+```
+
 ...
