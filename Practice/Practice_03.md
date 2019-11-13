@@ -132,4 +132,7 @@ Number of points? 120
 120 is not in the permitted range.
 ```
 
-...
+## Problem #6: "Dangerous comparison of double values" (0.4%)
+
+Create variable `result` of the data type double and assign to it the value 0. Then add 0.1 to it 10 times. Compare the result with 1.0. If the numbers are equal, print "Equal". Otherwise, print "Not equal". Explain the result.
+
