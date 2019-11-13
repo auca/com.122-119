@@ -138,7 +138,7 @@ Number of points? 120
 
 Create variable `result` of the data type double and assign to it the value 0. Then add 0.1 to it 10 times. Compare the result with 1.0. If the numbers are equal, print "Equal". Otherwise, print "Not equal". Explain the result.
 
-## Problem #6: "Season Name (If-Else If)" (0.4%)
+## Problem #7: "Season Name (If-Else If)" (0.4%)
 
 The application determines a season name by a given month number. Use `if-else if` construct to solve the task.
 
