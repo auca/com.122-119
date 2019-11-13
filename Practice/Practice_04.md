@@ -101,4 +101,5 @@ Read Introduction to Java Programming, 10th Edition by Y. Daniel Liang, Chapter 
   - 3.15 (0.4%)
   - 3.18 (0.4%)
   - 3.19 (0.4%)
+  - 3.23 (0.4%)
   - 3.24 (0.4%)
