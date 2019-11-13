@@ -134,41 +134,4 @@ Number of points? 120
 120 is not in the permitted range.
 ```
 
-## Problem #6: "Dangerous comparison of double values" (0.4%)
-
-Create variable `result` of the data type double and assign to it the value 0. Then add 0.1 to it 10 times. Compare the result with 1.0. If the numbers are equal, print "Equal". Otherwise, print "Not equal". Explain the result.
-
-## Problem #7: "Season Name (If-Else If)" (0.4%)
-
-The application determines a season name by a given month number. Use `if-else if` construct to solve the task.
-
-### Sample Input and Output
-
-```
-Enter the month number: 12
-Winter
-```
-
-```
-Enter the month number: 3
-Spring
-```
-
-```
-Enter the month number: 100
-Invalid month number
-```
-
-## Problem #8: "Season Name (Switch-Case)" (0.4%)
-
-Redo the previous solution by using the `switch-case` construct.
-
-## Problem #9: "Number of Days" (0.4%)
-
-The application determines a number of days in a specific month for a predefined year.
-
-```
-Year? 2000
-Month? 2
-Number of days: 29
-```
+...
