@@ -163,7 +163,7 @@ Invalid month number.
 
 Redo the previous solution by using the `switch-case` construct.
 
-## Task #5: "Number of Days" (0.4%)
+## Problem #9: "Number of Days" (0.4%)
 
 The application determines a number of days in a specific month for a predefined year.
 
