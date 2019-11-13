@@ -151,12 +151,12 @@ Winter
 
 ```
 Enter the month number: 3
-spring
+Spring
 ```
 
 ```
 Enter the month number: 100
-Invalid month number.
+Invalid month number
 ```
 
 ## Problem #8: "Season Name (Switch-Case)" (0.4%)
