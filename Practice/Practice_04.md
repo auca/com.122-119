@@ -26,11 +26,11 @@ F:\
 * [Java Development Kit](https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html)
 * [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/)
 
-## Problem #0: "Dangerous comparison of double values"
+## Problem #1: "Dangerous Comparison of Double Values" (0.4%)
 
 Create variable `result` of the data type double and assign to it the value 0. Then add 0.1 to it 10 times. Compare the result with 1.0. If the numbers are equal, print "Equal". Otherwise, print "Not equal". Explain the result.
 
-## Problem #1: "Season Name (If-Else If)" (0.4%)
+## Problem #2: "Season Name (If-Else If)" (0.4%)
 
 The application determines a season name by a given month number. Use `if-else if` construct to solve the task.
 
@@ -51,11 +51,11 @@ Enter the month number: 100
 Invalid month number
 ```
 
-## Problem #2: "Season Name (Switch-Case)" (0.4%)
+## Problem #3: "Season Name (Switch-Case)" (0.4%)
 
 Redo the previous solution by using the `switch-case` construct.
 
-## Problem #3: "Experience Level" (0.4%)
+## Problem #4: "Experience Level" (0.4%)
 
 The application determines you professional level by a given integer number in a range from
 one to five, which represents the complexity level of a certain game.
@@ -81,7 +81,7 @@ Complexity level: 2
 You are an experienced gamer.
 ```
 
-## Problem #4: "Number of Days" (0.4%)
+## Problem #5: "Number of Days" (0.4%)
 
 The application determines a number of days in a specific month for a predefined year.
 
