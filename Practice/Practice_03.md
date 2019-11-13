@@ -159,8 +159,16 @@ Enter the month number: 100
 Invalid month number.
 ```
 
-## Problem #7: "Season Name (Switch-Case)" (0.4%)
+## Problem #8: "Season Name (Switch-Case)" (0.4%)
 
 Redo the previous solution by using the `switch-case` construct.
 
 ## Task #5: "Number of Days" (0.4%)
+
+The application determines a number of days in a specific month for a predefined year.
+
+```
+Year? 2000
+Month? 2
+Number of days: 29
+```
