@@ -134,4 +134,13 @@ Number of points? 120
 120 is not in the permitted range.
 ```
 
-...
+## Homework
+
+Read Introduction to Java Programming, 10th Edition by Y. Daniel Liang, Chapter 3
+
+* Do programming exercises from chapter 3:
+  - 3.1 (0.4%)
+  - 3.5 (0.4%)
+  - 3.8 (0.4%)
+  - 3.17 (0.4%)
+  - 3.22 (0.4%)
