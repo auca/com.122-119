@@ -94,8 +94,8 @@ The temperature in degrees Celsius is 45.56
 Read Introduction to Java Programming, 10th Edition by Y. Daniel Liang, Chapter 2
 
 * Do programming exercises from chapter 2:
-  - 2.1 (0.4%)
-  - 2.2 (0.4%)
-  - 2.4 (0.4%)
-  - 2.7 (0.4%)
-  - 2.11 (0.4%)
+  1. 2.1 (0.4%)
+  2. 2.2 (0.4%)
+  3. 2.4 (0.4%)
+  4. 2.7 (0.4%)
+  5. 2.11 (0.4%)
