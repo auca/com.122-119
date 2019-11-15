@@ -36,3 +36,11 @@ View previous class recordings
 
 * <https://docs.google.com/spreadsheets/d/1gznrPcMCOkqn9tWc7oCrehi7pEhsej_xAYaXPtIuXgA/edit?usp=sharing>
 
+## Practice Midterm Signup
+
+* <https://docs.google.com/spreadsheets/d/1MRx3x4iluusj1FuTHk0ifKJbwdEcNkqwtWBSRq0kUDY/edit?usp=sharing>
+
+## Practice Midterm Task List
+
+* <https://docs.google.com/spreadsheets/d/13PFzUgJ1cqLuUJc5BRX_3RCRPIcdPpG_TvNsePpnzkw/edit?usp=sharing>
+
