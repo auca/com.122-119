@@ -98,8 +98,8 @@ Number of days: 29
 Read Introduction to Java Programming, 10th Edition by Y. Daniel Liang, Chapter 3
 
 * Do programming exercises from chapter 3:
-  - 3.15 (0.4%)
-  - 3.18 (0.4%)
-  - 3.19 (0.4%)
-  - 3.23 (0.4%)
-  - 3.24 (0.4%)
+  1. 3.15 (0.4%)
+  2. 3.18 (0.4%)
+  3. 3.19 (0.4%)
+  4. 3.23 (0.4%)
+  5. 3.24 (0.4%)
