@@ -96,8 +96,8 @@ Enter the second number: 2.6
 Read Introduction to Java Programming, 10th Edition by Y. Daniel Liang, Chapter 1
 
 * Do programming exercises from chapter 1:
-  - 1.3 (0.4%)
-  - 1.4 (0.4%)
-  - 1.6 (0.4%)
-  - 1.7 (0.4%)
-  - 1.11 (0.4%)
+  1. 1.3 (0.4%)
+  2. 1.4 (0.4%)
+  3. 1.6 (0.4%)
+  4. 1.7 (0.4%)
+  5. 1.11 (0.4%)
