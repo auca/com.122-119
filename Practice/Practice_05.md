@@ -107,7 +107,7 @@ the screen.
 
 ### Sample
 
-![Random Circles](https://i.imgur.com/xEHP8Jy.png)
+![Gradient](https://i.imgur.com/70XUgkS.png)
 
 ## Homework
 
