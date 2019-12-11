@@ -44,3 +44,10 @@ View previous class recordings
 
 * <https://docs.google.com/spreadsheets/d/13PFzUgJ1cqLuUJc5BRX_3RCRPIcdPpG_TvNsePpnzkw/edit?usp=sharing>
 
+## Practice Final Signup
+
+* <https://docs.google.com/spreadsheets/d/1GVUzq-dCRjJWlprRbr2RJ0pfium-H_NWIESrw9LYLRQ/edit?usp=sharing>
+
+## Practice Final Task List
+
+* <https://docs.google.com/spreadsheets/d/163RAxWBH2iOiNqunhuzhq1zUURq1gkyA8dft9vtzi9g/edit?usp=sharing>
