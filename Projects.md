@@ -18,6 +18,12 @@ draw 2D primitives on the screen.
 8. <https://drive.google.com/file/d/1QPmGaNZgG3OyoAvGec6Jl-x2vO_2xviS/view?usp=sharing>
 9. <https://drive.google.com/file/d/10W8Xci1pPVXh1gyiWZP8yowqAUa6AO-I/view?usp=sharing>
 
+## Project #2
+
+1. <https://drive.google.com/file/d/1mbVyGUFpHENZFpMAgakq4ROfxMCTNRPv/view?usp=sharing>
+2. <https://drive.google.com/file/d/1NIERjI7uAcqjW350dfdLT7nW8CVWTiN1/view?usp=sharing>
+3. <https://drive.google.com/file/d/1No3q4faX6ninRY6-U-GFJ7UohmCeJWJX/view?usp=sharing>
+
 The Processing library for IntelliJ IDEA can be found here
 
 * <https://drive.google.com/file/d/1tyjY3lIgI_uqExdrrw5ts736PQ47hXOy/view?usp=sharing>
@@ -27,9 +33,3 @@ The documentation for the Processing library can be found here
 * <https://processing.org/reference>
 
 Note, that complex shapes in video files are formed from simple 2D primitives.
-
-## Final
-
-1. <https://drive.google.com/file/d/1mbVyGUFpHENZFpMAgakq4ROfxMCTNRPv/view?usp=sharing>
-2. <https://drive.google.com/file/d/1NIERjI7uAcqjW350dfdLT7nW8CVWTiN1/view?usp=sharing>
-3. <https://drive.google.com/file/d/1No3q4faX6ninRY6-U-GFJ7UohmCeJWJX/view?usp=sharing>
