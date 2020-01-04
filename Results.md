@@ -49,3 +49,6 @@ Results
 ---
 * [Totals and Grades](https://drive.google.com/open?id=1k6U-_jNo4CiF0ybH0Psn-CLdX-dQggor)
 
+### Fall 2019
+
+* [Totals and Grades](https://drive.google.com/file/d/1Ma2BtFUXLWnopCdXiACWgJCmiMdZitZC)
