@@ -3,10 +3,23 @@ URI Problems
 
 List of URI porblems to do.
 
-## Midterm
+## Structured Programming
 
-* <https://docs.google.com/spreadsheets/d/1n4tfsZUFOy7PraamGkVLvDADkZzqP2ZbnqeDB31bXQE/edit?usp=sharing>
+### Midterm
 
-## Final
+* <https://docs.google.com/spreadsheets/d/1n4tfsZUFOy7PraamGkVLvDADkZzqP2ZbnqeDB31bXQE>
 
-* <https://docs.google.com/spreadsheets/d/1eTkm2wQhTTFIy6RHkkkvnv0Dh25IW1gEdeTiEqurPbU/edit?usp=sharing>
+### Final
+
+* <https://docs.google.com/spreadsheets/d/1eTkm2wQhTTFIy6RHkkkvnv0Dh25IW1gEdeTiEqurPbU>
+
+## Object-oriented Programming
+
+### Midterm
+
+* TBD
+
+### Final
+
+* TBD
+

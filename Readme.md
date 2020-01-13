@@ -6,48 +6,33 @@ Structured Programming, Object-oriented Programming
 General course information, time, room and lab numbers, rules, grading, and
 books
 
-* <https://github.com/auca/com.118-119/blob/master/Syllabus/COM_118-119_2019_Syllabus.pdf>
+* <https://github.com/auca/com.118-119/blob/master/Syllabus/COM_118-119_2020_Syllabus.pdf>
 
 ## Class Discussions
 
 For announcements, student questions and student answers, participation grade
 
-* <https://piazza.com/auca.kg/fall2019/com118>
+* <https://piazza.com/auca.kg/spring2020/com119>
 
 ## Recordings
 
 View previous class recordings
 
+### Lectures
+
+* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6e0Otp-87IrBsfsis6YfEPG>
+
 ### Labs
 
-#### Wednesday 9:25
+#### Wednesday 10:50
 
-* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6cB8GIPdMGBrZ4CIvFlMgHs>
+* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6dhbZJODw4DKuhkoCezXYgz>
 
-#### Wednesday 12:45
+#### Wednesday 14:10
 
-* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6ds5dQBdQykf9cZOFvRcYeV>
-
-#### Friday 12:45
-
-* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6eE-n8sTe4yFvzeLzyxghuH>
+* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6esVW273zPlQp6sVU3CRVZT>
 
 ## Registration
 
-* <https://docs.google.com/spreadsheets/d/1gznrPcMCOkqn9tWc7oCrehi7pEhsej_xAYaXPtIuXgA/edit?usp=sharing>
+* <https://docs.google.com/spreadsheets/d/15Nr2gi3RCO8gj58_8RE9k0ap6A8C31b2bEE_sp5lhyU>
 
-## Practice Midterm Signup
-
-* <https://docs.google.com/spreadsheets/d/1MRx3x4iluusj1FuTHk0ifKJbwdEcNkqwtWBSRq0kUDY/edit?usp=sharing>
-
-## Practice Midterm Task List
-
-* <https://docs.google.com/spreadsheets/d/13PFzUgJ1cqLuUJc5BRX_3RCRPIcdPpG_TvNsePpnzkw/edit?usp=sharing>
-
-## Practice Final Signup
-
-* <https://docs.google.com/spreadsheets/d/1GVUzq-dCRjJWlprRbr2RJ0pfium-H_NWIESrw9LYLRQ/edit?usp=sharing>
-
-## Practice Final Task List
-
-* <https://docs.google.com/spreadsheets/d/163RAxWBH2iOiNqunhuzhq1zUURq1gkyA8dft9vtzi9g/edit?usp=sharing>

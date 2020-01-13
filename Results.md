@@ -52,3 +52,8 @@ Results
 ### Fall 2019
 
 * [Totals and Grades](https://drive.google.com/file/d/1Ma2BtFUXLWnopCdXiACWgJCmiMdZitZC)
+
+### Spring 2020
+
+* TBD
+
