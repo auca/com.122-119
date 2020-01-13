@@ -6,7 +6,7 @@ Structured Programming, Object-oriented Programming
 General course information, time, room and lab numbers, rules, grading, and
 books
 
-* <https://github.com/auca/com.118-119/blob/master/Syllabus/COM_118-119_2020_Syllabus.pdf>
+* <https://github.com/auca/com.118-119/blob/master/Syllabus/AUCA_COM-118-119_2020_Syllabus.pdf>
 
 ## Class Discussions
 
