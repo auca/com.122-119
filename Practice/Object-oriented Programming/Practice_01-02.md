@@ -47,15 +47,15 @@ one by one and execute them. Keep track of the current position of the turtle
 and whether the pen is currently up or down. Please assume that the turtle
 always starts at the location (0, 0), it looks to the east, and its pen is up.
 
-| Command  | Meaning                  |
-| -------: | :----------------------- |
-| 1        | Put pen up               |
-| 2        | Put pen down             |
-| 3        | Turn right               |
-| 4        | Turn left                |
-| 5 10     | Move forward 10 steps    |
-| 6        | Display the field        |
-| 7        | Exit from the program.   |
+| Command   | Meaning                |
+| --------: | :--------------------- |
+| PenUp     | Put pen up             |
+| PenDown   | Put pen down           |
+| TurnRight | Turn right             |
+| TurnLeft  | Turn left              |
+| Move 10   | Move forward 10 steps  |
+| Display   | Display the field      |
+| Exit      | Exit from the program. |
 
 ### Example
 
@@ -98,7 +98,15 @@ Suppose that after several commands, the turtle is somewhere near the center of 
 As the turtle moves with the pen down, we set the appropriate elements of array
 to '`*`'.
 
+### Practice 1
+
 Write an application to implement the 'turtle graphics' capabilities discussed
 here in a (!) *procedural style*. Write several 'turtle graphics' lists of
 commands to draw interesting shapes.
 
+### Practice 2
+
+Write an application to implement the 'turtle graphics' capabilities discussed
+here in a (!) *object-oriented programming style*.
+
+Check for incorrect input and use Exceptions to handle errors.
