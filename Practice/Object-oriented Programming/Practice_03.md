@@ -26,7 +26,7 @@ Z:\
 * [Java Development Kit](https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html)
 * [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/)
 
-On macOS, to use Processing libraries you have to install and us
+On macOS, to use Processing libraries you have to install and use
 [JDK 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 To download JDK 8, you have to create a free Oracle [account](https://oracle.com).
 
