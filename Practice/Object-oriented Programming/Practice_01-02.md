@@ -30,7 +30,7 @@ On macOS, to use Processing libraries you have to install and us
 [JDK 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 To download JDK 8, you have to create a free Oracle [account](https://oracle.com).
 
-## Problem #1: "Turtle Graphics" (4%)
+## Problem #1: "Turtle Graphics, Procedural Style" (4%)
 
 >The Logo language made the concept of turtle graphics famous. Imagine a
 >mechanical turtle that walks around the room under the control of an
@@ -98,13 +98,13 @@ Suppose that after several commands, the turtle is somewhere near the center of 
 As the turtle moves with the pen down, we set the appropriate elements of array
 to '`*`'.
 
-### Practice 1
-
 Write an application to implement the 'turtle graphics' capabilities discussed
 here in a (!) *procedural style*. Write several 'turtle graphics' lists of
 commands to draw interesting shapes.
 
 ### Practice 2
+
+## Problem #1: "Turtle Graphics, OOP Style" (4%)
 
 Write an application to implement the 'turtle graphics' capabilities discussed
 here in a (!) *object-oriented programming style*.
