@@ -3,7 +3,9 @@ Projects
 
 List of tasks for the course projects.
 
-## Project #1
+## Structured Programming
+
+### Project #1
 
 Implement the following graphical applications. Use the Processing library to
 draw 2D primitives on the screen.
@@ -18,7 +20,7 @@ draw 2D primitives on the screen.
 8. <https://drive.google.com/file/d/1QPmGaNZgG3OyoAvGec6Jl-x2vO_2xviS/view?usp=sharing>
 9. <https://drive.google.com/file/d/10W8Xci1pPVXh1gyiWZP8yowqAUa6AO-I/view?usp=sharing>
 
-## Project #2
+### Project #2
 
 1. <https://drive.google.com/file/d/1mbVyGUFpHENZFpMAgakq4ROfxMCTNRPv/view?usp=sharing>
 2. <https://drive.google.com/file/d/1NIERjI7uAcqjW350dfdLT7nW8CVWTiN1/view?usp=sharing>
@@ -33,3 +35,9 @@ The documentation for the Processing library can be found here
 * <https://processing.org/reference>
 
 Note, that complex shapes in video files are formed from simple 2D primitives.
+
+## Object-oriented Programming
+
+### Project #1
+
+<https://drive.google.com/drive/folders/1igkZP-cdjzF0ltWN1lr9juiDRLoPKDMW?usp=sharing?>
