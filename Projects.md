@@ -40,4 +40,8 @@ Note, that complex shapes in video files are formed from simple 2D primitives.
 
 ### Project #1
 
-<https://drive.google.com/drive/folders/1igkZP-cdjzF0ltWN1lr9juiDRLoPKDMW?usp=sharing?>
+<https://drive.google.com/drive/folders/1igkZP-cdjzF0ltWN1lr9juiDRLoPKDMW>
+
+### Project #2
+
+<https://drive.google.com/open?id=1gb1Zs0Z1SIDYI3nzKt0Hwh8hCvWsXQCa>
