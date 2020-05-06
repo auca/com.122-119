@@ -77,4 +77,4 @@ To handle the cursor movement, write an anonymous class that extends the
 ## Problem #8: "Lab0504.jar" (0.4%)
 ## Problem #9: "Lab0505.jar" (0.8%)
 
-Implement the program as is based on the provided example.
+Implement the programs as is based on the provided example.
