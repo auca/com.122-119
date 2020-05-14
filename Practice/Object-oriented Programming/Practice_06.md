@@ -53,7 +53,7 @@ x: -1
 y: -1
 ```
 
-## Problem #2: "Prototype 0.2" (1.0%)
+## Problem #2: "Prototype v0.2" (1.0%)
 
 Add several circles to the previous prototype. This version has to have unrelated
 classes:
@@ -80,14 +80,14 @@ x: -1
 y: -1
 ```
 
-## Problem #3: "Prototype 0.3" (1.5%)
+## Problem #3: "Prototype v0.3" (1.5%)
 
 Improve the structure of the previous prototype by introducing the hierarchy of classes.
 The root of this hierarchy is an abstract class `Shape` with common properties and methods of
 the classes `Rect` and `Circle`. The classes `Rect` and `Circle` must be subclasses of the
 class Shape.
 
-## Problem #4: "Prototype 0.3" (2.5%)
+## Problem #4: "Prototype v0.4" (2.5%)
 
 Add commands “click”, “move”, “present” to the previous prototype. Add a new shape
 `Cross` (two rectangles crossed).
