@@ -58,7 +58,7 @@ y: -1
 Add several circles to the previous prototype. This version has to have unrelated
 classes:
 
-* Rect
+* Rectangle
 * Circle
 
 Explain disadvantages of this version.
@@ -84,7 +84,7 @@ y: -1
 
 Improve the structure of the previous prototype by introducing the hierarchy of classes.
 The root of this hierarchy is an abstract class `Shape` with common properties and methods of
-the classes `Rect` and `Circle`. The classes `Rect` and `Circle` must be subclasses of the
+the classes `Rectangle` and `Circle`. The classes `Rectangle` and `Circle` must be subclasses of the
 class Shape.
 
 ## Problem #4: "Prototype v0.4" (2.5%)
