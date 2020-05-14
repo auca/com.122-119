@@ -128,4 +128,4 @@ Create a simple vector graphics editor:
 * The `Del` key removes the selected shape.
 * It is possible to move shapes with the mouse (dragging).
 
-[Editor](https://i.imgur.com/ctRNEMU.png)
+![Editor](https://i.imgur.com/ctRNEMU.png)
