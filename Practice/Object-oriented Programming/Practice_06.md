@@ -38,7 +38,7 @@ a user can right-click on some shape to see its properties.
 This simple prototype has to create several rectangles with arbitrary coordinates
 and size and read sequences of `x`, `y` integer numbers (mouse coordinates). If some
 rectangle contains the point with entered coordinates program has to show
-properties of that figure. Coordinates (-1, 1) signal the end of the input.
+properties of that figure. Coordinates (-1, -1) signal the end of the input.
 
 ```
 x: 100
