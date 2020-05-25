@@ -43,3 +43,11 @@ View previous class recordings
 ## Practice Midterm Task List
 
 * <https://docs.google.com/spreadsheets/d/1PTKkjSlQBl_Mflf7KBk8RuhIhBLvpHz-bScHjiHP110>
+
+## Practice Final Signup
+
+* <https://docs.google.com/spreadsheets/d/1__xHqwkHDsIuCRGoL0S4NpZfZweh6BmMRnpMBacGTls>
+
+## Practice Final Task List
+
+* <https://docs.google.com/spreadsheets/d/1M7JJ2pBypW4cFvlVwRUICO8ix9IOwFio6N33A2_nFLg>
