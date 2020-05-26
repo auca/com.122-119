@@ -71,4 +71,4 @@ Study the listing of the code in the course book. Be ready to write it, explain 
 
 ## Problem #5: "Exercise 12.11 from the Course Book" (1.2%)
 
-![12.11](https://i.imgur.com/12hdEbB.png)
+![12.11](https://i.imgur.com/ar054Q9.png)
