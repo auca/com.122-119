@@ -8,46 +8,46 @@ books
 
 * <https://github.com/auca/com.118-119/blob/master/Syllabus/AUCA_COM-118-119_2020_Syllabus.pdf>
 
-## Class Discussions
-
-For announcements, student questions and student answers, participation grade
-
-* <https://piazza.com/auca.kg/spring2020/com119>
-
 ## Recordings
 
 View previous class recordings
 
 ### Lectures
 
-* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6e0Otp-87IrBsfsis6YfEPG>
+#### Tusday 10:50
+
+* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6dig5lKNLW0WnvYprnIsLQC>
 
 ### Labs
 
-#### Wednesday 10:50
+#### Tuesday 12:45
 
-* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6dhbZJODw4DKuhkoCezXYgz>
+* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6cRKHB0ea5m540QKfzFkMAj>
 
-#### Wednesday 14:10
+#### Tuesday 14:10
 
-* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6esVW273zPlQp6sVU3CRVZT>
+* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6fUuxYgBZEjoeiqoxGBxWno>
 
-## Registration
+#### Thursday 12:45
 
-* <https://docs.google.com/spreadsheets/d/15Nr2gi3RCO8gj58_8RE9k0ap6A8C31b2bEE_sp5lhyU>
+* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6dIeTpQE0O3DpcE2kpN_F6a>
+
+#### Friday 14:10
+
+* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6dhKtd9Mo5yex-3_ichhU60>
 
 ## Practice Midterm Signup
 
-* <https://docs.google.com/spreadsheets/d/1YhyzknThknHov9gUSKHJ2F4sctQAB5eLLzWmOVMy93Y>
+* <https://docs.google.com/spreadsheets/d/1VmHct0tCMr1izV7XXPvun0C0YEpX-uCU-jOoVeIzl0k>
 
 ## Practice Midterm Task List
 
-* <https://docs.google.com/spreadsheets/d/1PTKkjSlQBl_Mflf7KBk8RuhIhBLvpHz-bScHjiHP110>
+* <https://docs.google.com/spreadsheets/d/197BAfp2U3jUvVjLJIYXOSG6cVtkpoDkkBJdYPz6-4Z8>
 
 ## Practice Final Signup
 
-* <https://docs.google.com/spreadsheets/d/1__xHqwkHDsIuCRGoL0S4NpZfZweh6BmMRnpMBacGTls>
+* <https://docs.google.com/spreadsheets/d/1C78LmS0868YOnY8BjYzCcR6A-7x5bV1YMwkgkdaUefc>
 
 ## Practice Final Task List
 
-* <https://docs.google.com/spreadsheets/d/1M7JJ2pBypW4cFvlVwRUICO8ix9IOwFio6N33A2_nFLg>
+* <https://docs.google.com/spreadsheets/d/1vgG-xD0GLeKRtzTIx5sPj3O7zOxkCnwTVhmY7ECDx8E>
