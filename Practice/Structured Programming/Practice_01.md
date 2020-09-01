@@ -1,30 +1,11 @@
 Structured Programming, Practice #1
 ===================================
 
-## Work Organization
-
-Here you can find the required organization of your course directory.
-
-### Example
-
-```
-F:\
-|
-|--programming01
-|----lab01problem01
-|----lab01problem02
-|----...
-|----lab02problem01
-|----...
-|----uri2936
-|----uri2937
-|----...
-```
-
 ## Developer Tools
 
-* [Java Development Kit](https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html)
-* [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/)
+* [Amazon Corretto JDK 8](https://aws.amazon.com/corretto)
+* [IntelliJ IDEA](https://www.jetbrains.com/idea/download)
+* [Git](https://git-scm.com)
 
 ## Problem #1: "Hello, World" (0.4%)
 
