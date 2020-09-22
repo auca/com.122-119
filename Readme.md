@@ -14,7 +14,7 @@ View previous class recordings
 
 ### Lectures
 
-#### Tusday 10:50
+#### Tuesday 10:50
 
 * <https://www.youtube.com/playlist?list=PLHcEzCb_lW6dig5lKNLW0WnvYprnIsLQC>
 
