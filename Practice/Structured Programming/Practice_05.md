@@ -113,7 +113,7 @@ the screen.
 
 Read Introduction to Java Programming, 10th Edition by Y. Daniel Liang, Chapter 3
 
-* Do programming exercises from chapter 3:
+* Do programming exercises from chapter 5:
   1. 5.3 TestDoWhile.java (0.4%)
   2. 5.6 MultiplicationTable.java (0.4%)
   3. 5.9 TestBreak.java (0.4%)
