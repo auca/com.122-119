@@ -114,8 +114,8 @@ the screen.
 Read Introduction to Java Programming, 10th Edition by Y. Daniel Liang, Chapter 3
 
 * Do programming exercises from chapter 5:
-  1. 5.3 TestDoWhile.java (0.4%)
-  2. 5.6 MultiplicationTable.java (0.4%)
-  3. 5.9 TestBreak.java (0.4%)
-  4. 5.10 Palindrome.java (0.4%)
-  5. 5.11 PrimeNumber.java (0.4%)
+  1. TestDoWhile.java (0.4%)
+  2. MultiplicationTable.java (0.4%)
+  3. TestBreak.java (0.4%)
+  4. Palindrome.java (0.4%)
+  5. PrimeNumber.java (0.4%)
