@@ -111,7 +111,7 @@ the screen.
 
 ## Homework
 
-Read Introduction to Java Programming, 10th Edition by Y. Daniel Liang, Chapter 3
+Read Introduction to Java Programming, 10th Edition by Y. Daniel Liang, Chapter 5
 
 * Do programming exercises from chapter 5:
   1. TestDoWhile.java (0.4%)
