@@ -20,6 +20,8 @@ draw 2D primitives on the screen.
 8. <https://drive.google.com/file/d/1N457ELRanntgBNfsSvOQiEdpWC-C7QQg/view?usp=sharing>
 9. <https://drive.google.com/file/d/11WW4h3ANarM4Kpw0YjDe381VKtJYXz2X/view?usp=sharing>
 
+Name your files in the src directory `Problem01`, `Problem02`, ...
+
 ### Project #2
 
 1. <https://drive.google.com/file/d/1mbVyGUFpHENZFpMAgakq4ROfxMCTNRPv/view?usp=sharing>
