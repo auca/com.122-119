@@ -10,15 +10,15 @@ List of tasks for the course projects.
 Implement the following graphical applications. Use the Processing library to
 draw 2D primitives on the screen.
 
-1. <https://drive.google.com/file/d/1Msvm0KjddYFZkD4N79Ztsjfo_b0_BDsn/view?usp=sharing>
-2. <https://drive.google.com/file/d/1AHQt093b63_zMODFzynZp5d9iKi0AFSe/view?usp=sharing>
-3. <https://drive.google.com/file/d/13aLLUzwqFMnj72RdCE_ibEWoxgMIadjf/view?usp=sharing>
-4. <https://drive.google.com/file/d/1idAodFPYYVrvGHKLsWvPZoro2t1sAl2E/view?usp=sharing>
-5. <https://drive.google.com/file/d/1OxYPuQA50JwHAltsSD4fIVp2iH8Fi94S/view?usp=sharing>
-6. <https://drive.google.com/file/d/1Z8RGrqg9V-PHAz4JGAS_3lsxnzX1pTJC/view?usp=sharing>
-7. <https://drive.google.com/file/d/1LMCZiasxMCCKlSooxH_cAsXlkXTeYrX2/view?usp=sharing>
-8. <https://drive.google.com/file/d/1QPmGaNZgG3OyoAvGec6Jl-x2vO_2xviS/view?usp=sharing>
-9. <https://drive.google.com/file/d/10W8Xci1pPVXh1gyiWZP8yowqAUa6AO-I/view?usp=sharing>
+1. <https://drive.google.com/file/d/134eMfI8WwU0vtBOmGZkNYCI6W4qmethi/view?usp=sharing>
+2. <https://drive.google.com/file/d/1Ok6aWCQmdGpcr1O5iV7LEz6VsLF6GWoL/view?usp=sharing>
+3. <https://drive.google.com/file/d/1va9uz_LJ3_88Y37z5RzGfWRJ4THTrfu3/view?usp=sharing>
+4. <https://drive.google.com/file/d/1va9uz_LJ3_88Y37z5RzGfWRJ4THTrfu3/view?usp=sharing>
+5. <https://drive.google.com/file/d/1TO9w09mZeDvb-RwN0-fvZlLZ6svDybdL/view?usp=sharing>
+6. <https://drive.google.com/file/d/1dIRI_tHjF3LcdEmHVyBWo6jY9-PlBPXz/view?usp=sharing>
+7. <https://drive.google.com/file/d/106D7TE9wBP3oH69H44aXPsMHerDUbcTL/view?usp=sharing>
+8. <https://drive.google.com/file/d/1N457ELRanntgBNfsSvOQiEdpWC-C7QQg/view?usp=sharing>
+9. <https://drive.google.com/file/d/11WW4h3ANarM4Kpw0YjDe381VKtJYXz2X/view?usp=sharing>
 
 ### Project #2
 
