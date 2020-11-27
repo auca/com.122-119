@@ -68,7 +68,7 @@ Write a GUI application that creates the following picture. In this program you 
 
 Write a program that takes two arbitrary integer numbers and prints their greatest common divisor. It is
 necessary to define a method `int gcd(int a, b)` in this program. This method should return the greatest common
-divisor of numbers `a` and `b`. Your `main` method has to catch the exception and print some appropriate error message.
+divisor of numbers `a` and `b`.
 
 ### Sample Input and Output
 
