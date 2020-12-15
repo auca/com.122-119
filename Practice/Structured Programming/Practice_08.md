@@ -28,11 +28,11 @@ F:\
 
 ## Homework
 
-Read Introduction to Java Programming, 10th Edition by Y. Daniel Liang, Chapter 7
+Read Introduction to Java Programming, 10th Edition by Y. Daniel Liang, Chapter 8
 
-* Do programming exercises from chapter 7:
-  1. Chapter 8.4. PassTwoDimensionalArray.java (0.4%)
-  2. Chapter 8.5. GradeExam.java (0.4%)
-  3. Chapter 8.6. FindNearestPoints.java (0.4%)
-  4. Chapter 8.7. CheckSudokuSolution.java (0.4%)
-  5. 8.6 (0.4%)
+* Do programming exercises from chapter 8:
+  1. Chapter 8.4. PassTwoDimensionalArray.java (0.8%)
+  2. Chapter 8.5. GradeExam.java (0.8%)
+  3. Chapter 8.6. FindNearestPoints.java (0.8%)
+  4. Chapter 8.7. CheckSudokuSolution.java (0.8%)
+  5. 8.6 (0.8%)
