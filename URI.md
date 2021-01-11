@@ -17,8 +17,8 @@ List of URI porblems to do.
 
 ### Midterm
 
-* <https://docs.google.com/spreadsheets/d/1JgIeg0p-M59adMQEu4mpMypnF0CLzLGZ46_Su2mhiN8>
+* TBD
 
 ### Final
 
-* <https://docs.google.com/spreadsheets/d/1vtoZ9x-9gwzO8pnz-KielDra6miLL478EAvEPG3td_4>
+* TBD

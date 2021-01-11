@@ -16,6 +16,10 @@ Previous Class Recordings
 
 * <https://www.youtube.com/playlist?list=PLHcEzCb_lW6e0Otp-87IrBsfsis6YfEPG>
 
+### Fall 2020
+
+* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6dig5lKNLW0WnvYprnIsLQC>
+
 ## Labs
 
 ### Fall 2018
@@ -43,3 +47,10 @@ Previous Class Recordings
 
 * <https://www.youtube.com/playlist?list=PLHcEzCb_lW6dhbZJODw4DKuhkoCezXYgz>
 * <https://www.youtube.com/playlist?list=PLHcEzCb_lW6esVW273zPlQp6sVU3CRVZT>
+
+### Fall 2020
+
+* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6cRKHB0ea5m540QKfzFkMAj>
+* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6fUuxYgBZEjoeiqoxGBxWno>
+* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6dIeTpQE0O3DpcE2kpN_F6a>
+* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6dhKtd9Mo5yex-3_ichhU60>

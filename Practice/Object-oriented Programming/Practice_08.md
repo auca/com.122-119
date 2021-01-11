@@ -1,34 +1,11 @@
 Object-oriented Programming, Practice #8
 ========================================
 
-## Work Organization
-
-Here you can find the required organization of your course directory.
-
-### Example
-
-```
-Z:\
-|
-|--programming02
-|----lab01problem01
-|----lab01problem02
-|----...
-|----lab02problem01
-|----...
-|----uri2936
-|----uri2937
-|----...
-```
-
 ## Developer Tools
 
-* [Java Development Kit](https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html)
-* [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/)
-
-On macOS, to use Processing libraries you have to install and use
-[JDK 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
-To download JDK 8, you have to create a free Oracle [account](https://oracle.com).
+* [Amazon Corretto JDK 8](https://aws.amazon.com/corretto)
+* [IntelliJ IDEA](https://www.jetbrains.com/idea/download)
+* [Git](https://git-scm.com)
 
 ## Problem #1: "Listing 12.5 from the Course Book. InputMismatchExceptonDemo.java" (1.2%)
 
