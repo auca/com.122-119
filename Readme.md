@@ -19,26 +19,18 @@ View previous class recordings
 
 ### Labs
 
-#### Monday 14:00
+#### Monday 14:10
 
 * <https://youtube.com/playlist?list=PLHcEzCb_lW6d6gtyVx2tKu3PMyUNkc5c4>
 
-...
+#### Friday 10:50
 
-## Exams
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6eJN86RpAAdeUuU_-Sh_460>
 
-### Practice Midterm Signup
+#### Friday 12:45
 
-* TBD
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6daZ_NZ4rX-Onri4-dtoNus>
 
-### Practice Midterm Task List
+#### Friday 14:10
 
-* TBD
-
-### Practice Final Signup
-
-* TBD
-
-### Practice Final Task List
-
-* TBD
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6eVT7uVFxAU8iZ8nfyePfsT>
