@@ -19,10 +19,10 @@ Object-oriented Programming, Practice #1, #2
 
 In this problem, you will simulate the operation of the turtle and create a
 digital sketchpad. Use a 20-by-20 rectangular 2-D array to represent the field.
-Fill it with the character '`.`'. Read commands from the user to the turtle
-one by one and execute them. Keep track of the current position of the turtle
-and whether the pen is currently up or down. Assume that the turtle
-always starts at the location (0, 0), it looks to the right, and its pen is up.
+Fill it with the character '`.`'. Read commands from the user to the turtle one
+by one and execute them. Keep track of the current position of the turtle and
+whether the pen is currently up or down. Assume that the turtle always starts at
+the location (0, 0), it looks to the right, and its pen is up.
 
 | Command   | Meaning                |
 | --------: | :--------------------- |
@@ -86,6 +86,6 @@ commands to draw interesting shapes.
 ## Problem #1: "Turtle Graphics, OOP Style" (4%)
 
 Write an application to implement the 'turtle graphics' capabilities discussed
-here in a (!) *object-oriented programming style*.
+here in an (!) *object-oriented programming style*.
 
 Check for incorrect input and use Exceptions to handle input processing errors.
