@@ -43,4 +43,4 @@ View previous class recordings
 
 ### Practice Midterm Task List
 
-* <https://docs.google.com/spreadsheets/d/19oYakzC6oECKXUJ5i9qyVJ12eCstJyvEwDGTe7hVfjs/edit?usp=sharing>
+* <https://docs.google.com/spreadsheets/d/11Uv_7Zawm3ceduC_C_177iMyI-5fZmk__mEZoeqQz0I/edit?usp=sharing>
