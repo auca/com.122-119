@@ -7,7 +7,7 @@ Object-oriented Programming, Practice #1, #2
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/download)
 * [Git](https://git-scm.com)
 
-## Problem #1: "Turtle Graphics, Procedural Style" (4%)
+## Practice #1, Problem #1: "Turtle Graphics, Procedural Style" (4%)
 
 >The Logo language made the concept of turtle graphics famous. Imagine a
 >mechanical turtle that walks around the room under the control of an
@@ -81,9 +81,7 @@ Write an application to implement the 'turtle graphics' capabilities discussed
 here in a (!) *procedural style*. Write several 'turtle graphics' lists of
 commands to draw interesting shapes.
 
-### Practice 2
-
-## Problem #1: "Turtle Graphics, OOP Style" (4%)
+## Practice #2, Problem #1: "Turtle Graphics, OOP Style" (4%)
 
 Write an application to implement the 'turtle graphics' capabilities discussed
 here in an (!) *object-oriented programming style*.
