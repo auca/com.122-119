@@ -41,12 +41,22 @@ Note, that complex shapes in video files are formed from simple 2D primitives.
 
 ### Project #1
 
-<https://drive.google.com/drive/folders/1igkZP-cdjzF0ltWN1lr9juiDRLoPKDMW>
+#### Part 1: OOP Console Version of Minesweeper
 
-### Project #2
+* <https://drive.google.com/drive/folders/152gZfbn2dm656sblnijunzQKU7p1_y-Z?usp=sharing>
 
-<https://drive.google.com/open?id=1gb1Zs0Z1SIDYI3nzKt0Hwh8hCvWsXQCa>
+Use the provided procedural (incomplete) example code to build an object-oriented
+version of the famous Minesweeper program that has the same command-line interface
+as the program demonstrated in the following video:
 
-### Example
+* `Minesweeper (Terminal).mp4`
 
-<https://drive.google.com/drive/folders/1-aac5jNYbGpgn33QDKKWAGP1RDdNNHrb>
+#### Part 2: OOP GUI Version of Minesweeper with Processing
+
+Build a GUI version of the same program with the help of the Processing library.
+The interface should be similar to the one demonstrated in the video below.
+
+* `Minesweeper (GUI).mp4`
+
+GUI of the game must be constructed with objects of classes representing different
+types of buttons (inheritance), counters of mines, and flags.
