@@ -58,7 +58,7 @@ Student(StudentA, 4.0, 2001)
 
 ## Problem #3: "Class MyArrays, interfaces MyComparable, MyComparator" (3.0%)
 
-Write your own class `MyArrays` with a simple implementation of the [insertion sort](https://en.wikipedia.org/wiki/Insertion_sort)
+Write your own class `MyArrays` with a simple implementation of the selection sort
 algorithm and interfaces `MyComparable` and `MyComparator.
 
 Sort:
