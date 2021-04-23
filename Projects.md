@@ -60,3 +60,7 @@ The interface should be similar to the one demonstrated in the video below.
 
 GUI of the game must be constructed with objects of classes representing different
 types of buttons (inheritance), counters of mines, and flags.
+
+### Project #2
+
+* <https://drive.google.com/open?id=1gb1Zs0Z1SIDYI3nzKt0Hwh8hCvWsXQCa>
