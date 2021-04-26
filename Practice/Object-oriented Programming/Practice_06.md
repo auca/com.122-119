@@ -74,7 +74,7 @@ cmd: click
 x: 20
 y: 20
 Rect: 10, 10, 100, 100
-cmd: showAll
+cmd: present
 Rect: 10, 10, 100, 100
 Rect: 400, 400, 100, 100
 Circle: 500, 10, 100
@@ -85,7 +85,7 @@ x1: 510
 y1: 20
 x2: 600
 y2: 100
-cmd: showAll
+cmd: present
 Rect: 10, 10, 100, 100
 Rect: 400, 400, 100, 100
 Circle: 590, 90, 100
