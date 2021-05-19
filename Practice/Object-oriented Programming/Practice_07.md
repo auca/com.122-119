@@ -7,7 +7,7 @@ Object-oriented Programming, Practice #7
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/download)
 * [Git](https://git-scm.com)
 
-## Problem #1: "Method Arrays.sort with the Interface Comparable<T>" (1.5%)
+## Problem #1: "Method Arrays.sort with the Interface Comparable<T>" (1%)
 
 Write a program to sort
 
@@ -26,7 +26,7 @@ C C# C++ Java Kotlin Scala
 1/3 1/2 2/3 5/7 7/2
 ```
 
-## Problem #2: "Method Arrays.sort with the Interface Comparator<T>" (1.5%)
+## Problem #2: "Method Arrays.sort with the Interface Comparator<T>" (1%)
 
 Write a program to sort an arbitrary array of students by
 
@@ -56,7 +56,7 @@ Student(StudentB, 3.0, 2001)
 Student(StudentA, 4.0, 2001)
 ```
 
-## Problem #3: "Class MyArrays, interfaces MyComparable, MyComparator" (3.0%)
+## Problem #3: "Class MyArrays, interfaces MyComparable, MyComparator" (2%)
 
 Write your own class `MyArrays` with a simple implementation of the selection sort
 algorithm and interfaces `MyComparable` and `MyComparator.
