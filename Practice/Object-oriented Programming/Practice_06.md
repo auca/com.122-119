@@ -57,14 +57,14 @@ x: -1
 y: -1
 ```
 
-## Problem #3: "Prototype v0.3" (1%)
+## Problem #3: "Prototype v0.3" (0.5%)
 
 Improve the structure of the previous prototype by introducing the hierarchy of classes.
 The root of this hierarchy is an abstract class `Shape` with common properties and methods of
 the classes `Rectangle` and `Circle`. The classes `Rectangle` and `Circle` must be subclasses of the
 class Shape.
 
-## Problem #4: "Prototype v0.4" (1.5%)
+## Problem #4: "Prototype v0.4" (0.5%)
 
 Add commands “click”, “move”, “present” to the previous prototype. Add a new shape
 `Cross` (two rectangles crossed).
@@ -94,7 +94,7 @@ Cross: (Rect: 195, 575, 10, 50), (Rect: 175, 595, 50, 10)
 cmd: stop
 ```
 
-## Problem #5: "The Final Program" (2.5%)
+## Problem #5: "The Final Program" (2%)
 
 Create a simple vector graphics editor:
 
