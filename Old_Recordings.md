@@ -64,3 +64,16 @@ Old Class Recordings
 * <https://www.youtube.com/playlist?list=PLHcEzCb_lW6fUuxYgBZEjoeiqoxGBxWno>
 * <https://www.youtube.com/playlist?list=PLHcEzCb_lW6dIeTpQE0O3DpcE2kpN_F6a>
 * <https://www.youtube.com/playlist?list=PLHcEzCb_lW6dhKtd9Mo5yex-3_ichhU60>
+
+## Spring 2021
+
+### Lectures
+
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6fI43VD2B9GnPlc8IC9L8Dm>
+
+### Labs
+
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6d6gtyVx2tKu3PMyUNkc5c4>
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6eJN86RpAAdeUuU_-Sh_460>
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6daZ_NZ4rX-Onri4-dtoNus>
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6eVT7uVFxAU8iZ8nfyePfsT>
