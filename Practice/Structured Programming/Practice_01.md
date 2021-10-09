@@ -69,13 +69,13 @@ Create a program that reads two real numbers from the user and finds their sum, 
 ### Sample Input and Output
 
 ```
-Enter the first number: 5.1
-Enter the second number: 2.6
-5.1 + 2.6 = 7.699999999999999
-5.1 - 2.6 = 2.4999999999999996
-5.1 * 2.6 = 13.26
-5.1 / 2.6 = 1.9615384615384612
-5.1 % 2.6 = 2.4999999999999996
+Enter the first number: 10
+Enter the second number: 3
+10.000000 + 3.000000 = 13.000000
+10.000000 - 3.000000 = 7.000000
+10.000000 * 3.000000 = 30.000000
+10.000000 / 3.000000 = 3.333333
+10.000000 % 3.000000 = 1.000000
 ```
 
 ## Homework
