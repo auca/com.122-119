@@ -9,66 +9,66 @@ Structured Programming, Practice #3
 
 ## Problem #1: "Absolute Value of Real Number" (0.4%)
 
-The application reads a real number from the standard input and then outputs its absolute
-value.
+The application reads a real number from the standard input and then outputs its absolute value.
 
 ### Sample Input and Output
 
 ```
-some real number? -123.345
+Enter a real number: -123.345
 |-123.345| = 123.345
 ```
 
 ```
-some real number? 12.4
+Enter a real number: 12.4
 |12.4| = 12.4
 ```
 
-## Problem #2: "Passed or Not" (0.4%)
+## Problem #2: "Even or Odd" (0.4%)
 
-The application reads the total number of points earned by a student in the course "Structured
-Programming" and prints whether a student passed or failed this course.
+The application reads one integer number from the user and determines whether it is odd or even.
 
 ### Sample Input and Output
 
 ```
-Number of points? 77
-You passed “Structured Programming”!!!
-You should take “Object-Oriented Programming” in the next semester
+Enter the number: 3
+The number 3 is odd.
 ```
 
 ```
-Number of points? 22
-You failed “Structured Programming”!!!
-You can take it again in the fall semester of 2019.
+Enter the number: 4
+The number 4 is even.
 ```
 
-## Problem #3: "The Maximum Value between Three Numbers" (0.4%)
+## Problem #3: "Comparison" (0.4%)
 
-The application reads three integer numbers from the standard input and finds the greatest
+The application reads two integer numbers from the standard input and finds the greatest
 value between all of them.
 
 ### Sample Input and Output
 
 ```
-1st number? 12
-2nd number? 7
-3rd number? 539
-The value 539 is the greatest one.
+Enter the first number: 20
+Enter the second number: 10
+The first number 20 is greater than the second number 10.
 ```
 
 ```
-1st number? 74
-2nd number? 23
-3rd number? 23
-The value 74 is the greatest one.
+Enter the first number: 10
+Enter the second number: 20
+The second number 20 is greater than the first number 10.
+```
+
+```
+Enter the first number: 10
+Enter the second number: 10
+Both numbers are equal.
 ```
 
 ## Problem #4: "Leap Year" (0.4%)
 
 The application determines whether a certain year is a leap year.
 
-Test data:
+### Test data:
 
 Leap years:
 1796, 1804, 1896, 1904, 1992, 1996, 2000, 2004, 2008
@@ -79,19 +79,18 @@ Common years:
 ### Sample Input and Output
 
 ```
-Year? 2000
+Enter the year: 2000
 This is a leap year.
 ```
 
 ```
-Year? 1800
+Enter the year: 1800
 This is not a leap year.
 ```
 
 ## Problem #5: "Grades" (0.4%)
 
-For a given grade in points (or percent), the application should give all possible alphabetical
-grades.
+For a given grade in points (or percent), the application should give all possible alphabetical grades.
 
 Conversion table:
 
@@ -106,12 +105,12 @@ Below 60: F
 ### Sample Input and Output
 
 ```
-Number of points? 73
+Enter the number of points? 73
 Grade: C
 ```
 
 ```
-Number of points? 120
+Enter the number of points? 120
 120 is not in the permitted range.
 ```
 
