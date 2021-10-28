@@ -6,6 +6,7 @@ Structured Programming, Object-oriented Programming
 General course information, time, rules, grading, and books
 
 * <https://github.com/auca/com.118-119/blob/master/Syllabus/AUCA_COM-118-119_2021_Syllabus.pdf>
+* <https://github.com/auca/com.118-119/blob/master/Syllabus/AUCA_COM-118-119_2021_Syllabus_AUAF.pdf>
 
 ## Recordings
 
@@ -26,3 +27,16 @@ View previous class recordings
 #### Wednesday 14:10
 
 * <https://youtube.com/playlist?list=PLHcEzCb_lW6fnhCfi0BqqQ5UeAHRxBEhc>
+
+### Lectures for AUAF
+
+#### Thursday 14:10
+
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6dH0QkPreX69oa0glgfta5d>
+
+### Labs for AUAF
+
+#### Tuesday 14:10
+
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6cXm1v2aw2ssd0OjS9Atfsk>
+
