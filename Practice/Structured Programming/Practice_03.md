@@ -8,6 +8,12 @@ Structured Programming, Practice #3
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/download)
 * [Git](https://git-scm.com)
 
+## Important Notes
+
+The checkpoint would be graded by the output of your programs. You may be penalized and get a lower grade if the result does not match (wrong letters, additional spaces, or newlines). Please check your code and output before committing it to GitHub or Canvas. Make sure the outcome of your program matches the specified output on this page. Don't hesitate to contact TA (teacher assistant) on Canvas in the Discussions tab if you have any questions.
+
+Moreover, your repository, especially the folder with lab tasks, should not have additional files with unrelated code.
+
 ## Problem #1: "Absolute Value of Real Number" (0.4%)
 
 The application reads a real number from the standard input and then outputs its absolute value.
@@ -125,3 +131,100 @@ Read Introduction to Java Programming, 10th Edition by Y. Daniel Liang, Chapter 
   3. 3.8 (0.4%)
   4. 3.17 (0.4%)
   5. 3.22 (0.4%)
+
+### Homework Problem #6: Exercise 3.1
+
+### Sample Input and Output
+
+```
+Enter a, b, c: 1.0 3 1
+The equation has two roots -0.381966 and -2.61803
+```
+
+```
+Enter a, b, c: 1 2.0 1
+The equation has one root -1
+```
+
+```
+Enter a, b, c: 1 2 3
+The equation has no real roots
+```
+
+### Homework Problem #7: Exercise 3.5
+
+### Sample Input and Output
+
+```
+Enter today's day: 1
+Enter the number of days elapsed since today: 3
+Today is Monday and the future day is Thursday
+```
+
+```
+Enter today's day: 0
+Enter the number of days elapsed since today: 31
+Today is Sunday and the future day is Wednesday
+```
+
+### Homework Problem #8: Exercise 3.8
+
+### Sample Input and Output
+
+```
+Enter three integer numbers: 5 2 10
+2
+5
+10
+```
+
+### Homework Problem #9: Exercise 3.17
+
+### Sample Input and Output
+
+```
+scissor (0), rock (1), paper (2): 1
+The computer is scissor. You are rock. You won
+```
+
+```
+scissor (0), rock (1), paper (2): 2
+The computer is paper. You are paper too. It is a draw
+```
+
+### Homework Problem #10: Exercise 3.22
+
+### Sample Input and Output
+
+```
+Enter a point with two coordinates: 4 5
+Point (4.0, 5.0) is in the circle
+```
+
+```
+Enter a point with two coordinates: 9 9
+Point (9.0, 9.0) is not in the circle
+```
+
+## Expected Repository Structure
+
+When you finish all assignments, your repository should look like this:
+
+```
+.
+└── lab-03
+    ├── lab-03.iml
+    └── src
+        ├── Problem01.java
+        ├── Problem02.java
+        ├── Problem03.java
+        ├── Problem04.java
+        ├── Problem05.java
+        ├── Problem06.java
+        ├── Problem07.java
+        ├── Problem08.java
+        ├── Problem09.java
+        └── Problem10.java
+```
+
+If the files with assignments are named differently, you will be penalised.
