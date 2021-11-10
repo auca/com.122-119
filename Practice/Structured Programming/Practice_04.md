@@ -8,6 +8,12 @@ Structured Programming, Practice #4
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/download)
 * [Git](https://git-scm.com)
 
+## Important Notes
+
+The checkpoint would be graded by the output of your programs. You may be penalized and get a lower grade if the result does not match (wrong letters, additional spaces, or newlines). Please check your code and output before committing it to GitHub or Canvas. Make sure the outcome of your program matches the specified output on this page. Don't hesitate to contact TA (teacher assistant) on Canvas in the Discussions tab if you have any questions.
+
+Moreover, your repository, especially the folder with lab tasks, should not have additional files with unrelated code.
+
 ## Problem #1: "Dangerous Comparison of Double Values" (0.4%)
 
 Create variable `result` of the data type double and assign to it the value 0. Then add 0.1 to it 10 times. Compare the result with 1.0. If the numbers are equal, print "Equal". Otherwise, print "Not equal". Explain the result.
