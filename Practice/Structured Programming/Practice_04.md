@@ -36,7 +36,7 @@ Spring
 
 ```
 Enter the month number: 100
-Invalid month number.
+Invalid month number
 ```
 
 ## Problem #3: "Season Name (Switch-Case)" (0.4%)
@@ -51,7 +51,7 @@ one to five, which represents the complexity level of a certain game.
 Conversion table
 
 ```
-4 <= pro gamer <=5
+4 <= pro gamer <= 5
 2 <= experienced gamer <= 3
 1 = beginner
 0 = total newbie
@@ -67,6 +67,11 @@ You are a beginner.
 ```
 Complexity level: 2
 You are an experienced gamer.
+```
+
+```
+Complexity level: 9000
+Invalid input
 ```
 
 ## Problem #5: "Number of Days" (0.4%)
