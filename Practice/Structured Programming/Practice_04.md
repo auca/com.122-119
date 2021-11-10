@@ -18,7 +18,7 @@ Moreover, your repository, especially the folder with lab tasks, should not have
 
 Create variable `result` of the data type double and assign to it the value 0. Then add 0.1 to it 10 times. Compare the result with 1.0. If the numbers are equal, print "Equal". Otherwise, print "Not equal". Explain the result.
 
-## Problem #2: "Season Name (If-Else If)" (0.4%)
+## Problem #2: "Season Name (If-Else-If)" (0.4%)
 
 The application determines a season name by a given month number. Use `if-else if` construct to solve the task.
 
@@ -36,7 +36,7 @@ Spring
 
 ```
 Enter the month number: 100
-Invalid month number
+Invalid month number.
 ```
 
 ## Problem #3: "Season Name (Switch-Case)" (0.4%)
@@ -52,7 +52,7 @@ Conversion table
 
 ```
 4 <= pro gamer <=5
-2 <= experienced gamer<= 3
+2 <= experienced gamer <= 3
 1 = beginner
 0 = total newbie
 ```
@@ -76,8 +76,8 @@ The application determines a number of days in a specific month for a predefined
 ### Sample Input and Output
 
 ```
-Year? 2000
-Month? 2
+Enter the year: 2000
+Enter the month number: 2
 Number of days: 29
 ```
 
@@ -91,3 +91,116 @@ Read Introduction to Java Programming, 10th Edition by Y. Daniel Liang, Chapter 
   3. 3.19 (0.4%)
   4. 3.23 (0.4%)
   5. 3.24 (0.4%)
+
+
+### Homework Problem #6: Exercise 3.15
+
+### Sample Input and Output
+
+```
+Enter your lottery pick (three digits): 123
+The lottery number is 123
+Exact match: you win $10.000
+```
+
+```
+Enter your lottery pick (three digits): 123
+The lottery number is 312
+Match all digits: you win $3.000
+```
+
+```
+Enter your lottery pick:  123
+The lottery number is 416
+Match one digit: you win $1.000
+```
+
+```
+Enter your lottery pick: 123
+The lottery number is 456
+Sorry: no match
+```
+
+### Homework Problem #7: Exercise 3.18
+
+### Sample Input and Output
+
+Note, that the book has a mistake in edition 10. It is written in the book 'If the weight is greater than 50, display a message "the package cannot be shipped."'. It should be 'If the weight is greater than 20'.
+
+```
+Enter the weight of the package: 0.5
+The shipping cost: 3.5
+```
+
+```
+Enter the weight of the package: 15
+The shipping cost: 10.5
+```
+
+```
+Enter the weight of the package: 21
+The package cannot be shipped.
+```
+
+### Homework Problem #8: Exercise 3.19
+
+### Sample Input and Output
+
+```
+Enter the length of edges of a triangle: 3 5 7
+The perimeter: 15
+```
+
+```
+Enter the length of edges of a triangle: 2 5 7
+The input is invalid.
+```
+
+### Homework Problem #9: Exercise 3.23
+
+### Sample Input and Output
+
+```
+Enter a point with two coordinates: 2 2
+Point (2.0, 2.0) is in the rectangle
+```
+
+```
+Enter a point with two coordinates: 6 4
+Point (6.0, 4.0) is not in the rectangle
+```
+
+### Homework Problem #10: Exercise 3.24
+
+### Sample Input and Output
+
+```
+The card you picked is Jack of Hearts
+```
+
+```
+The card you picked is Ace of Spades
+```
+
+## Expected Repository Structure
+
+When you finish all assignments, your repository should look like this:
+
+```
+.
+└── lab-04
+    ├── lab-04.iml
+    └── src
+        ├── Problem01.java
+        ├── Problem02.java
+        ├── Problem03.java
+        ├── Problem04.java
+        ├── Problem05.java
+        ├── Problem06.java
+        ├── Problem07.java
+        ├── Problem08.java
+        ├── Problem09.java
+        └── Problem10.java
+```
+
+If the files with assignments are named differently, you will be penalised.
