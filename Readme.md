@@ -31,3 +31,13 @@ View previous class recordings
 ### Lectures and Labs for AUAF
 
 * <https://youtube.com/playlist?list=PLHcEzCb_lW6dH0QkPreX69oa0glgfta5d>
+
+## Exams
+
+### Practice Midterm Signup
+
+* <https://docs.google.com/spreadsheets/d/197AFBSj_WGsorEQJOipC27yOf6O3Gb_5detWRgNpO70/edit?usp=sharing>
+
+### Practice Midterm Task List
+
+* <https://docs.google.com/spreadsheets/d/1NTiIit1R0pYu65VBjf1_N2X-G7CGc-NQMEpXBNo_boU/edit?usp=sharing>
