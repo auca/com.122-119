@@ -26,8 +26,8 @@ Enter a real number: -123.345
 ```
 
 ```
-Enter a real number: 12.4
-|12.4| = 12.4
+Enter a real number: 12.400
+|12.400| = 12.400
 ```
 
 ## Problem #2: "Even or Odd" (0.4%)
