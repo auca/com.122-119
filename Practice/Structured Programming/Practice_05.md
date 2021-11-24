@@ -47,7 +47,7 @@ Read an integer from the standard input and find the sum of all its digits.
 
 ```
 Enter the number: 6427572
-The sum of all digits is 33.
+The sum of all digits is 33
 ```
 
 ```
