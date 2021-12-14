@@ -95,9 +95,9 @@ the screen.
 
 Read Introduction to Java Programming, 10th Edition by Y. Daniel Liang, Chapter 5
 
-* Do programming exercises from chapter 5:
-  1. TestDoWhile.java (0.4%)
-  2. MultiplicationTable.java (0.4%)
-  3. TestBreak.java (0.4%)
-  4. Palindrome.java (0.4%)
-  5. PrimeNumber.java (0.4%)
+* Study and rewrite from scratch code listings from Chapter 5:
+  1. TestDoWhile.java (0.4%) (name your file `Problem01.java`)
+  2. MultiplicationTable.java (0.4%) (name your file `Problem02.java`)
+  3. TestBreak.java (0.4%) (name your file `Problem03.java`)
+  4. Palindrome.java (0.4%) (name your file `Problem04.java`)
+  5. PrimeNumber.java (0.4%) (name your file `Problem05.java`)
