@@ -66,10 +66,8 @@ After:
 Read Introduction to Java Programming, 10th Edition by Y. Daniel Liang, Chapter 7
 
 * Do programming exercises from chapter 7:
-  1. Chapter 7.4: DeckOfCards.java (0.4%)
-  2. Chapter 7.8: SelectionSort.java (0.4%)
-  3. 7.1 (0.4%)
-  4. 7.3 (0.4%)
-  5. 7.4 (0.4%)
-  6. 7.10 (0.4%)
-  7. 7.15 (0.4%)
+  1. Listing 7.1: AnalyzeNumbers.java (0.4%)
+  2. Listing 7.2: DeckOfCards.java (0.4%)
+  3. Listing 7.3: TestPassArray.java (0.4%)
+  5. Listing 7.4: CountLettersInArray.java (0.4%)
+  6. Listing 7.8: SelectionSort.java (0.4%)
