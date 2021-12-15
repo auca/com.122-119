@@ -19,10 +19,21 @@ draw 2D primitives on the screen.
 7. <https://drive.google.com/file/d/1CqHTogqF8DGSfsvPeGZMDz4gRNLMihxh/view?usp=sharing>
 8. <https://drive.google.com/file/d/1harfuTzvmExPy_CiH2VqjrLk8EYvBO67/view?usp=sharing>
 
-Name your files in the src directory `Problem01`, `Problem02`, ...
+Name your files in the src directory `Problem01.java`, `Problem02.java`, ...
 
 The documentation for the Processing library can be found here
 
 * <https://processing.org/reference>
 
 Note, that complex shapes in video files are formed from simple 2D primitives.
+
+### Project #2
+
+Implement the [15 Puzzle](https://en.wikipedia.org/wiki/15_puzzle) game (Пятнашки)
+with the Processing library. You have to implement keyboard and mouse control in
+your game. You will get only half the points for the Project for just
+implementing one of the control schemes.
+
+<https://drive.google.com/file/d/1VrxdsjjaFXxgOsRIX7MI9eZsjso4FH4D/view?usp=sharing>
+
+Name your main file in the src directory `Fifteen.java`.
