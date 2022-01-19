@@ -5,39 +5,24 @@ Structured Programming, Object-oriented Programming
 
 General course information, time, rules, grading, and books
 
-* <https://github.com/auca/com.118-119/blob/master/Syllabus/AUCA_COM-118-119_2021_Syllabus.pdf>
-* <https://github.com/auca/com.118-119/blob/master/Syllabus/AUCA_COM-118-119_2021_Syllabus_AUAF.pdf>
+* <https://github.com/auca/com.118-119/blob/master/Syllabus/AUCA_COM-118-119_2022_Syllabus.pdf>
 
 ## Recordings
 
-View previous class recordings
+View this semester's class recordings
 
-### Lectures
+### Wednesday 10:50
 
-#### Monday 10:50
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6eyqraMtua2XxyB8Cas-rln>
 
-* <https://youtube.com/playlist?list=PLHcEzCb_lW6cZ55dErkh2qrUbY3JTkzia>
+### Wednesday 12:45
 
-### Labs
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6fHWg3U_h8mG8y_2foZrb9U>
 
-#### Wednesday 12:45
+### Wednesday 14:10
 
-* <https://youtube.com/playlist?list=PLHcEzCb_lW6dmjmHve3eij2_A9mwZVfXE>
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6d3czHwM0GymM_Lq74hjRqM>
 
-#### Wednesday 14:10
+### Wednesday 15:35
 
-* <https://youtube.com/playlist?list=PLHcEzCb_lW6fnhCfi0BqqQ5UeAHRxBEhc>
-
-### Lectures and Labs for AUAF
-
-* <https://youtube.com/playlist?list=PLHcEzCb_lW6dH0QkPreX69oa0glgfta5d>
-
-## Exams
-
-### Practice Midterm Signup
-
-* <https://docs.google.com/spreadsheets/d/197AFBSj_WGsorEQJOipC27yOf6O3Gb_5detWRgNpO70/edit?usp=sharing>
-
-### Practice Midterm Task List
-
-* <https://docs.google.com/spreadsheets/d/1NTiIit1R0pYu65VBjf1_N2X-G7CGc-NQMEpXBNo_boU/edit?usp=sharing>
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6esAATPxPY1VT5ouOImC8-w>

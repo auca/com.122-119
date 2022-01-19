@@ -3,8 +3,7 @@ Structured Programming, Practice #2
 
 ## Developer Tools
 
-* [Amazon Corretto JDK 11](https://aws.amazon.com/corretto)
-* [Eclipse Temurin JDK 17](https://adoptium.net) for AUAF Group
+* [Eclipse Temurin JDK 17](https://adoptium.net)
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/download)
 * [Git](https://git-scm.com)
 

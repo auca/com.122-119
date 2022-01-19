@@ -77,3 +77,22 @@ Old Class Recordings
 * <https://youtube.com/playlist?list=PLHcEzCb_lW6eJN86RpAAdeUuU_-Sh_460>
 * <https://youtube.com/playlist?list=PLHcEzCb_lW6daZ_NZ4rX-Onri4-dtoNus>
 * <https://youtube.com/playlist?list=PLHcEzCb_lW6eVT7uVFxAU8iZ8nfyePfsT>
+
+## Fall 2022
+
+### AUCA
+
+#### Lectures
+
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6cZ55dErkh2qrUbY3JTkzia>
+
+#### Labs
+
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6dmjmHve3eij2_A9mwZVfXE>
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6fnhCfi0BqqQ5UeAHRxBEhc>
+
+### AUAF
+
+#### Lectures and Labs
+
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6dH0QkPreX69oa0glgfta5d>
