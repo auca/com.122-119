@@ -78,7 +78,7 @@ Old Class Recordings
 * <https://youtube.com/playlist?list=PLHcEzCb_lW6daZ_NZ4rX-Onri4-dtoNus>
 * <https://youtube.com/playlist?list=PLHcEzCb_lW6eVT7uVFxAU8iZ8nfyePfsT>
 
-## Fall 2022
+## Fall 2021
 
 ### AUCA
 
