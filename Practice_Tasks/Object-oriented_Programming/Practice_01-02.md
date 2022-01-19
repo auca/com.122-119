@@ -24,15 +24,15 @@ by one and execute them. Keep track of the current position of the turtle and
 whether the pen is currently up or down. Assume that the turtle always starts at
 the location (0, 0), it looks to the right, and its pen is up.
 
-| Command   | Meaning                |
-| --------: | :--------------------- |
-| PenUp     | Put pen up             |
-| PenDown   | Put pen down           |
-| TurnRight | Turn right             |
-| TurnLeft  | Turn left              |
-| Move 10   | Move forward 10 steps  |
-| Display   | Display the field      |
-| Exit      | Exit from the program. |
+| Command    | Meaning                |
+| ---------: | :--------------------- |
+| pen-up     | Put pen up             |
+| pen-down   | Put pen down           |
+| turn-right | Turn the turtle right  |
+| turn-left  | Turn the turtle left   |
+| move 10    | Move forward 10 steps  |
+| display    | Display the field      |
+| exit       | Exit from the program. |
 
 ### Example
 
@@ -41,16 +41,16 @@ the floor. The following list of commands would draw and display a 12-by-12
 square, leaving the pen in the up position:
 
 ```
-PenDown
-Move 12
-TurnRight
-Move 12
-TurnRight
-Move 12
-TurnRight
-Move 12
-PenUp
-Display
+pen-down
+move 12
+turn-right
+move 12
+turn-right
+move 12
+turn-right
+move 12
+pen-up
+display
 T***********........
 *..........*........
 *..........*........
@@ -71,7 +71,7 @@ T***********........
 ....................
 ....................
 ....................
-Exit
+exit
 ```
 
 As the turtle moves with the pen down, we set the appropriate elements of array

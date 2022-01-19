@@ -1,5 +1,5 @@
-Old Class Recordings
-====================
+Previous Course Recordings
+==========================
 
 ## Fall 2018
 
