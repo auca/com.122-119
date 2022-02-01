@@ -56,6 +56,10 @@ The description of the task is comprehensive and all tasks are checked against i
 
 Tasks, which tell you to implement code in a certain way, are code-checked manually. If task says that you need write code using special function or in a certain style - that means it is **required**. Your implementation would be checked. If you fail to follow the requirement, the task will be graded with 0.
 
+### Formatting issues
+
+This time policy regarding the output format of your lab tasks became harsher. Please follow the specified output format. Any cases of different outputs now will be considered as an error and will result in getting 0 for the specified problem. Note: tasks with undertmined output (random numbers, time related outputs, etc.) are not falling into this category. Differences in the time/random value are not considered.
+
 ### About cheating
 
 All code tasks are checked against all students. This means that similar code samples would be detected automatically. Further audit would be done manually by TA. **Lowering case, changing variable/function/class names, order of variables/functions, or any other trick would not work**. The code checking id done in absolute way, as well as semantically, logically. 
@@ -82,6 +86,12 @@ This section will be updated frequently to add more useful tips.
 
     **How to prevent**: update your repository with git fetch, if you work using multiple machines.
 
+3. Cloning error in the IntelliJ (Authentication failed)
+
+    If you use an old Github access token from last semester, you may encounter an authentication error
+
+    **Solution**: remove an old token from IntelliJ. Then add repository with new project again using VCS option - when dialog for Github authentication will pop up, select the Personal Access Token authorization and generate a new token. This will give IntelliJ Access to the new repository.
+
 ### Java errors
 
 1. Wrong class name
@@ -90,4 +100,18 @@ This section will be updated frequently to add more useful tips.
 
     **Solution**: rename the class or file to the same name
 
- 
+### Common mistakes
+
+1. Index out of range 
+
+    Cause: probably you messed up with the array indexing - it has size of *n* and you use an element with index *n+1* or bigger. Or it can be a negative index. Debugging may show what is the value of the breaking index.
+
+    **Solution**: think about the access constraints. This error usually happens when the index is dynamic, so you better to check if this dynamic index is in bounds of the array size. **Just add additional checks and constraints to the code which accesses the array**
+
+2. Presentation error/Wrong answer on URI (newline related)
+
+    You wrote code and it does not pass. Try this first.
+
+    Issue: the printing statements are either `print` or `printf` without the `%n` in the end. The new line is a big thing in the text formatting, and its absence is usually is considered as a mistake.
+
+    **Solution**: watch carefully for `%n` newline symbols in your code, if you use `printf` and try to minimise the usage of `print`
