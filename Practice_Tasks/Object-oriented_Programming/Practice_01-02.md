@@ -87,3 +87,7 @@ Write an application to implement the 'turtle graphics' capabilities discussed
 here in an (!) *object-oriented programming style*.
 
 Check for incorrect input and use Exceptions to handle input processing errors.
+
+Place two turtles on the field and allow the selection of turtle with the
+command `select <turtle number (1 or 2)>`. One turtle should be placed into
+the lower righ corner of the field. It should look to the left side.
