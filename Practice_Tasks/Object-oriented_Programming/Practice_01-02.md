@@ -186,7 +186,7 @@ Error handling with Exceptions must also be implemented in the code of Problem #
 
 ### Example
 
-Please, note that some empty lines in the example bellow contain invisible whitespace and tab sequences of characters.
+Please, note that some empty lines in the example below contain invisible whitespace and tab sequences of characters.
 
 ```
 
