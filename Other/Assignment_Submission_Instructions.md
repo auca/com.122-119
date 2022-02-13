@@ -1,6 +1,6 @@
 How to Do and Submit Your Works
-==============================
-## A Short Guide with Tips on Completing COM 118-119 assignments from the TAs
+===============================
+# A Short Guide with Tips on Completing COM 118-119 assignments from the TAs
 
 This guide warns students of common mistakes and formalizes the submission format and the checking process.
 
@@ -12,15 +12,15 @@ After receiving the assignment on Canvas, please *carefully* read the task descr
 
 2. Click on the short ID of your last commit.
 
-![Short Commit ID](https://i.imgur.com/39ordAu.jpg)
+    ![Short Commit ID](https://i.imgur.com/39ordAu.jpg)
 
 3. Copy the full commit ID from the following page without any additional spaces or characters and nothing else.
 
-![Full Commit ID](https://i.imgur.com/VEftvkO.jpg) 
+    ![Full Commit ID](https://i.imgur.com/VEftvkO.jpg) 
 
 4. Paste the commit ID into the submission field on Canvas. Ensure you have `p > span` or `p` written at the bottom of the form.
 
-![Canvas Submission Form](https://i.imgur.com/hU85xUN.jpg)
+    ![Canvas Submission Form](https://i.imgur.com/hU85xUN.jpg)
 
 5. Make sure there are no additional lines of text, empty spaces, tabs, or newline characters. Paste only one commit ID. DO NOT paste multiple commit IDs into the submission field!
 
@@ -28,82 +28,88 @@ After receiving the assignment on Canvas, please *carefully* read the task descr
 
 7. You may resubmit the commit ID an unlimited number of times before the deadline. Submit only one commit ID each time, though. The new submission will replace the old one.
 
-### How Do We Obtain Your Works
+8. Please, do not post any comments for your submissions unless you want to reply to the TA. We ignore all comments that are not responses. We may even give you zero for disturbing the TA from their work with unnecessary notifications.
+
+## How Do We Obtain Your Works
 
 Canvas exports your submission as HTML files, and our scripts extract the commit IDs from these files. Then, your hashes are used to get the correct version of your work.
 
 The scripts may break if you leave anything in the submission field except the final commit ID. Your submission will not be graded in such a case. You will receive zero for the work no matter what code you have in your GitHub repository.
 
-### How URI Tasks are Graded
+## How URI Tasks are Graded
 
-We grade URI tasks by submitting your code to the Beecrowd in an automatic way. Therefore, please ensure that you have your task files in the folder **with the correct names**! The URI submission will not be graded if a file is named incorrectly. All grades on URI tasks are final because they are calculated from Beecrowd results directly. Your accounts are not used when checking the submission.
+We grade URI tasks by submitting your code to the Beecrowd in an automatic way. Therefore, please ensure that you have your task files in the folder **with the correct names**! The URI submission will not be graded if a file is misnamed. All grades on URI tasks are final because they are calculated from Beecrowd results directly. Your accounts are not used to check the submissions.
 
-### How Labs are Graded
+## How Labs are Graded
 
-Labs are graded by an automated script with TA as a supervisor. It is important to have **exactly the same** output as described and shown in the Lab specification. ***Different output may result in getting 0 for specified task***. 
+An automated script grades labs. The TA supervises the process. Therefore, it is crucial to have **precisely the same** output as described and shown in the Lab specification. **Different output will result in zero for the specified task**.
 
-### About Specification
+## The Importance of Specifications
 
-The description of the task is comprehensive and all tasks are checked against it. Therefore, you *have to read the description carefully*. If description gives multiple variations of behaviour (2 or more different cases of input/output) your program has to support **all** of them, even if there is only one example of the input/output.
+We try to keep the task descriptions comprehensive. We check your solutions against them. Therefore, you *have to read the requirement documents carefully*. If some document lists multiple variations of the program behavior, your program has to support **all** of them, even if there is only one example of the input/output provided.
 
-### Implementation Details
+If you believe the requirement documents are incomplete, ask the TA or the professor to clarify them. You will get zero if you do not do that and proceed with your assumptions of how the program should behave.
 
-Tasks, which tell you to implement code in a certain way, are code-checked manually. If task says that you need write code using special function or in a certain style - that means it is **required**. Your implementation would be checked. If you fail to follow the requirement, the task will be graded with 0.
+In some instances, the requirement document will miss the info discussed during the class. Follow the spec from the class recording in such a case.
 
-### Formatting Issues
+Sometimes, the requirements from the spec will be different from what was discussed during the class. The requirement document is the last source of truth. Follow it in such a case. It has priority over the class discussions.
 
-This time policy regarding the output format of your lab tasks became harsher. Please follow the specified output format. Any cases of different outputs now will be considered as an error and will result in getting 0 for the specified problem. Note: tasks with undertmined output (random numbers, time related outputs, etc.) are not falling into this category. Differences in the time/random value are not considered.
+## The Importance of Implementation Details
 
-### Cheating
+Tasks, which tell you to implement code in a certain way, are checked manually by the TA. If the problem says that you need to use a special function or write the code in a particular style — that means it is **required** to do so in your sources. If you fail to follow the requirement, the task will be graded with zero.
 
-All code tasks are checked against all students. This means that similar code samples would be detected automatically. Further audit would be done manually by TA. **Lowering case, changing variable/function/class names, order of variables/functions, or any other trick would not work**. The code checking id done in absolute way, as well as semantically, logically. 
+## The Importance of Output Formatting
+
+Follow the specified output format outlined in the requirements. One different character, lack of a newline sequence, or an incorrect letter case in your output will result in a zero for your work. Note that tasks with undetermined output (random numbers, time-related values, etc.) are not falling into this category. Output with such elements will be checked in a special by our scripts.
+
+## The Importance of NOT Cheating
+
+All code tasks are checked against the other students' code and code from students from previous semesters. Similar code samples would be detected automatically. TAs do manual checks too. The code checking is done with simple pattern matching first and complex semantical and logical analyses next. It means that **lowering case, changing variable/function/class names, order of variables/functions, or using any other common trick** will not work. If it is not the first time you are caught cheating, we will consider giving you F for the course and reporting you to the Registrar's office.
 
 ## Tips to Solve Common Issues
 
-This section will be updated frequently to add more useful tips.
+Here we will add some recommendations to fight problems that most students encounter throughout the course work. This section will be updated frequently to add more valuable tips.
 
-### Git
+### Git Tips
 
-1. Merge error (without merge conflicts)
- 
- If you worked on multiple machines and have created and pushed commits on them, without fetching changes, you may encounter merge error. 
- 
- **Solution**: IntelliJ IDEA would suggest you to perform merge - do this, usually it is safe, when working on small codebases.
+1. Merge Errors (without Merge Conflicts)
 
- **How to prevent**: to prevent the merge error update your repository as frequently as possible. You can use [this tutorial](https://www.jetbrains.com/idea/guide/tutorials/creating-a-project-from-github/git-fetch/) to discover how to fetch updates.
+    If you have worked on multiple machines and created and pushed commits from them, you may encounter merge errors.
 
-2. Merge error (with conflicts)
+    **Solution**: IntelliJ IDEA would suggest you perform merge — do this; usually, it is safe when working on small codebases.
 
- If you changed the single file with two separate commits and forgot to fetch changes, you will encounter the merge conflict.
+    **How to prevent**: to prevent the merge error update your repository as frequently as possible. You can use [this tutorial](https://www.jetbrains.com/idea/guide/tutorials/creating-a-project-from-github/git-fetch/) to discover how to fetch updates.
 
- **Soultion**: sometimes resolving conflicts is hard, and it can not be done automatically. You can revert your changes and delete the commit, update repository and redo the work. If you want to resolve conflicts anyway follow [this](https://www.jetbrains.com/idea/guide/tips/resolve-merge-conflicts/) and [this](https://www.jetbrains.com/help/idea/resolve-conflicts.html) tutorial. This process can be hard and I recommend you to read about git conflicts [here](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts).
+2. Merge Error (with Merge Conflicts)
 
- **How to prevent**: update your repository with git fetch, if you work using multiple machines.
+    If you have changed one file with two separate commits and forgot to fetch changes, you will encounter the merge conflict.
 
-3. Cloning error in the IntelliJ (Authentication failed)
+    **Soultion**: sometimes, resolving conflicts is hard, and it can not be done automatically. You can revert your changes, delete the commit, update the repository, and redo the work. If you want to resolve the conflicts anyway, follow [this](https://www.jetbrains.com/idea/guide/tips/resolve-merge-conflicts/) and [this](https://www.jetbrains.com/help/idea/resolve-conflicts.html) tutorial. This process can be complex. I recommend you to read more about Git conflicts [here](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts).
 
- If you use an old Github access token from last semester, you may encounter an authentication error
+    **How to prevent**: regularly update your repository if you work on multiple machines. You can use [this tutorial](https://www.jetbrains.com/idea/guide/tutorials/creating-a-project-from-github/git-fetch/) to discover how to fetch updates.
 
- **Solution**: remove an old token from IntelliJ. Then add repository with new project again using VCS option - when dialog for Github authentication will pop up, select the Personal Access Token authorization and generate a new token. This will give IntelliJ Access to the new repository.
+3. Cloning Errors in IntelliJ (Authentication Failed)
 
-### Java
+    If you are using an old GitHub access token from the last semester, you may encounter an authentication error during the `git clone` (Get from VCS) process.
 
-1. Wrong class name
+    **Solution**: generate a new personal token on GitHub, then on the GitHub authentication dialog in IntelliJ, select the Personal Access Token authorization and use the newly created token
 
- If you created the file using non-standard method you will encounter this error due to difference of class and file names. In java class has to have the same name as the file.
+### Java Tips
 
- **Solution**: rename the class or file to the same name
+1. Wrong Class Name Compilation Error
 
-2. Index out of range 
+    In Java, the public class name and the file name must be the same.
 
- Cause: probably you messed up with the array indexing - it has size of *n* and you use an element with index *n+1* or bigger. Or it can be a negative index. Debugging may show what is the value of the breaking index.
+    **Solution**: rename the class or file to the same name
 
- **Solution**: think about the access constraints. This error usually happens when the index is dynamic, so you better to check if this dynamic index is in bounds of the array size. **Just add additional checks and constraints to the code which accesses the array**
+2. Index out of Bounds Exception
 
-3. Presentation error/Wrong answer on URI (newline related)
+    You are trying to access an array element that does not exist for the given index. 
 
- You wrote code and it does not pass. Try this first.
+    **Solution**: check that the index is always in the range of permissible indices of the array you are using. Use debugging if you can't find why the invalid index is calculated
 
- Issue: the printing statements are either `print` or `printf` without the `%n` in the end. The new line is a big thing in the text formatting, and its absence is usually is considered as a mistake.
+3. Presentation Error/Wrong answer on URI
 
- **Solution**: watch carefully for `%n` newline symbols in your code, if you use `printf` and try to minimise the usage of `print`
+    The URI checker requires precise output up to the last newline character at the end. 
+
+    **Solution**: check every `print` and `printf` call in your code, check the usage of `%n` or `\n` newline sequences; try to minimize the use of the `print` method
