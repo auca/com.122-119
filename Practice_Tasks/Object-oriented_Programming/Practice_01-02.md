@@ -190,48 +190,48 @@ Please, note that some empty lines in the example below contain invisible whites
 
 ```
 
-No commands to execute were provided. Please, try again.
     
-No commands to execute were provided. Please, try again.
 			
-No commands to execute were provided. Please, try again.
     		
-No commands to execute were provided. Please, try again.
 not-a-real-command
-Unknown command. Please, try again.
 not a real command
-Unknown command. Please, try again.
 not a
-Unknown command. Please, try again.
 select
-The turtle number was not provided. Please, try again.
 select    
-The turtle number was not provided. Please, try again.
 select		
-The turtle number was not provided. Please, try again.
 select    		
-The turtle number was not provided. Please, try again.
 select 1 2 3
-More arguments than necessary were provided for the "select" command. Please, try again.
 select abyrvalg
-The turtle number is not valid. Please, try again.
 select 42
-There is no turtle with the number "42". Please, try again.
 move
-The number of steps was not provided. Please, try again.
 move    
-The number of steps was not provided. Please, try again.
 move		
-The number of steps was not provided. Please, try again.
 move    		
-The number of steps was not provided. Please, try again.
 move 1 2 3
-More arguments than necessary were provided for the "move" command. Please, try again.
 move -42
-The number of steps can't be negative. Please, try again.
 move abyrvalg
-The number of steps is not valid. Please, try again.
 display
+No commands to execute were provided. Please, try again.
+No commands to execute were provided. Please, try again.
+No commands to execute were provided. Please, try again.
+No commands to execute were provided. Please, try again.
+Unknown command. Please, try again.
+Unknown command. Please, try again.
+Unknown command. Please, try again.
+The turtle number was not provided. Please, try again.
+The turtle number was not provided. Please, try again.
+The turtle number was not provided. Please, try again.
+The turtle number was not provided. Please, try again.
+More arguments than necessary were provided for the "select" command. Please, try again.
+The turtle number is not valid. Please, try again.
+There is no turtle with the number "42". Please, try again.
+The number of steps was not provided. Please, try again.
+The number of steps was not provided. Please, try again.
+The number of steps was not provided. Please, try again.
+The number of steps was not provided. Please, try again.
+More arguments than necessary were provided for the "move" command. Please, try again.
+The number of steps can't be negative. Please, try again.
+The number of steps is not valid. Please, try again.
 T...................
 ....................
 ....................
