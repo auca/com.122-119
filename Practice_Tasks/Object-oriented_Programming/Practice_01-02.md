@@ -97,6 +97,8 @@ If the files with assignments are named differently, you will be penalised.
 
 Write an application to implement the 'turtle graphics' capabilities discussed here in an (!) *object-oriented programming style*. Design and implement the `Turtle` and `Field` classes. In the main `Problem01` class, instantiate all the objects. Place two turtles on the field and allow the selection of turtle with the command `select <turtle number (1 or 2)>`. One turtle should be placed into the lower right corner of the field. It should look to the left side.
 
+### Example
+
 ```
 move 1
 turn-right
@@ -133,6 +135,8 @@ display
 ....................
 exit
 ```
+
+### Error Handling
 
 Check for incorrect input and use Exceptions to handle input processing errors. You should have one central place to format and print errors to the screen avoiding repetition in code. Use the `NumberFormatException` or `IllegalArgumentException` classes where appropriate (do not create your own). Your program should check at least for the following error conditions:
 
@@ -179,6 +183,77 @@ All errors must be printed to the STDERR stream (including the '`Please, try aga
 The error messages may differ in this requirement document compared to what the instructor demonstrated to you in the class. Consider that the customer has changed one's mind. You must follow the new requirements.
 
 Error handling with Exceptions must also be implemented in the code of Problem #1 of Practice #1. Do not forget to do that.
+
+### Example
+
+Please, note that some empty lines in the example bellow contain invisible whitespace and tab sequences of characters.
+
+```
+
+No commands to execute were provided. Please, try again.
+    
+No commands to execute were provided. Please, try again.
+			
+No commands to execute were provided. Please, try again.
+    		
+No commands to execute were provided. Please, try again.
+not-a-real-command
+Unknown command. Please, try again.
+not a real command
+Unknown command. Please, try again.
+not a
+Unknown command. Please, try again.
+select
+The turtle number was not provided. Please, try again.
+select    
+The turtle number was not provided. Please, try again.
+select		
+The turtle number was not provided. Please, try again.
+select    		
+The turtle number was not provided. Please, try again.
+select 1 2 3
+More arguments than necessary were provided for the "select" command. Please, try again.
+select abyrvalg
+The turtle number is not valid. Please, try again.
+select 42
+There is no turtle with the number "42". Please, try again.
+move
+The number of steps was not provided. Please, try again.
+move    
+The number of steps was not provided. Please, try again.
+move		
+The number of steps was not provided. Please, try again.
+move    		
+The number of steps was not provided. Please, try again.
+move 1 2 3
+More arguments than necessary were provided for the "move" command. Please, try again.
+move -42
+The number of steps can't be negative. Please, try again.
+move abyrvalg
+The number of steps is not valid. Please, try again.
+display
+T...................
+....................
+....................
+....................
+....................
+....................
+....................
+....................
+....................
+....................
+....................
+....................
+....................
+....................
+....................
+....................
+....................
+....................
+....................
+...................T
+exit
+```
 
 ### Homework
 
