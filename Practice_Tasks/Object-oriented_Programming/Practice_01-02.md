@@ -17,7 +17,7 @@ Object-oriented Programming, Practice #1, #2
 
 — H. M. Deitel
 
-In this problem, you will simulate the operation of the turtle and create a digital sketchpad. Use a 20-by-20 rectangular 2-D array to represent the field. Fill it with the character '`.`'. Read commands from the user to the turtle one by one and execute them. Keep track of the turtle's current position and whether the pen is currently up or down. Please assume that the turtle always starts at the location (0, 0), it looks to the right, and its pen is up.
+In this problem, you will simulate the operation of the turtle and create a digital sketchpad. Use a 20-by-20 rectangular 2-D array to represent the field. Fill it with the character '`.`'. Read commands from the user to the turtle one by one and execute them. Keep track of the turtle's current position and whether the pen is currently up or down. Stop when the user types `exit` or triggers the [EOF](https://en.wikipedia.org/wiki/End-of-file) condition on the keyboard. Please assume that the turtle always starts at the location (0, 0), it looks to the right, and its pen is up.
 
 | Command    | Meaning                |
 | ---------: | :--------------------- |
