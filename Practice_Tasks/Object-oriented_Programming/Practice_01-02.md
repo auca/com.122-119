@@ -134,43 +134,43 @@ display
 exit
 ```
 
-Check for incorrect input and use Exceptions to handle input processing errors. You should have one central place to format and print errors to the screen avoiding repetition in code. Your program should check at least for the following error conditions:
+Check for incorrect input and use Exceptions to handle input processing errors. You should have one central place to format and print errors to the screen avoiding repetition in code. Use the `NumberFormatException` or `IllegalArgumentException` classes where appropriate (do not create your own). Your program should check at least for the following error conditions:
 
 1. No input (e.g., an empty line with or without whitespaces was provided)
 
-The message that you must print should be `No commands to execute were provided. Please, try again.`
+    The message that you must print should be `No commands to execute were provided. Please, try again.`
 
 2. Unknown command
 
-The message that you must print should be '`Unknown command. Please, try again.`'
+    The message that you must print should be '`Unknown command. Please, try again.`'
 
 3. Incorrect number of arguments for the `select` command
 
-If the number of arguments is zero, the message must be '`The turtle number was not provided. Please, try again.`'
+    If the number of arguments is zero, the message must be '`The turtle number was not provided. Please, try again.`'
 
-If the number of arguments is zero, the message must be '`More arguments than necessary were provided for the "select" command. Please, try again.`'
+    If the number of arguments is zero, the message must be '`More arguments than necessary were provided for the "select" command. Please, try again.`'
 
 4. Invalid argument for the `select` command (not a number)
 
-You must print the message '`The turtle number is not valid. Please, try again.`'
+    You must print the message '`The turtle number is not valid. Please, try again.`'
 
 5. And argument out of range for the `select` command (not 1 or 2 for two turtles)
 
-You must print '`There is no turtle with the number "<the number provided by the user>". Please, try again.`'
+    You must print '`There is no turtle with the number "<the number provided by the user>". Please, try again.`'
 
 6. Incorrect number of arguments for the `move` command
 
-If the number of arguments is zero, the message must be '`The number of steps was not provided. Please, try again.`'
+    If the number of arguments is zero, the message must be '`The number of steps was not provided. Please, try again.`'
 
-If the number of arguments is greater than one, the message must be '`More arguments than necessary were provided for the "move" command. Please, try again.`'
+    If the number of arguments is greater than one, the message must be '`More arguments than necessary were provided for the "move" command. Please, try again.`'
 
 7. Invalid argument for the `move` command (not a number)
 
-The message that you must print is '`The number of steps is not valid. Please, try again.`'
+    The message that you must print is '`The number of steps is not valid. Please, try again.`'
 
 8. A negative number for the `move` command
 
-You must print the message '`The number of steps can't be negative. Please, try again.`'
+    You must print the message '`The number of steps can't be negative. Please, try again.`'
 
 All error conditions listed above must be recoverable. The program must not stop or crash.
 
