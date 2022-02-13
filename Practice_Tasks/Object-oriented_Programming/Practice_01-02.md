@@ -29,7 +29,7 @@ In this problem, you will simulate the operation of the turtle and create a digi
 | display    | Display the field      |
 | exit       | Exit from the program. |
 
-### Example
+#### Example
 
 The following list of commands would draw and display a square, leaving the pen in the up position:
 
