@@ -152,7 +152,7 @@ Check for incorrect input and use Exceptions to handle input processing errors. 
 
     If the number of arguments is zero, the message must be '`The turtle number was not provided. Please, try again.`'
 
-    If the number of arguments is zero, the message must be '`More arguments than necessary were provided for the "select" command. Please, try again.`'
+    If the number of arguments is greater than one, the message must be '`More arguments than necessary were provided for the "select" command. Please, try again.`'
 
 4. Invalid argument for the `select` command (not a number)
 
