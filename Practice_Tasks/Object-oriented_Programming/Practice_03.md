@@ -7,23 +7,21 @@ Object-oriented Programming, Practice #3
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/download)
 * [Git](https://git-scm.com)
 
-## Problem #1: "Calculator of Rational Numbers" (2%)
+## Problem #1: "A Calculator of Rational Numbers" (2%)
 
-Create application which can help users to do arithmetic operations (addition,
-subtraction, multiplication, division, comparisons) with rational numbers. User
-enters a first rational, an operator (+, -, *, /, <, >, =, !=, <=, >=), a second
-rational and, after that, the application prints the result:
+Create an application that can help users do arithmetic operations (addition, subtraction, multiplication, division, and comparisons) with rational numbers. Users may enter the first fraction, an operator (`+`, `-`, `*`, `/`, `<`, `>`, `=`, `!=`, `<=`, `>=`), and the second fraction. The application should calculate the final result and print it to the screen. If the input is invalid, the application should print an appropriate error and continue working.
 
 ### Example
 
 ```
 Calculator of Rational Numbers
-(press Ctrl-Z/D to exit)
+==============================
+Press Ctrl-Z/D to exit
 
 First rational: 1/2
 Operator: +
 Second rational: 2/3
-Result: 1/2 + 2/3 = 7/6
+Result: 1/2 + 2/3: 7/6
 
 First rational: 1/2
 Operator: >
@@ -71,15 +69,50 @@ check all possible errors in the user's input
 Use the Euclidean Algorithm to find the GCD:
 
 ```
-function gcd(a, b)
-    while b ≠ 0
+gcd(a, b):
+    if a = 0:
+        return b
+    if b = 0:
+        return a
+    if a < 0:
+        a := -a
+    if b < 0:
+        b := -b
+    if a < b:
+        t := a
+        a := b
+        b := t
+
+    while b ≠ 0:
         t := b
         b := a mod b
         a := t
+
     return a
 ```
 
-## Problem #2: "BigInteger Rational" (2%)
+## Problem #2: "BigRational" (2%)
 
-Create a version of the Rational class that supports computations with
-arbitrary precision numbers (Use the class `java.math.BigInteger`).
+Create a version of the `Rational` class called `BigRational` that supports computations with arbitrary precision numbers (use the class `java.math.BigInteger`). Use the `gcd` [method](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/math/BigInteger.html#gcd(java.math.BigInteger)) from the `BigInteger` class. Copy the `Problem01.java` code to a new file `Problem02.java` and change it to work with the `BigRational` class.
+
+### Homework
+
+Read Introduction to Java Programming, 10th Edition by Y. Daniel Liang, Chapter 12, Sections 12.1–12.8 (ignore Sections 12.9–12.13)
+
+### Expected Repository Structure
+
+When you finish all assignments, your repository should look like this:
+
+```
+.
+└── lab-03
+    ├── lab-03.iml
+    └── src
+        ├── Problem01.java
+        ├── Problem02.java
+        ├── Rational.java
+        ├── BigRational.java
+        └── MyCommonMath.java
+```
+
+If the files with assignments are named differently, you will be penalised.
