@@ -37,8 +37,7 @@ Error: The denominator can't be equal to zero.
 First rational: 1/2
 Operator: 42
 Error: '42' is not a valid operator.
-
-First rational: ^Z
+Operator: ^Z
 ```
 
 Your application has to check all the data it gets from the user carefully and
