@@ -134,7 +134,7 @@ After:
 ## Problem #3: "Class MyArrays, interfaces MyComparable, MyComparator" (2%)
 
 Write your own class `MyArrays` with a simple implementation of the selection sort
-algorithm and interfaces `MyComparable` and `MyComparator.
+algorithm and interfaces `MyComparable` and `MyComparator`.
 
 Sort:
 
