@@ -46,19 +46,19 @@ Name your main file in the src directory `Fifteen.java`.
 
 Implement a simple clone of a famous [2048](https://play2048.co) game with several types of user interface.
 
-#### Part 1
+#### Part 1 (4 Points)
 
 You have to register on the website https://open.kattis.com using your AUCA Google account and solve the problem [2048](https://open.kattis.com/problems/2048). Keep the solution (that you have submitted on that website) in the file `Problem01.java`. You may have to merge the `Board.java` file first with `Problem01.java` to submit it to Open Kattis. You don't have to do it in the source repository that you will push to us.
 
-#### Part 2
+#### Part 2 (4 Points)
 
 You have to write a console version of the game. The UI is freeform. Ensure that the basic functionality is present (users can see the rules, the board, provide input, get `won` and `lost` messages) and the UI is user-friendly. Keep the code under the `Problem02.java` file.
 
-#### Part 3
+#### Part 3 (10 Points)
 
 You have to create a GUI version of the game. The UI is freeform. Ensure that the basic functionality is present (users can play by using the keyboard, get `won` and `lost` messages). Ensure that the UI is user-friendly. Animation is not necessary for this part. Keep the code under the `Problem03.java`.
 
-#### Part 4
+#### Part 4 (10 Points)
 
 Add animation for your GUI program. The code should still be in `Problem03.java`. The appearance and movement of cells must be animated similarly to the actual 2048 game. The merge animation can be simplified to make the code less complicated.
 
