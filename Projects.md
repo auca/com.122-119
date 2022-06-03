@@ -42,11 +42,13 @@ Name your main file in the src directory `Fifteen.java`.
 
 ### Course Project
 
-Implement a simple clone of a famous 2048 game with several types of user interfaces.
+![2048 Game](https://i.imgur.com/4AMtPep.png)
+
+Implement a simple clone of a famous [2048](https://play2048.co) game with several types of user interface.
 
 #### Part 1
 
-You have to register on the website https://open.kattis.com using AUCA google account and solve problem [Game 2048](https://open.kattis.com/problems/2048). Keep the solution submitted on that website in the file `Problem01.java`.
+You have to register on the website https://open.kattis.com using your AUCA Google account and solve the problem [2048](https://open.kattis.com/problems/2048). Keep the solution (that you have submitted on that website) in the file `Problem01.java`. You may have to merge the `Board.java` file first with `Problem01.java` to submit it to Open Kattis. You don't have to do it in the source repository that you will push to us.
 
 #### Part 2
 
@@ -54,12 +56,20 @@ You have to write a console version of the game. The UI is freeform. Ensure that
 
 #### Part 3
 
-You have to create a GUI version of the game. The UI is freeform. Ensure that the basic functionality is present (users can play by using the keyboard, get `won` and `lost` messages) and the UI is user-friendly. Animation is not necessary for this part. Keep the code under the `Problem03.java`.
+You have to create a GUI version of the game. The UI is freeform. Ensure that the basic functionality is present (users can play by using the keyboard, get `won` and `lost` messages). Ensure that the UI is user-friendly. Animation is not necessary for this part. Keep the code under the `Problem03.java`.
 
 #### Part 4
 
-Add animation for your GUI program. The code should still be in `Problem03.java`.
+Add animation for your GUI program. The code should still be in `Problem03.java`. The appearance and movement of cells must be animated similarly to the actual 2048 game. The merge animation can be simplified to make the code less complicated.
 
 #### Notes
 
-You should also submit all the other model and view java files in the same  `src` directory.
+Don't forget to push all your model and view Java files in the same `src` directory for all tasks.
+
+For all minor requirements, try to follow the work in the class in these videos:
+
+1. https://youtu.be/0zCGWsj-XLg
+2. https://youtu.be/_5RB0zOahEw
+3. https://youtu.be/cDpdDOTI2xk
+4. https://youtu.be/N_zbrxWkctg
+5. https://youtu.be/J9TIFFG4Vk8
