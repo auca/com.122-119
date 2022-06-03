@@ -37,3 +37,29 @@ implementing one of the control schemes.
 <https://drive.google.com/file/d/1VrxdsjjaFXxgOsRIX7MI9eZsjso4FH4D/view?usp=sharing>
 
 Name your main file in the src directory `Fifteen.java`.
+
+## Object-oriented programming
+
+### Course Project
+
+Implement a simple clone of a famous 2048 game with several types of user interfaces.
+
+#### Part 1
+
+You have to register on the website https://open.kattis.com using AUCA google account and solve problem [Game 2048](https://open.kattis.com/problems/2048). Keep the solution submitted on that website in the file `Problem01.java`.
+
+#### Part 2
+
+You have to write a console version of the game. The UI is freeform. Ensure that the basic functionality is present (users can see the rules, the board, provide input, get `won` and `lost` messages) and the UI is user-friendly. Keep the code under the `Problem02.java` file.
+
+#### Part 3
+
+You have to create a GUI version of the game. The UI is freeform. Ensure that the basic functionality is present (users can play by using the keyboard, get `won` and `lost` messages) and the UI is user-friendly. Animation is not necessary for this part. Keep the code under the `Problem03.java`.
+
+#### Part 4
+
+Add animation for your GUI program. The code should still be in `Problem03.java`.
+
+#### Notes
+
+You should also submit all the other model and view java files in the same  `src` directory.
