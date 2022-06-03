@@ -42,7 +42,7 @@ Name your main file in the src directory `Fifteen.java`.
 
 ### Course Project
 
-<img src="https://i.imgur.com/4AMtPep.png)" width="400">
+<img src="https://i.imgur.com/4AMtPep.png" width="400">
 
 Implement a simple clone of a famous [2048](https://play2048.co) game with several types of user interface.
 
