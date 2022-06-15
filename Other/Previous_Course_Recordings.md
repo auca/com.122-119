@@ -96,3 +96,12 @@ Previous Course Recordings
 #### Lectures and Labs
 
 * <https://youtube.com/playlist?list=PLHcEzCb_lW6dH0QkPreX69oa0glgfta5d>
+
+## Spring 2022
+
+### Lectures and Labs
+
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6eyqraMtua2XxyB8Cas-rln>
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6fHWg3U_h8mG8y_2foZrb9U>
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6d3czHwM0GymM_Lq74hjRqM>
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6esAATPxPY1VT5ouOImC8-w>
