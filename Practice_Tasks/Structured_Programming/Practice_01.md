@@ -1,11 +1,13 @@
 Structured Programming, Practice #1
 ===================================
 
+* <https://drive.google.com/file/d/18ess9-L73bDfH50oGqSI99Vjsa_h8U7b/view?usp=sharing>
+
 ## Developer Tools
 
 * [Eclipse Temurin JDK 17](https://adoptium.net)
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/download)
-* [Git](https://git-scm.com)
+* [Git SCM](https://git-scm.com)
 
 ## Important Notes
 
@@ -23,8 +25,7 @@ Write a program that outputs the "hello, world" message to the screen.
 Hello, World!
 ```
 
-Run the program from your IDE and manualy through a console from its source
-directory.
+Run the program from your IDE and manually (through a console) from its source directory.
 
 Modify the program to print a different message.
 
