@@ -1,5 +1,5 @@
-Structured Programming, Object-oriented Programming
-===================================================
+Structured Programming, Introduction to Programming, Object-oriented Programming
+================================================================================
 
 ## Syllabus
 
