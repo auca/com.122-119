@@ -9,18 +9,37 @@ Structured Programming, Practice #1
 
 ## Important Notes
 
-The checkpoint would be graded by the output of your programs. You may be penalized and get a lower grade if the result does not match (wrong letters, additional spaces, or newlines). Please check your code and output before committing it to GitHub or Canvas. Make sure the outcome of your program matches the specified output on this page. Don't hesitate to contact TA (teacher assistant) on Canvas in the Discussions tab if you have any questions.
+The checkpoint would be graded by the output of your programs. You may be penalized and get a lower grade if the result does not match (wrong letters, additional spaces, or newlines). Please check your code and output before committing it to GitHub. Make sure the outcome of your program matches the specified output on this page. Don't hesitate to contact your practice instructor on Canvas in the Discussions tab if you have any questions.
 
 Moreover, your repository, especially the folder with lab tasks, should not have additional files with unrelated code.
 
 ## Problem #1: "Hello, World" (0.4%)
 
-Write a program that outputs the "hello, world" message to the screen. 
+Write a program that outputs the "hello, world" message to the screen.
 
 ### Sample Output
 
 ```
-hello, world
+Hello, World!
+```
+
+Run the program from your IDE and manualy through a console from its source
+directory.
+
+Modify the program to print a different message.
+
+### Sample Output
+
+```
+Hello, Java World!
+```
+
+Experiment more by adding more text.
+
+### Sample Output
+
+```
+Hello, Java World!!!
 ```
 
 ## Problem #2: "A Message in a Rectangle" (0.4%)
@@ -30,20 +49,20 @@ Create a program that prints the "hello, world" greeting surrounded by the aster
 ### Sample Output
 
 ```
-**************
-*hello, world*
-**************
+*********************
+*I like programming!*
+*********************
 ```
 
 ## Problem #3: "What is Your Name?" (0.4%)
 
-Write a program that reads a user name from the console, then forms, and prints a greeting message for that user. 
+Write a program that reads a user name from the console, then forms, and prints a greeting message for that user.
 
 ### Sample Input and Output
 
 ```
-What is your name? Dmitrii
-Hello, Dmitrii!
+What is your name? John Doe
+Hello, John Doe!
 ```
 
 ## Problem #4: "Operations on Two Integer Numbers?" (0.4%)
@@ -69,18 +88,18 @@ Create a program that reads two real numbers from the user and finds their sum, 
 ### Sample Input and Output
 
 ```
-Enter the first number: 10
-Enter the second number: 3
-10.000000 + 3.000000 = 13.000000
-10.000000 - 3.000000 = 7.000000
-10.000000 * 3.000000 = 30.000000
-10.000000 / 3.000000 = 3.333333
-10.000000 % 3.000000 = 1.000000
+Enter the first number: 5.1
+Enter the second number: 2.6
+5.1 + 2.6 = 7.699999999999999
+5.1 - 2.6 = 2.4999999999999996
+5.1 * 2.6 = 13.26
+5.1 / 2.6 = 1.9615384615384612
+5.1 % 2.6 = 2.4999999999999996
 ```
 
 ## Homework
 
-Read Introduction to Java Programming, 10th Edition by Y. Daniel Liang, Chapter 1
+Read Introduction to Java Programming, 12th Edition by Y. Daniel Liang, Chapter 1
 
 * Do programming exercises from chapter 1:
   1. 1.3 (0.4%)
