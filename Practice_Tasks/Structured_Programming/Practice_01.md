@@ -45,7 +45,7 @@ Hello, World!!!
 
 ## Problem #2: "A Message in a Rectangle" (0.4%)
 
-Create a program that prints the "hello, world" greeting surrounded by the asterisk symbols.
+Create a program that prints the "I like programming!" greeting surrounded by the asterisk symbols.
 
 ### Sample Output
 
