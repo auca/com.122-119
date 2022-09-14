@@ -22,7 +22,7 @@ Write a program that outputs the "hello, world" message to the screen.
 ### Sample Output
 
 ```
-Hello, World!
+hello, world
 ```
 
 Run the program from your IDE and manually (through a console) from its source directory.
@@ -32,7 +32,7 @@ Modify the program to print a different message.
 ### Sample Output
 
 ```
-Hello, Java World!
+hello, world!
 ```
 
 Experiment more by adding more text.
@@ -40,7 +40,7 @@ Experiment more by adding more text.
 ### Sample Output
 
 ```
-Hello, Java World!!!
+Hello, World!!!
 ```
 
 ## Problem #2: "A Message in a Rectangle" (0.4%)
@@ -73,8 +73,8 @@ Create a program that reads two integer numbers from the user and finds their su
 ### Sample Input and Output
 
 ```
-Enter the first number: 5
-Enter the second number: 2
+1st int? 5
+2nd int? 2
 5 + 2 = 7
 5 – 2 = 3
 5 * 2 = 10
@@ -89,8 +89,8 @@ Create a program that reads two real numbers from the user and finds their sum, 
 ### Sample Input and Output
 
 ```
-Enter the first number: 5.1
-Enter the second number: 2.6
+1st double? 5.1
+2nd double? 2.6
 5.1 + 2.6 = 7.699999999999999
 5.1 - 2.6 = 2.4999999999999996
 5.1 * 2.6 = 13.26
