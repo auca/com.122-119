@@ -17,25 +17,7 @@ Moreover, your repository, especially the folder with lab tasks, should not have
 
 ## Problem #1: "Hello, World" (0.4%)
 
-Write a program that outputs the "hello, world" message to the screen.
-
-### Sample Output
-
-```
-hello, world
-```
-
-Run the program from your IDE and manually (through a console) from its source directory.
-
-Modify the program to print a different message.
-
-### Sample Output
-
-```
-hello, world!
-```
-
-Experiment more by adding more text.
+Write a program that outputs the "Hello, World!!!" message to the screen.
 
 ### Sample Output
 
