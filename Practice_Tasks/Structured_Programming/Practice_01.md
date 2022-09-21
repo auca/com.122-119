@@ -13,7 +13,7 @@ Structured Programming, Practice #1
 
 ## Important Notes
 
-The checkpoint would be graded by the output of your programs. You may be penalized and get a lower grade if the result does not match (wrong letters, additional spaces, or newlines). Please check your code and output before committing it to GitHub. Make sure the outcome of your program matches the specified output on this page. Don't hesitate to contact your practice instructor on Canvas in the Discussions tab if you have any questions.
+The checkpoint would be graded by the output of your programs. You may be penalized and get a lower grade if the result does not match (wrong letters, additional spaces, or newlines). Please check your code and output before committing it to GitHub or Canvas. Make sure the outcome of your program matches the specified output on this page. Don't hesitate to contact your practice instructor on Canvas in the Discussions tab if you have any questions.
 
 Moreover, your repository, especially the folder with lab tasks, should not have additional files with unrelated code.
 

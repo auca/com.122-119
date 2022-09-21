@@ -82,7 +82,7 @@ The temperature in degrees Celsius is 45.56
 
 ## Homework
 
-Read Introduction to Java Programming, 10th Edition by Y. Daniel Liang, Chapter 2
+Read Introduction to Java Programming, 12th Edition by Y. Daniel Liang, Chapter 2
 
 * Do programming exercises from chapter 2:
   1. 2.1 (0.4%)
