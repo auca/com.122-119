@@ -1,7 +1,9 @@
 Structured Programming, Practice #1
 ===================================
 
-* <https://drive.google.com/file/d/18ess9-L73bDfH50oGqSI99Vjsa_h8U7b/view?usp=sharing>
+## Original Requirements
+
+* <https://drive.google.com/file/d/1HiWR6KSyTwf4RYB18fgqTLWSjtH6waPd/view?usp=sharing>
 
 ## Developer Tools
 

@@ -1,15 +1,19 @@
 Structured Programming, Practice #2
 ===================================
 
+## Original Requirements
+
+* <https://drive.google.com/file/d/1xCNjVHJ1JQ7U8U1KLlv-cJt27pBiM9I9/view?usp=sharing>
+
 ## Developer Tools
 
 * [Eclipse Temurin JDK 17](https://adoptium.net)
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/download)
-* [Git](https://git-scm.com)
+* [Git SCM](https://git-scm.com)
 
 ## Important Notes
 
-The checkpoint would be graded by the output of your programs. You may be penalized and get a lower grade if the result does not match (wrong letters, additional spaces, or newlines). Please check your code and output before committing it to GitHub or Canvas. Make sure the outcome of your program matches the specified output on this page. Don't hesitate to contact TA (teacher assistant) on Canvas in the Discussions tab if you have any questions.
+The checkpoint would be graded by the output of your programs. You may be penalized and get a lower grade if the result does not match (wrong letters, additional spaces, or newlines). Please check your code and output before committing it to GitHub or Canvas. Make sure the outcome of your program matches the specified output on this page. Don't hesitate to contact your practice instructor on Canvas in the Discussions tab if you have any questions.
 
 Moreover, your repository, especially the folder with lab tasks, should not have additional files with unrelated code.
 
