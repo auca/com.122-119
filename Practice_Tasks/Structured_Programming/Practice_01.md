@@ -39,13 +39,16 @@ Create a program that prints the "I like programming!" greeting surrounded by th
 
 ## Problem #3: "What is Your Name?" (0.4%)
 
-Write a program that reads a user name from the console, then forms, and prints a greeting message for that user.
+Write a program that reads a user name from the console, then forms and prints a greeting message for that user. In your program, you should also capitalize the input and make the text printed in all lowercase letters. In the end, you should output the length of the string to the screen.
 
 ### Sample Input and Output
 
 ```
-What is your name? John Doe
+What is your hame? John Doe
 Hello, John Doe!
+Your name in upper-case: JOHN DOE
+Your name in lower-case: john doe
+The total number of characters is 8
 ```
 
 ## Problem #4: "Operations on Two Integer Numbers?" (0.4%)
