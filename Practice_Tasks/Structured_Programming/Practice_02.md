@@ -106,7 +106,7 @@ Enter a degree in Celsius: 43
 
 ```
 Enter the radius and length of a cylinder: 5.5 12
-The area is 95.0331
+The area is 95.0332
 The volume is 1140.4
 ```
 
