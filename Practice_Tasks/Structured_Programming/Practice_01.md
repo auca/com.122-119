@@ -3,7 +3,7 @@ Structured Programming, Practice #1
 
 ## Original Requirements
 
-* <https://drive.google.com/file/d/1HiWR6KSyTwf4RYB18fgqTLWSjtH6waPd/view?usp=sharing>
+* <https://drive.google.com/file/d/1WstT5IKD1gnWfsgKbxQlFOYg-iVIUGXd/view?usp=sharing>
 
 ## Developer Tools
 
@@ -141,9 +141,9 @@ Write a program that displays the result of the summation of integer numbers fro
 
 Write the code which computes the following two equations:
 
- <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\pi&space;=&space;4&space;\times&space;(&space;1&space;-&space;\frac{1}{3}&space;&plus;&space;\frac{1}{5}&space;-&space;\frac{1}{7}&space;&plus;&space;\frac{1}{9}&space;-&space;\frac{1}{11})" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\pi&space;=&space;4&space;\times&space;(&space;1&space;-&space;\frac{1}{3}&space;&plus;&space;\frac{1}{5}&space;-&space;\frac{1}{7}&space;&plus;&space;\frac{1}{9}&space;-&space;\frac{1}{11})" title="\pi = 4 \times ( 1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} - \frac{1}{11})" /></a>
+$\pi = 4 \times ( 1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} - \frac{1}{11})$
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\pi&space;=&space;4&space;\times&space;(&space;1&space;-&space;\frac{1}{3}&space;&plus;&space;\frac{1}{5}&space;-&space;\frac{1}{7}&space;&plus;&space;\frac{1}{9}&space;-&space;\frac{1}{11}&space;&plus;&space;\frac{1}{13})" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\pi&space;=&space;4&space;\times&space;(&space;1&space;-&space;\frac{1}{3}&space;&plus;&space;\frac{1}{5}&space;-&space;\frac{1}{7}&space;&plus;&space;\frac{1}{9}&space;-&space;\frac{1}{11}&space;&plus;&space;\frac{1}{13})" title="\pi = 4 \times ( 1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} - \frac{1}{11} + \frac{1}{13})" /></a>
+$\pi = 4 \times ( 1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} - \frac{1}{11} + \frac{1}{13})$
 
 **Note**: the values have to be calculated in the code — failing to do this will result in the problem not being graded. Use `double` type and `1.0` instead of `1` in your code.
 
