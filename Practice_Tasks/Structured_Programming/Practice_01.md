@@ -128,18 +128,6 @@ a    a^2   a^3
 4    16    64
 ```
 
-We will also accept the following alternative output with two tab characters `\t` between columns:
-
-### Sample Output
-
-```
-a		a^2		a^3
-1		1		1
-2		4		8
-3		9		27
-4		16		64
-```
-
 ### Homework Problem #8: Exercise 1.6
 
 Write a program to find the sum of numbers from 1 to 9.
