@@ -46,7 +46,7 @@ Write a program that reads a user name from the console, then forms and prints a
 ### Sample Input and Output
 
 ```
-What is your hame? John Doe
+What is your name? John Doe
 Hello, John Doe!
 Your name in upper-case: JOHN DOE
 Your name in lower-case: john doe
