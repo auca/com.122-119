@@ -13,13 +13,13 @@ Structured Programming, Practice #1
 
 ## Important Notes
 
-The checkpoint would be graded by the output of your programs. You may be penalized and get a lower grade if the result does not match (wrong letters, additional spaces, or newlines). Please check your code and output before committing it to GitHub or Canvas. Make sure the outcome of your program matches the specified output on this page. Don't hesitate to contact your practice instructor on Canvas in the Discussions tab if you have any questions.
+The checkpoint would be graded by the output of your programs. You may be penalized and get a lower grade if the result does not match (wrong letters, additional spaces, or newlines). Please check your code and output before committing it to GitHub or Canvas. Make sure the outcome of your program matches the specified output on this page. Do not hesitate to contact your practice instructor on Canvas in the Discussions tab if you have any questions.
 
-Moreover, your repository, especially the folder with lab tasks, should not have additional files with unrelated code.
+Moreover, your repository should not have additional files with unrelated code, especially the folder with lab tasks.
 
 ## Problem #1: "Hello, World" (0.4%)
 
-Write a program that outputs the "Hello, World!!!" message to the screen.
+Write a program that outputs the `Hello, World!!!` message to the screen.
 
 ### Sample Output
 
@@ -29,7 +29,7 @@ Hello, World!!!
 
 ## Problem #2: "A Message in a Rectangle" (0.4%)
 
-Create a program that prints the "I like programming!" greeting surrounded by the asterisk symbols.
+Create a program that prints the `I like programming!` greeting surrounded by the asterisk symbols.
 
 ### Sample Output
 
@@ -55,7 +55,7 @@ The total number of characters is 8
 
 ## Problem #4: "Operations on Two Integer Numbers?" (0.4%)
 
-Create a program that reads two integer numbers from the user and finds their sum, difference, product, quotient, and the remainder.
+Create a program that reads two integer numbers from the user and finds their sum, difference, product, quotient, and remainder.
 
 ### Sample Input and Output
 
@@ -63,7 +63,7 @@ Create a program that reads two integer numbers from the user and finds their su
 1st int? 5
 2nd int? 2
 5 + 2 = 7
-5 – 2 = 3
+5 - 2 = 3
 5 * 2 = 10
 5 / 2 = 2
 5 % 2 = 1
@@ -71,7 +71,7 @@ Create a program that reads two integer numbers from the user and finds their su
 
 ## Problem #5: "Operations on Two Real Numbers?" (0.4%)
 
-Create a program that reads two real numbers from the user and finds their sum, difference, product, quotient, and the remainder.
+Create a program that reads two real numbers from the user and finds their sum, difference, product, quotient, and remainder.
 
 ### Sample Input and Output
 
@@ -90,6 +90,7 @@ Create a program that reads two real numbers from the user and finds their sum, 
 Read Introduction to Java Programming, 12th Edition by Y. Daniel Liang, Chapter 1
 
 * Do programming exercises from chapter 1:
+
   1. 1.3 (0.4%)
   2. 1.4 (0.4%)
   3. 1.6 (0.4%)
@@ -98,7 +99,7 @@ Read Introduction to Java Programming, 12th Edition by Y. Daniel Liang, Chapter 
 
 ### Homework Problem #6: Exercise 1.3
 
-Write a program that outputs the following message to the screen:
+Write a program that displays the following pattern:
 
 ### Sample Output
 
@@ -111,9 +112,11 @@ J   J   AAAAA    V V    AAAAA
 
 ### Homework Problem #7: Exercise 1.4
 
-Write a program, which calculates the squared and cubed value of *a* (for *a* calculate *a<sup>2</sup>* and *a<sup>3</sup>*: 5<sup>2</sup> = 25, 5<sup>3</sup>=125).
+Write a program that calculates the squared and cubed value of `a`.
 
-**Note**: the values of a^2 and a^3 **have to** be ***calculated***. Otherwise, this problem would not be graded for you. You can use standard multiplication or `Math.pow()` method from the package `java.lang.Math` (this is optional).
+Note that you must create a variable (or variables) to store the values of `a` for every row. You also have to force the computer to calculate the squared and cubed values before formatting and outputting the answers to the screen.
+
+We recommend using the multiplication operator `*` and NOT the `Math.pow()` method for small integer values and integer powers of numbers.
 
 ### Sample Output
 
@@ -125,11 +128,25 @@ a    a^2   a^3
 4    16    64
 ```
 
+We will also accept the following alternative output with two tab characters `\t` between columns:
+
+### Sample Output
+
+```
+a		a^2		a^3
+1		1		1
+2		4		8
+3		9		27
+4		16		64
+```
+
 ### Homework Problem #8: Exercise 1.6
 
-Write a program that displays the result of the summation of integer numbers from 1 to 9 (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9)
+Write a program to find the sum of numbers from 1 to 9.
 
-**Note**: the value has to be calculated **in the code**. Please do not calculate it on paper or in your head. Instead, write the code, which will calculate this number (any logical code will do).
+$1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9$
+
+Note that you have to create a variable to store the final result. You also have to force the computer to calculate the mathematical expression.
 
 ### Sample output
 
@@ -139,13 +156,13 @@ Write a program that displays the result of the summation of integer numbers fro
 
 ### Homework Problem #9: Exercise 1.7
 
-Write the code which computes the following two equations:
+Write the code which computes the following two equations to approximate the value of $\pi$:
 
 $\pi = 4 \times ( 1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} - \frac{1}{11})$
 
 $\pi = 4 \times ( 1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} - \frac{1}{11} + \frac{1}{13})$
 
-**Note**: the values have to be calculated in the code — failing to do this will result in the problem not being graded. Use `double` type and `1.0` instead of `1` in your code.
+Note that you have to create a variable to store the final result. You also have to force the computer to calculate the mathematical expressions.
 
 ### Sample Output
 
@@ -156,10 +173,13 @@ $\pi = 4 \times ( 1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} - \f
 
 ### Homework Problem #10: Exercise 1.11
 
-Write a program to compute the population for each of the next five years. Use the initial conditions from the book *Introduction to Java Programming, 10th Edition* by Y. Daniel Liang. Use `Math.round` to round calculations performed
-with `double` values.
+The U.S. Census Bureau projects population based on the following assumptions:
 
-**Note**: calculate these values in code — otherwise, the checkpoint would not be graded.
+* One birth every 7 seconds
+* One death every 13 seconds
+* One new immigrant every 45 seconds
+
+Write a program to display the population for each of the next five years. Assume that the current population is 312,032,486, and one year has 365 days.
 
 ### Sample Output
 
@@ -192,4 +212,4 @@ When you finish all assignments, your repository should look like this:
         └── Problem10.java
 ```
 
-If the files with assignments are named differently, you will be penalised.
+If the files with assignments are named differently, you will be penalized.
