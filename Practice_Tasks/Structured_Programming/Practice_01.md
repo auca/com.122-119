@@ -13,11 +13,11 @@ Structured Programming, Practice #1
 
 ## Important Notes
 
-The checkpoint would be graded by the output of your programs. You may be penalized and get a lower grade if the result does not match (wrong letters, additional spaces, or newlines). Please check your code and output before committing it to GitHub or Canvas. Make sure the outcome of your program matches the specified output on this page. Do not hesitate to contact your practice instructor on Canvas in the Discussions tab if you have any questions.
+The checkpoint would be graded by the output of your programs. You may be penalized and get a lower grade if the result does not match (wrong letters, additional spaces, or newlines). Please check your code and output before sending it to GitHub or Canvas. Make sure the outcome of your program matches the specified output on this page. Do not hesitate to contact your practice instructor on Canvas in the Discussions tab if you have any questions.
 
 Moreover, your repository should not have additional files with unrelated code, especially the folder with lab tasks.
 
-## Problem #1: "Hello, World" (0.4%)
+## Problem #1: Hello, World
 
 Write a program that outputs the `Hello, World!!!` message to the screen.
 
@@ -27,9 +27,9 @@ Write a program that outputs the `Hello, World!!!` message to the screen.
 Hello, World!!!
 ```
 
-## Problem #2: "A Message in a Rectangle" (0.4%)
+## Problem #2: A Message in a Rectangle
 
-Create a program that prints the `I like programming!` greeting surrounded by the asterisk symbols.
+Create a program that prints the `I like programming!` message surrounded by the asterisk symbols.
 
 ### Sample Output
 
@@ -39,9 +39,11 @@ Create a program that prints the `I like programming!` greeting surrounded by th
 *********************
 ```
 
-## Problem #3: "What is Your Name?" (0.4%)
+## Problem #3: What is Your Name?
 
-Write a program that reads a user name from the console, then forms and prints a greeting message for that user. In your program, you should also capitalize the input and make the text printed in all lowercase letters. In the end, you should output the length of the string to the screen.
+Write a program that reads a user name from the console, then forms and prints a greeting message for that user.
+
+In your program, you should also capitalize the input and make the text printed in all lowercase letters. In the end, you should output the length of the string to the screen.
 
 ### Sample Input and Output
 
@@ -53,7 +55,7 @@ Your name in lower-case: john doe
 The total number of characters is 8
 ```
 
-## Problem #4: "Operations on Two Integer Numbers?" (0.4%)
+## Problem #4: Operations on Two Integer Numbers
 
 Create a program that reads two integer numbers from the user and finds their sum, difference, product, quotient, and remainder.
 
@@ -69,7 +71,7 @@ Create a program that reads two integer numbers from the user and finds their su
 5 % 2 = 1
 ```
 
-## Problem #5: "Operations on Two Real Numbers?" (0.4%)
+## Problem #5: Operations on Two Real Numbers
 
 Create a program that reads two real numbers from the user and finds their sum, difference, product, quotient, and remainder.
 
@@ -91,11 +93,11 @@ Read Introduction to Java Programming, 12th Edition by Y. Daniel Liang, Chapter 
 
 * Do programming exercises from chapter 1:
 
-  1. 1.3 (0.4%)
-  2. 1.4 (0.4%)
-  3. 1.6 (0.4%)
-  4. 1.7 (0.4%)
-  5. 1.11 (0.4%)
+  1. Exercise 1.3
+  2. Exercise 1.4
+  3. Exercise 1.6
+  4. Exercise 1.7
+  5. Exercise 1.11
 
 ### Homework Problem #6: Exercise 1.3
 
@@ -184,7 +186,7 @@ Write a program to display the population for each of the next five years. Assum
 When you finish all assignments, your repository should look like this:
 
 ```
-.
+. (.idea, .gitignore, other lab dirs)
 └── lab-01
     ├── lab-01.iml
     └── src
