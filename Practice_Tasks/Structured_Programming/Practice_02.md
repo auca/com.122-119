@@ -105,7 +105,7 @@ Enter a degree in Celsius: 43.5
 
 ### Homework Problem #7: Exercise 2.2
 
-Write a program that reads in a radius ($r$) and length ($l$) of a cylinder and computes its area ($A$) and volume ($V$) using the following formulas:
+Write a program that reads in a radius $r$ and length $l$ of a cylinder and computes its area $A$ and volume $V$ using the following formulas:
 
 $A = r^2 \pi$
 
