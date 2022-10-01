@@ -111,6 +111,8 @@ $A = r^2 \pi$
 
 $V = A \times l$
 
+Ignore the sample output in the book. Use the sample below to check the correctness of your solution.
+
 ### Sample Input and Output
 
 ```
