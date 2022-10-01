@@ -19,7 +19,7 @@ Moreover, your repository should not have additional files with unrelated code, 
 
 ## Problem #1: Swap Two Numbers
 
-Declare two integer variables `a` and `b` and initialize them with values provided by the user. Print both variables, swap their values, and print the variables again.
+Declare two integer variables, `a` and `b`, and initialize them with values provided by the user. Then, print both variables, swap their values, and print the variables again.
 
 ### Sample Input and Output
 
@@ -32,7 +32,7 @@ After swapping: a = 3; b = 2;
 
 ## Problem #2: Swap Two Numbers Without Temporary Variables
 
-Declare two integer variables `a` and `b` and initialize them with values provided by the user. Print both variables, swap their values, and print the variables again. In this task, it is prohibited to use temporary variables.
+Declare two integer variables, `a` and `b`, and initialize them with values provided by the user. Then, print both variables, swap their values, and print the variables again. In this task, it is prohibited to use temporary variables.
 
 ### Sample Input and Output
 
@@ -54,9 +54,9 @@ A four-digit integer? 1237
 The sum of all digits is 13
 ```
 
-## Problem #4: Inches to Centimeters Convertor
+## Problem #4: Inches to Centimeters Converter
 
-Create an application that converts inches to centimeters. Note that 1 inch is equal to 2.54 centimeters.
+Create an application that converts inches to centimeters. Note that one inch is equal to 2.54 centimeters.
 
 ### Sample Input and Output
 
@@ -65,7 +65,7 @@ Length in inches? 17
 17 in. = 43.18 cm.
 ```
 
-## Problem #5: Fahrenheit to Celsius Convertor
+## Problem #5: Fahrenheit to Celsius Converter
 
 Create an application that converts degrees Fahrenheit to degrees Celsius. Use the following formula to convert the values:
 
@@ -94,7 +94,7 @@ Read Introduction to Java Programming, 12th Edition by Y. Daniel Liang, Chapter 
 
 ### Sample Input and Output
 
-Write a program that reads a Celsius degree in a double value from the console, then converts it to Fahrenheit, and displays the result. The formula for the conversion is as follows:
+Write a program that reads a Celsius degree in a double value from the console, then converts it to Fahrenheit and displays the result. The formula for the conversion is as follows:
 
 $\degree F = \frac{9}{5} \times \degree C + 32$
 
@@ -111,7 +111,7 @@ $A = r^2 \pi$
 
 $V = A \times l$
 
-Ignore the sample output in the book. Use the sample below to check the correctness of your solution.
+Ignore the sample output in the book. Instead, use the sample below to check the correctness of your solution.
 
 ### Sample Input and Output
 
@@ -136,7 +136,7 @@ Enter a number in pounds: 55.5
 
 ### Sample Input and Output
 
-Write a program that prompts the user to enter the minutes (e.g., 1 billion), and displays the maximum number of years and remaining days for the minutes. For simplicity, assume that a year has 365 days.
+Write a program that prompts the user to enter the minutes (e.g., 1 billion) and displays the maximum number of years and remaining days for the minutes. For simplicity, assume that a year has 365 days.
 
 ```
 Enter the number of minutes: 1000000000
@@ -147,7 +147,9 @@ Enter the number of minutes: 1000000000
 
 Rewrite Programming Exercise 1.11 to prompt the user to enter the number of years and display the population after the number of years.
 
-Use `Math.round` to round calculations performed with `double` values. Ignore the sample output in the book. Use the sample below to check the correctness of your solution.
+Use `Math.round` to round calculations performed with `double` values.
+
+Ignore the sample output in the book. Instead, use the sample below to check the correctness of your solution.
 
 ### Sample Input and Output
 
