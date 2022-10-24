@@ -138,12 +138,12 @@ Read Introduction to Java Programming, 10th Edition by Y. Daniel Liang, Chapter 
 
 ```
 Enter a, b, c: 1.0 3 1
-The equation has two roots -0.381966 and -2.61803
+The equation has two roots -0.3820 and -2.6180
 ```
 
 ```
 Enter a, b, c: 1 2.0 1
-The equation has one root -1
+The equation has one root -1.0000
 ```
 
 ```
