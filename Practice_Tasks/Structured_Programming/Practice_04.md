@@ -87,13 +87,37 @@ Read Introduction to Java Programming, 12th Edition by Y. Daniel Liang, Chapter 
 
 * Do programming exercises from chapter 3:
 
-  1. Exercise 3.15
-  2. Exercise 3.18
-  3. Exercise 3.19
-  4. Exercise 3.23
+  1. Exercise 3.23
+  2. Exercise 3.15
+  3. Exercise 3.18
+  4. Exercise 3.19
   5. Exercise 3.24
 
-### Homework Problem #6: Exercise 3.15
+### Homework Problem #6: Exercise 3.23
+
+Write a program that prompts the user to enter a point $(x, y)$ and checks whether the point is within the rectangle centered at $(0, 0)$ with width 10 and height 5. For example, $(2, 2)$ is inside the rectangle and $(6, 4)$ is outside the rectangle, as shown in the following [Figure](https://i.imgur.com/i2dhV4I.png).
+
+A point is in the rectangle if its horizontal distance to $(0, 0)$ is less than or equal to $10 / 2$ and its vertical distance to $(0, 0)$ is less than or equal to $5.0 / 2$. Test your program to cover all cases.
+
+### Sample Input and Output
+
+```
+Enter a point with two coordinates: 2 2
+Point (2.0, 2.0) is in the rectangle
+```
+
+```
+Enter a point with two coordinates: 6 4
+Point (6.0, 4.0) is not in the rectangle
+```
+
+### Homework Problem #7: Exercise 3.15
+
+Revise Listing 3.8, 'Lottery.java' from the book, to generate a lottery of a three-digit integer. The program prompts the user to enter a three-digit integer and determines whether the user wins according to the following rules:
+
+1. If the user input matches the lottery number in the exact order, the award is $10,000.
+2. If all digits in the user input match all digits in the lottery number, the award is $3,000.
+3. If one digit in the user input matches a digit in the lottery number, the award is $1,000.
 
 ### Sample Input and Output
 
@@ -121,11 +145,24 @@ The lottery number is 456
 Sorry: no match
 ```
 
-### Homework Problem #7: Exercise 3.18
+### Homework Problem #8: Exercise 3.18
+
+A shipping company uses the following function to calculate the cost (in dollars) of shipping based on the weight of the package (in pounds).
+
+$$
+c(w) = \left\{
+  \begin{array}{ll}
+    3.5,& \text{if } 0 \lt w \leq 1 \\
+    5.5,& \text{if } 1 \lt w \leq 3 \\
+    8.5,& \text{if } 3 \lt w \leq 10 \\
+    10.5,& \text{if } 10 \lt w \leq 20 \\
+  \end{array}
+\right.
+$$
+
+Write a program that prompts the user to enter the weight of the package and displays the shipping cost. If the weight is negative or zero, display a message "Invalid input." If the weight is greater than 20, display a message "The package cannot be shipped."
 
 ### Sample Input and Output
-
-Note, that the book has a mistake in edition 10. It is written in the book 'If the weight is greater than 50, display a message "the package cannot be shipped."'. It should be 'If the weight is greater than 20'.
 
 ```
 Enter the weight of the package: 0.5
@@ -142,7 +179,14 @@ Enter the weight of the package: 21
 The package cannot be shipped.
 ```
 
+```
+Enter the weight of the package: -42
+Invalid input.
+```
+
 ### Homework Problem #8: Exercise 3.19
+
+Write a program that reads three edges for a triangle and computes the perimeter if the input is valid. Otherwise, display that the input is invalid. The input is valid if the sum of every pair of two edges is greater than the remaining edge.
 
 ### Sample Input and Output
 
@@ -156,23 +200,13 @@ Enter the length of edges of a triangle: 2 5 7
 The input is invalid.
 ```
 
-### Homework Problem #9: Exercise 3.23
-
-### Sample Input and Output
-
-```
-Enter a point with two coordinates: 2 2
-Point (2.0, 2.0) is in the rectangle
-```
-
-```
-Enter a point with two coordinates: 6 4
-Point (6.0, 4.0) is not in the rectangle
-```
-
 ### Homework Problem #10: Exercise 3.24
 
-### Sample Input and Output
+Write a program that simulates picking a card from a deck of 52 cards. Your program should display the rank (Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King) and suit (Clubs, Diamonds, Hearts, Spades) of the card.
+
+Here are the two sample runs of the program. The random generator may select different cards in your case.
+
+### Sample Output
 
 ```
 The card you picked is Jack of Hearts
