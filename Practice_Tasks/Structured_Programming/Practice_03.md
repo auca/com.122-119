@@ -101,15 +101,15 @@ Create a program that for a given grade in points displays the alphabetical grad
 
 Conversion table:
 
-$90 \leq A \leq 100$
-
-$80 \leq B \lt 90$
-
-$70 \leq C \lt 80$
-
-$60 \leq D \lt 70$
-
-$~~0 \leq F \lt 60$
+$$
+\begin{array}{ll}
+90 \leq A \leq 100 \\
+80 \leq B \lt 90 \\
+70 \leq C \lt 80 \\
+60 \leq D \lt 70 \\
+~~0 \leq F \lt 60
+\end{array}
+$$
 
 ### Sample Input and Output
 

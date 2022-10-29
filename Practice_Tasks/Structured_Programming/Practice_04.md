@@ -147,17 +147,15 @@ Sorry: no match
 
 ### Homework Problem #8: Exercise 3.18
 
-A shipping company uses the following function to calculate the cost (in dollars) of shipping based on the weight of the package (in pounds).
+A shipping company uses the following table to calculate the cost (in dollars) of shipping based on the weight of the package (in pounds).
 
 $$
-c(w) = \left\{
-  \begin{array}{ll}
-    3.5,& \text{if } 0 \lt w \leq 1 \\
-    5.5,& \text{if } 1 \lt w \leq 3 \\
-    8.5,& \text{if } 3 \lt w \leq 10 \\
-    10.5,& \text{if } 10 \lt w \leq 20 \\
-  \end{array}
-\right.
+\begin{array}{ll}
+3.5,& \text{if } 0 \lt w \leq 1 \\
+5.5,& \text{if } 1 \lt w \leq 3 \\
+8.5,& \text{if } 3 \lt w \leq 10 \\
+10.5,& \text{if } 10 \lt w \leq 20 \\
+\end{array}
 $$
 
 Write a program that prompts the user to enter the weight of the package and displays the shipping cost. If the weight is negative or zero, display a message "Invalid input." If the weight is greater than 20, display a message "The package cannot be shipped."
