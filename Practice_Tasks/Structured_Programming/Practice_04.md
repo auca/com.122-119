@@ -1,91 +1,97 @@
 Structured Programming, Practice #4
 ===================================
 
+## Original Requirements
+
+* <https://drive.google.com/file/d/1c56tLA48z_9De6BriV-UDi3fBo3e47TH/view?usp=sharing>
+
 ## Developer Tools
 
 * [Eclipse Temurin JDK 17](https://adoptium.net)
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/download)
-* [Git](https://git-scm.com)
+* [Git SCM](https://git-scm.com)
 
 ## Important Notes
 
-The checkpoint would be graded by the output of your programs. You may be penalized and get a lower grade if the result does not match (wrong letters, additional spaces, or newlines). Please check your code and output before committing it to GitHub or Canvas. Make sure the outcome of your program matches the specified output on this page. Don't hesitate to contact TA (teacher assistant) on Canvas in the Discussions tab if you have any questions.
+The checkpoint would be graded by the output of your programs. You may be penalized and get a lower grade if the result does not match (wrong letters, additional spaces, or newlines). Please check your code and output before sending it to GitHub or Canvas. Make sure the outcome of your program matches the specified output on this page. Do not hesitate to contact your practice instructor on Canvas in the Discussions tab if you have any questions.
 
-Moreover, your repository, especially the folder with lab tasks, should not have additional files with unrelated code.
+Moreover, your repository should not have additional files with unrelated code, especially the folder with lab tasks.
 
-## Problem #1: "Dangerous Comparison of Double Values"
+## Problem #1: Dangerous Comparison of Double Values
 
-Create variable `result` of the data type double and assign to it the value 0. Then add 0.1 to it 10 times. Compare the result with 1.0. If the numbers are equal, print "Equal". Otherwise, print "Not equal". Explain the result.
+Create a variable named `result` of the `double` data type and assign the value 0 to it. Then add 0.1 to it 10 times. Compare the result with 1.0. If the numbers are equal, print "Equal". Otherwise, print "Not equal". Explain the result. Write a correct solution.
 
-## Problem #2: "Month Name (If-Else-If)"
+## Problem #2: Season Name (If-Else-If)
 
-The application determines a month name by a given month number. Use the `if-else-if` construct to solve the task.
+Create an application that determines a season name for a given month number. Use the `if-else-if` construct to solve the task.
 
 ### Sample Input and Output
 
 ```
-Enter the month number: 12
-December
+month? 12
+winter
 ```
 
 ```
-Enter the month number: 3
-March
+month? 3
+spring
 ```
 
-```
-Enter the month number: 100
-Invalid month number
-```
-
-## Problem #3: "Month Name (Switch-Case)"
+## Problem #3: Season Name (Switch-Case)
 
 Redo the previous solution by using the `switch-case` construct.
 
-## Problem #4: "Season Name"
+## Problem #4: Experience Level
 
-The application determines a season name by a given month number. Use the `switch-case` construct to solve the task.
-
-### Sample Input and Output
-
-```
-Enter the month number: 12
-Winter
-```
-
-```
-Enter the month number: 3
-Spring
-```
-
-```
-Enter the month number: 100
-Invalid month number
-```
-
-## Problem #5: "Number of Days"
-
-The application determines a number of days in a specific month for a predefined year.
+Create an application that determines your professional level for a given integer number ranging from one to five. The number represents a complexity level of a game.
 
 ### Sample Input and Output
 
 ```
-Enter the year: 2000
-Enter the month number: 2
+complexity level? 1
+You are a beginner.
+```
+
+```
+complexity level? 2
+You are an experienced gamer.
+```
+
+## Problem #5: Number of Days
+
+Create an application that determines the number of days in a specific month for a given year.
+
+### Sample Input and Output
+
+```
+Year? 2000
+Month? 2
 Number of days: 29
+```
+
+```
+Year? 1900
+Month? 2
+Number of days: 28
+```
+
+```
+Year? 2004
+Month? 4
+Number of days: 30
 ```
 
 ## Homework
 
-Read Introduction to Java Programming, 10th Edition by Y. Daniel Liang, Chapter 3
+Read Introduction to Java Programming, 12th Edition by Y. Daniel Liang, Chapter 3 and 4
 
 * Do programming exercises from chapter 3:
-  1. 3.15
-  2. 3.18
-  3. 3.19
-  4. 3.23
-  5. 3.24
 
+  1. Exercise 3.15
+  2. Exercise 3.18
+  3. Exercise 3.19
+  4. Exercise 3.23
+  5. Exercise 3.24
 
 ### Homework Problem #6: Exercise 3.15
 
@@ -181,7 +187,7 @@ The card you picked is Ace of Spades
 When you finish all assignments, your repository should look like this:
 
 ```
-.
+. (.idea, .gitignore, other lab dirs)
 └── lab-04
     ├── lab-04.iml
     └── src
@@ -197,4 +203,4 @@ When you finish all assignments, your repository should look like this:
         └── Problem10.java
 ```
 
-If the files with assignments are named differently, you will be penalised.
+If the files with assignments are named differently, you will be penalized.

@@ -19,7 +19,7 @@ Moreover, your repository should not have additional files with unrelated code, 
 
 ## Problem #1: Absolute Value of a Real Number
 
-The application reads a real number from the standard input and then outputs its absolute value.
+Create an application that reads a real number from the standard input and then outputs its absolute value.
 
 ### Sample Input and Output
 
@@ -35,7 +35,7 @@ some real number? 12.4
 
 ## Problem #2: Pass or Fail
 
-The application reads the total number of points earned by a student in the course 'Intro to Programming' and prints whether a student passed or failed the course (Reminder, that anything less than 40% is F).
+Creat an application that reads the total number of points earned by a student in the course 'Intro to Programming' and prints whether a student passed or failed the course (reminder, that anything less than 40% is 'F').
 
 ### Sample Input and Output
 
@@ -53,7 +53,7 @@ You can take it again in the fall semester next year.
 
 ## Problem #3: The Maximum Value between Three Numbers
 
-The application reads three integer numbers from the standard input and finds the greatest value between all of them.
+Create an application that reads three integer numbers from the standard input and finds the greatest value among them.
 
 ### Sample Input and Output
 
@@ -73,7 +73,7 @@ The value 74 is the greatest one.
 
 ## Problem #4: Leap Year
 
-The application determines whether a certain year is a leap year.
+Create an application that determines whether a certain year is a leap year or not.
 
 ### Test data:
 
@@ -97,17 +97,19 @@ This is not a leap year.
 
 ## Problem #5: Grades
 
-For a given grade in points (or percent), the application should give all possible alphabetical grades.
+Create a program that for a given grade in points displays the alphabetical grade.
 
 Conversion table:
 
-```
-90 <= A <= 100
-80 <= B < 90
-70 <= C < 80
-60 <= D < 70
-Below 60: F
-```
+$90 \leq A \leq 100$
+
+$80 \leq B \lt 90$
+
+$70 \leq C \lt 80$
+
+$60 \leq D \lt 70$
+
+$~~0 \leq F \lt 60$
 
 ### Sample Input and Output
 
@@ -123,14 +125,15 @@ Number of points? 120
 
 ## Homework
 
-Read Introduction to Java Programming, 10th Edition by Y. Daniel Liang, Chapter 3
+Read Introduction to Java Programming, 12th Edition by Y. Daniel Liang, Chapter 3
 
 * Do programming exercises from chapter 3:
-  1. 3.1 (0.4%)
-  2. 3.5 (0.4%)
-  3. 3.8 (0.4%)
-  4. 3.17 (0.4%)
-  5. 3.22 (0.4%)
+
+  1. Exercise 3.1
+  2. Exercise 3.5
+  3. Exercise 3.8
+  4. Exercise 3.17
+  5. Exercise 3.22
 
 ### Homework Problem #6: Exercise 3.1
 
