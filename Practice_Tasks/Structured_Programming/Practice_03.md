@@ -137,6 +137,20 @@ Read Introduction to Java Programming, 12th Edition by Y. Daniel Liang, Chapter 
 
 ### Homework Problem #6: Exercise 3.1
 
+The two roots of a quadratic equation $ax^2 + bx + c = 0$ can be obtained using the following formula:
+
+$r_1 = \frac{-b + \sqrt{b^2 - 4ac}}{2a}$
+
+and
+
+$r_2 = \frac{-b - \sqrt{b^2 - 4ac}}{2a}$
+
+$b2 - 4ac$ is called the discriminant of the quadratic equation. If it is positive, the equation has two real roots. If it is zero, the equation has one root. If it is negative, the equation has no real roots.
+
+Write a program that prompts the user to enter values for $a$, $b$, and $c$ and displays the result based on the discriminant. If the discriminant is positive, display two roots. If the discriminant is 0, display one root. Otherwise, display "The equation has no real roots."
+
+Note you can use `Math.pow(x, 0.5)` or `Math.sqrt(x)` to compute $\sqrt{x}$.
+
 ### Sample Input and Output
 
 ```
@@ -156,6 +170,8 @@ The equation has no real roots
 
 ### Homework Problem #7: Exercise 3.5
 
+Write a program that prompts the user to enter an integer for today’s day of the week (Sunday is 0, Monday is 1, ..., and Saturday is 6). Also prompt the user to enter the number of days after today for a future day and display the future day of the week.
+
 ### Sample Input and Output
 
 ```
@@ -172,6 +188,8 @@ Today is Sunday and the future day is Wednesday
 
 ### Homework Problem #8: Exercise 3.8
 
+Write a program that prompts the user to enter three integers and display the integers in non-decreasing order.
+
 ### Sample Input and Output
 
 ```
@@ -182,6 +200,8 @@ Enter three integer numbers: 5 2 10
 ```
 
 ### Homework Problem #9: Exercise 3.17
+
+Write a program that plays the popular rock–paper–scissor game. A scissor can cut a paper, a rock can knock a scissor, and a paper can wrap a rock. The program randomly generates a number 0, 1, or 2 representing scissor, rock, and paper. The program prompts the user to enter a number 0, 1, or 2 and displays a message indicating whether the user or the computer wins, loses, or draws.
 
 ### Sample Input and Output
 
@@ -198,6 +218,14 @@ The computer is paper. You are paper too. It is a draw
 ### Homework Problem #10: Exercise 3.22
 
 ### Sample Input and Output
+
+Write a program that prompts the user to enter a point ($x$, $y$) and checks whether the point is within the circle centered at $(0, 0)$ with radius 10. For example, $(4, 5)$ is inside the circle and $(9, 9)$ is outside the circle, as shown in the following [Figure](https://i.imgur.com/i2dhV4I.png).
+
+A point is in the circle if its distance to $(0, 0)$ is less than or equal to 10. The formula for computing the distance is
+
+$\sqrt{(x_1 - x_2)^2+(y_1 - y_2)^2}$
+
+Test your program to cover all cases.
 
 ```
 Enter a point with two coordinates: 4 5
