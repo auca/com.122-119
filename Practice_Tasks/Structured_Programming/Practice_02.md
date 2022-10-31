@@ -3,7 +3,7 @@ Structured Programming, Practice #2
 
 ## Original Requirements
 
-* <https://drive.google.com/file/d/1xCNjVHJ1JQ7U8U1KLlv-cJt27pBiM9I9/view?usp=sharing>
+* <https://drive.google.com/file/d/1gcbYg2fy-vbdUNg3o19C-vAq87PAdYmW/view?usp=sharing>
 
 ## Developer Tools
 
