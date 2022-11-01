@@ -182,7 +182,7 @@ Enter the weight of the package: -42
 Invalid input.
 ```
 
-### Homework Problem #8: Exercise 3.19
+### Homework Problem #9: Exercise 3.19
 
 Write a program that reads three edges for a triangle and computes the perimeter if the input is valid. Otherwise, display that the input is invalid. The input is valid if the sum of every pair of two edges is greater than the remaining edge.
 
