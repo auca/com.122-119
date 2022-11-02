@@ -45,6 +45,15 @@ Redo the previous solution by using the `switch-case` construct.
 
 Create an application that determines your professional level for a given integer number ranging from one to five. The number represents a complexity level of a game.
 
+Conversion Table:
+
+```
+4 <= pro gamer <=5
+2 <= experienced gamer <= 3
+1 = beginner
+0 = total newbie
+```
+
 ### Sample Input and Output
 
 ```
@@ -134,13 +143,13 @@ Match all digits: you win $3.000
 ```
 
 ```
-Enter your lottery pick:  123
+Enter your lottery pick (three digits):  123
 The lottery number is 416
 Match one digit: you win $1.000
 ```
 
 ```
-Enter your lottery pick: 123
+Enter your lottery pick (three digits): 123
 The lottery number is 456
 Sorry: no match
 ```
