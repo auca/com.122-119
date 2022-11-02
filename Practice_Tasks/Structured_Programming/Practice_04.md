@@ -25,6 +25,8 @@ Create a variable named `result` of the `double` data type and assign the value 
 
 Create an application that determines a season name for a given month number. Use the `if-else-if` construct to solve the task.
 
+Note: use 'fall' instead of 'autumn'.
+
 ### Sample Input and Output
 
 ```
