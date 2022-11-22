@@ -119,7 +119,7 @@ Read Introduction to Java Programming, 12th Edition by Y. Daniel Liang, Chapter 
  4. `Palindrome.java` (name your file `Problem04.java`)
  5. `PrimeNumber.java` (name your file `Problem05.java`)
 
-Even though you can do that, avoiding copying and pasting operations from the book is highly recommended. Instead, try to retype the code on your own. It will help you to prepare for the Final Exam.
+Even though you can copy and paste code from the book, avoiding it is highly recommended. Try to retype the code on your own. It will help you to prepare for the Final Exam.
 
 ## Expected Repository Structure
 
