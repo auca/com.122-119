@@ -148,9 +148,9 @@ Note that you have to create a variable to store the final result. You also have
 
 Write the code which computes the following two equations to approximate the value of $\pi$:
 
-$\pi = 4 \times ( 1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} - \frac{1}{11})$
+$\pi = 4 \times (1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} - \frac{1}{11})$
 
-$\pi = 4 \times ( 1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} - \frac{1}{11} + \frac{1}{13})$
+$\pi = 4 \times (1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} - \frac{1}{11} + \frac{1}{13})$
 
 Note that you have to create a variable to store the final result. You also have to force the computer to calculate the mathematical expressions.
 
