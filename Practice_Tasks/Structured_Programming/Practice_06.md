@@ -17,7 +17,7 @@ The checkpoint would be graded by the output of your programs. You may be penali
 
 Moreover, your repository should not have additional files with unrelated code, especially the folder with lab tasks.
 
-## Problem #1: Which Coordinate is Closer
+## Problem #1: Which Coordinate is Closer?
 
 In this task, students are required to write a program that asks the user for a coordinate (an integer number) on a number line and the coordinates of two other points (two integer numbers) on the same line. The program should determine which of these points is closer to the user. To solve this task, students must implement the method `int abs(int x)`.
 
