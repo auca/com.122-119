@@ -7,7 +7,7 @@ Object-oriented Programming, Practice #1, #2
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/download)
 * [Git](https://git-scm.com)
 
-## Practice #1, Problem #1: "Turtle Graphics, Procedural Style" (4%)
+## Practice #1, Problem #1: Turtle Graphics, Procedural Style
 
 >The Logo language made the concept of turtle graphics famous. Imagine a
 >mechanical turtle that walks around the room under the control of an
@@ -77,7 +77,7 @@ Write an application to implement the 'turtle graphics' capabilities discussed h
 
 ### Homework
 
-Read Introduction to Java Programming, 10th Edition by Y. Daniel Liang, Chapter 9
+Read Introduction to Java Programming, 12th Edition by Y. Daniel Liang, Chapter 8, 9, 10
 
 ### Expected Repository Structure
 
@@ -93,7 +93,7 @@ When you finish all assignments, your repository should look like this:
 
 If the files with assignments are named differently, you will be penalised.
 
-## Practice #2, Problem #1: "Turtle Graphics, OOP Style" (4%)
+## Practice #2, Problem #1: Turtle Graphics, OOP Style
 
 Write an application to implement the 'turtle graphics' capabilities discussed here in an (!) *object-oriented programming style*. Design and implement the `Turtle` and `Field` classes. In the main `Problem01` class, instantiate all the objects. Place two turtles on the field and allow the selection of turtle with the command `select <turtle number (1 or 2)>`. One turtle should be placed into the lower right corner of the field. It should look to the left side.
 
@@ -257,7 +257,7 @@ exit
 
 ### Homework
 
-Read Introduction to Java Programming, 10th Edition by Y. Daniel Liang, Chapter 10
+Read Introduction to Java Programming, 12th Edition by Y. Daniel Liang, Chapter 9, 10, 12, Sections 12.1–12.8 (ignore Sections 12.9–12.13)
 
 ### Expected Repository Structure
 

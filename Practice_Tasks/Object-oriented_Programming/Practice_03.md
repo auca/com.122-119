@@ -7,7 +7,7 @@ Object-oriented Programming, Practice #3
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/download)
 * [Git](https://git-scm.com)
 
-## Problem #1: "A Calculator of Rational Numbers" (2%)
+## Problem #1: A Calculator of Rational Numbers
 
 Create an application that can help users do arithmetic operations (addition, subtraction, multiplication, division, and comparisons) with rational numbers. Users may enter the first fraction, an operator (`+`, `-`, `*`, `/`, `<`, `>`, `=`, `!=`, `<=`, `>=`), and the second fraction. The application should calculate the final result and print it to the screen. If the input is invalid, the application should print an appropriate error and continue working.
 
@@ -90,13 +90,13 @@ gcd(a, b):
     return a
 ```
 
-## Problem #2: "BigRational" (2%)
+## Problem #2: BigRational
 
 Create a version of the `Rational` class called `BigRational` that supports computations with arbitrary precision numbers (use the class `java.math.BigInteger`). Use the `gcd` [method](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/math/BigInteger.html#gcd(java.math.BigInteger)) from the `BigInteger` class. Copy the `Problem01.java` code to a new file `Problem02.java` and change it to work with the `BigRational` class.
 
 ### Homework
 
-Read Introduction to Java Programming, 10th Edition by Y. Daniel Liang, Chapter 12, Sections 12.1–12.8 (ignore Sections 12.9–12.13)
+Read Introduction to Java Programming, 12th Edition by Y. Daniel Liang, Chapter 12, Sections 12.1–12.8 (ignore Sections 12.9–12.13)
 
 ### Expected Repository Structure
 
