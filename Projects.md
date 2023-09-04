@@ -3,7 +3,7 @@ Projects
 
 List of the course or bonus projects.
 
-## Structured Programming
+## Introduction to Programming
 
 ### Project #1
 
@@ -12,9 +12,3 @@ List of the course or bonus projects.
 ### Project #2
 
 * TBD
-
-## Object-oriented programming
-
-### Course Project
-
-* <https://github.com/toksaitov/simple-snake-project>
