@@ -5,7 +5,7 @@ Introduction to Programming, Object-oriented Programming
 
 General course information, time, rules, grading, and books
 
-* <https://github.com/auca/com.118-122-119/blob/master/Syllabus/AUCA_COM-122-119_2023_Syllabus.pdf>
+* <https://github.com/auca/com.122-119/blob/master/Syllabus/AUCA_COM-122-119_2023_Syllabus.pdf>
 
 ## Recordings
 
