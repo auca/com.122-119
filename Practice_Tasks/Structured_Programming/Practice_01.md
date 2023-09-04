@@ -137,9 +137,9 @@ Note that you have to create a variable to store the final result. You also have
 
 Write the code which computes the following two equations to approximate the value of $\pi$:
 
-$\pi = \sqrt(6 \times (1 + \frac{1}{4} + \frac{1}{9} + \frac{1}{16} + \frac{1}{25}))$
+$\pi = \sqrt{6 \times (1 + \frac{1}{4} + \frac{1}{9} + \frac{1}{16} + \frac{1}{25})}$
 
-$\pi = \sqrt(6 \times (1 + \frac{1}{4} + \frac{1}{9} + \frac{1}{16} + \frac{1}{25} + \frac{1}{36}))$
+$\pi = \sqrt{6 \times (1 + \frac{1}{4} + \frac{1}{9} + \frac{1}{16} + \frac{1}{25} + \frac{1}{36})}$
 
 Note that you have to create a variable to store the final result. You also have to force the computer to calculate the mathematical expressions.
 
