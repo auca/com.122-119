@@ -143,9 +143,9 @@ Note that you must create a variable or variables to store the values of every r
 ### Sample Output
 
 ```
-p       p*5      p*10
-5       25       50
-10      50       100
+p       p*5     p*10
+5        25       50
+10       50      100
 25      125      250
 50      250      500
 ```
