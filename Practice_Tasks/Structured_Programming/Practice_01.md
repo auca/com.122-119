@@ -197,3 +197,4 @@ If the files with assignments are named incorrectly, you will be penalized.
 
 * `iostream`: <https://en.cppreference.com/w/cpp/header/iostream>
 * `iomanip`: <https://en.cppreference.com/w/cpp/header/iomanip>
+* `cmath`: <https://en.cppreference.com/w/cpp/header/cmath>
