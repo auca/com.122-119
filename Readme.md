@@ -11,6 +11,6 @@ General course information, time, rules, grading, and books
 
 View this semester's class recordings
 
-### Lectures
+### Lectures and Labs
 
 * <https://youtube.com/playlist?list=PLHcEzCb_lW6c0Jcc_sgouWjtSvqWiZ0Di>
