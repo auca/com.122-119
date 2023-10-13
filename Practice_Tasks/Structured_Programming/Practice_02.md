@@ -55,7 +55,7 @@ Create an application that converts inches to centimeters. Note that one inch is
 
 ```
 Enter the length in inches: 17
-17 in. = 43.18 cm.
+17.00 in. = 43.18 cm.
 ```
 
 ## Problem #5: Fahrenheit to Celsius Converter
