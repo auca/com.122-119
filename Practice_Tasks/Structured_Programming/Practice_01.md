@@ -18,6 +18,7 @@ Write a program that outputs the `hello, world` message to the screen.
 
 ```
 hello, world
+
 ```
 
 ## Problem #2: A Message in a Rectangle
@@ -30,6 +31,7 @@ Create a program that prints the `hello, world` message surrounded by asterisk s
 **************
 *hello, world*
 **************
+
 ```
 
 ## Problem #3: What is Your Name?
@@ -41,6 +43,7 @@ Write a program that reads a user's full name from the console, then constructs 
 ```
 What is your name? John Doe
 Hello, John Doe!
+
 ```
 
 ## Problem #4: Operations on Two Integer Numbers
@@ -57,6 +60,7 @@ Enter the second integer: 2
 5 * 2 = 10
 5 / 2 = 2
 5 % 2 = 1
+
 ```
 
 ## Problem #5: Operations on Two Real Numbers
@@ -73,6 +77,7 @@ Enter the second double: 2.6
 5.1 * 2.6 = 13.26
 5.1 / 2.6 = 1.96154
 5.1 % 2.6 = 2.5
+
 ```
 
 ## Homework
@@ -99,6 +104,7 @@ Write a program that displays the pattern mentioned in the sample below. Your ou
   *****        *****
  *******        ***
 *********        *
+
 ```
 
 ### Homework Problem #7: Exercise 1.6
@@ -113,6 +119,7 @@ Note that you must create a variable to store the final result. You also have to
 
 ```
 100
+
 ```
 
 ### Homework Problem #8: Exercise 1.7
@@ -132,6 +139,7 @@ Note that you must create a variable to store the final result. You also have to
 ```
 2.96339
 2.99138
+
 ```
 
 ### Homework Problem #9: Exercise 1.4
@@ -148,6 +156,7 @@ p       p*5     p*10
 10       50      100
 25      125      250
 50      250      500
+
 ```
 
 ### Homework Problem #10: Exercise 1.11
@@ -170,6 +179,7 @@ Note that you must create variables to store intermediate or final results. You 
 320372776
 323152873
 325932970
+
 ```
 
 ## Expected Repository Structure
