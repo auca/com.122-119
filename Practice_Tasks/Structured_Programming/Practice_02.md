@@ -21,6 +21,7 @@ Enter the first value: 2
 Enter the second value: 3
 Before swapping: a = 2; b = 3;
 After swapping: a = 3; b = 2;
+
 ```
 
 ## Problem #2: Swap Two Numbers Without Temporary Variables
@@ -34,6 +35,7 @@ Enter the first value: 2
 Enter the second value: 3
 Before swapping: a = 2; b = 3;
 After swapping: a = 3; b = 2;
+
 ```
 
 ## Problem #3: Sum of Digits
@@ -45,6 +47,7 @@ Read a four-digit integer from the standard input and find the sum of all its di
 ```
 Enter a four-digit integer: 1237
 The sum of all digits is 13
+
 ```
 
 ## Problem #4: Inches to Centimeters Converter
@@ -56,6 +59,7 @@ Create an application that converts inches to centimeters. Note that one inch is
 ```
 Enter the length in inches: 17
 17.00 in. = 43.18 cm.
+
 ```
 
 ## Problem #5: Fahrenheit to Celsius Converter
@@ -69,6 +73,7 @@ $\degree C = \frac{5}{9} \times ( \degree F - 32 )$
 ```
 Enter the temperature in degrees Fahrenheit: 114
 The temperature in degrees Celsius is 45.56
+
 ```
 
 ## Homework
@@ -99,6 +104,7 @@ Ignore the sample output in the book. Instead, use the sample below to check the
 Enter the radius and length of a cylinder: 5.5 12
 The area is 95.0332
 The volume is 1140.4
+
 ```
 
 ### Homework Problem #7: Exercise 2.3
@@ -110,6 +116,7 @@ Write a program that reads a number in feet, converts it to meters, and displays
 ```
 Enter a value for feet: 16.5
 16.5 feet is 5.0325 meters
+
 ```
 
 ### Homework Problem #8: Exercise 2.4
@@ -121,6 +128,7 @@ Write a program that converts pounds into kilograms. The program prompts the use
 ```
 Enter a number in pounds: 55.5
 55.5 pounds is 25.197 kilograms
+
 ```
 
 ### Homework Problem #9: Exercise 2.7
@@ -132,6 +140,7 @@ Write a program that prompts the user to enter the minutes (e.g., 1 billion) and
 ```
 Enter the number of minutes: 1000000000
 1000000000 minutes is approximately 1902 years and 214 days
+
 ```
 
 ### Homework Problem #10: Exercise 2.11
@@ -147,6 +156,7 @@ Ignore the sample output in the book. Instead, use the sample below to check the
 ```
 Enter the number of years: 5
 The population in 5 years is 325932970
+
 ```
 
 ## Expected Repository Structure
