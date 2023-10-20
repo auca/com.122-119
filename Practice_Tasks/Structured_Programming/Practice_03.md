@@ -55,14 +55,14 @@ Create a program that compares two integers and prints the larger one. If the nu
 ```
 Enter the first number: 2
 Enter the second number: 3
-The larger number is 3.
+The first number 2 is less than the second number 3.
 
 ```
 
 ```
-Enter the first number: -5
-Enter the second number: 10
-The larger number is 10.
+Enter the first number: 10
+Enter the second number: -5
+The first number 10 is greater than the second number -5.
 
 ```
 
