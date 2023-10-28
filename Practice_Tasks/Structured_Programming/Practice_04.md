@@ -155,7 +155,7 @@ Incorrect month number.
 
 Read Introduction to C++ Programming, 3rd Edition by Y. Daniel Liang, Chapter 3, 4
 
-* Do programming exercises from chapter 3:
+* Do programming exercises from chapter 3 and 4:
 
   1. Exercise 3.11
   2. Exercise 3.20
@@ -169,10 +169,10 @@ A bank uses the following function to calculate the rate of interest (in percent
 
 $$
 \begin{array}{ll}
-15.0,& \text{if } $10000 \lt a \leq $100000 \\
-13.5,& \text{if } $100000 \lt a \leq $500000 \\
-12.5,& \text{if } $500000 \lt a \leq $1000000 \\
-11.0,& \text{if } $1000000 \lt a \leq $5000000 \\
+15.0,& \text{if } \$10000 \lt a \leq \$100000 \\
+13.5,& \text{if } \$100000 \lt a \leq \$500000 \\
+12.5,& \text{if } \$500000 \lt a \leq \$1000000 \\
+11.0,& \text{if } \$1000000 \lt a \leq \$5000000 \\
 \end{array}
 $$
 
