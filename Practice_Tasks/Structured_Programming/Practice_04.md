@@ -169,10 +169,10 @@ A bank uses the following function to calculate the rate of interest (in percent
 
 $$
 \begin{array}{ll}
-15.0,& \text{if } $10000 \lt w \leq $100000 \\
-13.5,& \text{if } $100000 \lt w \leq $500000 \\
-12.5,& \text{if } $500000 \lt w \leq $1000000 \\
-11.0,& \text{if } $1000000 \lt w \leq $5000000 \\
+15.0,& \text{if } $10000 \lt a \leq $100000 \\
+13.5,& \text{if } $100000 \lt a \leq $500000 \\
+12.5,& \text{if } $500000 \lt a \leq $1000000 \\
+11.0,& \text{if } $1000000 \lt a \leq $5000000 \\
 \end{array}
 $$
 
@@ -250,9 +250,7 @@ The card you picked is Ace of Spades
 
 ### Homework Problem #9: Exercise 4.15
 
-The international standard letter/number mapping found on the telephone is shown below:
-
-![Telephone](https://i.imgur.com/Zn6UdpC.png)
+The international standard letter/number mapping found on the telephone is shown [here](https://i.imgur.com/Zn6UdpC.png).
 
 Write a program that prompts the user to enter a letter and displays its corresponding number. Use the `switch` construct to solve the task.
 
