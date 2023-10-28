@@ -153,9 +153,162 @@ Incorrect month number.
 
 ## Homework
 
-Read Introduction to C++ Programming, 3rd Edition by Y. Daniel Liang, Chapter 3
+Read Introduction to C++ Programming, 3rd Edition by Y. Daniel Liang, Chapter 3, 4
 
-* TBD (there was a copy-paste mistake of old tasks from the Java course, we are reworking the homework part)
+* Do programming exercises from chapter 3:
+
+  1. Exercise 3.11
+  2. Exercise 3.20
+  3. Exercise 3.21
+  4. Exercise 4.15
+  5. Exercise 4.21
+
+### Homework Problem #6: Exercise 3.11
+
+A bank uses the following function to calculate the rate of interest (in percentage) for a particular loan amount (in lakhs of dollars).
+
+$$
+\begin{array}{ll}
+15.0,& \text{if } $10000 \lt w \leq $100000 \\
+13.5,& \text{if } $100000 \lt w \leq $500000 \\
+12.5,& \text{if } $500000 \lt w \leq $1000000 \\
+11.0,& \text{if } $1000000 \lt w \leq $5000000 \\
+\end{array}
+$$
+
+Write a program that prompts the user to enter the amount of the loan and displays the rate of interest. If the amount is less than $10000 or more than $5000000, display a message "Loan cannot be provided."
+
+Use any selection construct to solve the task.
+
+### Sample Input and Output
+
+```
+Enter the amount of the loan: 10000
+The rate of interest: 15.0
+
+```
+
+```
+Enter the amount of the loan: 5000000
+The rate of interest: 11.0
+
+```
+
+```
+Enter the amount of the loan: 510000
+The rate of interest: 12.5
+
+```
+
+```
+Enter the amount of the loan: 9999
+Loan cannot be provided.
+
+```
+
+### Homework Problem #7: Exercise 3.20
+
+Write a program that prompts the user to enter a point $(x, y)$ and checks whether the point is within the rectangle centered at $(0, 0)$ with width 10 and height 5. For example, $(2, 2)$ is inside the rectangle and $(6, 4)$ is outside the rectangle, as shown in the following [Figure](https://i.imgur.com/i2dhV4I.png).
+
+A point is in the rectangle if its horizontal distance to $(0, 0)$ is less than or equal to $10 / 2$ and its vertical distance to $(0, 0)$ is less than or equal to $5.0 / 2$. Test your program to cover all cases.
+
+Use any selection construct to solve the task.
+
+### Sample Input and Output
+
+```
+Enter a point with two coordinates: 2 2
+Point (2.0, 2.0) is in the rectangle
+
+```
+
+```
+Enter a point with two coordinates: 6 4
+Point (6.0, 4.0) is not in the rectangle
+
+```
+
+### Homework Problem #8: Exercise 3.21
+
+Write a program that simulates picking a card from a deck of 52 cards. Your program should display the rank (Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King) and suit (Clubs, Diamonds, Hearts, Spades) of the card.
+
+Use `srand` from `cstdlib` to seed the random number generator with the value of `42` to get a predicatable sequence to help us evaluate your program with an automated script. Other `srand` values to make the values less predictable will be discussed in the next lecture. Note that the examples below may not use `42` in `srand` and will produce different results compared to your program.
+
+Use the `switch` construct to solve the task.
+
+### Sample Output
+
+```
+The card you picked is Jack of Hearts
+
+```
+
+```
+The card you picked is Ace of Spades
+
+```
+
+### Homework Problem #9: Exercise 4.15
+
+The international standard letter/number mapping found on the telephone is shown below:
+
+![Telephone](https://i.imgur.com/Zn6UdpC.png)
+
+Write a program that prompts the user to enter a letter and displays its corresponding number. Use the `switch` construct to solve the task.
+
+### Sample Input and Output
+
+```
+Enter a letter: A
+The corresponding number is 2
+
+```
+
+```
+Enter a letter: a
+The corresponding number is 2
+
+```
+
+```
+Enter a letter: +
++ is an invalid input
+
+```
+
+### Homework Problem #10: Exercise 4.21
+
+Write a program that prompts the user to enter two characters and displays the major and status represented in the characters. The first character indicates the major and the second is number character 1, 2, 3, 4, which indicates whether a student is a Freshman, Sophomore, Junior, or Senior. Suppose the following characters are used to denote the majors:
+
+* `M`: Mathematics
+* `C`: Computer Science
+* `I`: Information Technology
+
+Use the `switch` construct to solve the task.
+
+```
+Enter two characters: M1
+Mathematics Freshman
+
+```
+
+```
+Enter two characters: C3
+Computer Science Junior
+
+```
+
+```
+Enter two characters: T3
+Invalid major code
+
+```
+
+```
+Enter two characters: M7
+Invalid status code
+
+```
 
 ## Expected Repository Structure
 
@@ -186,3 +339,5 @@ If the files with assignments are named incorrectly, you will be penalized.
 * `operators`: <https://en.cppreference.com/w/cpp/language/operator_precedence>
 * `if`: <https://en.cppreference.com/w/cpp/language/if>
 * `switch`: <https://en.cppreference.com/w/cpp/language/switch>
+* `srand`: <https://en.cppreference.com/w/cpp/numeric/random/srand>
+* `rand`: <https://en.cppreference.com/w/cpp/numeric/random/rand>
