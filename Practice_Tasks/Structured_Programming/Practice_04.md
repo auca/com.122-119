@@ -169,7 +169,7 @@ A bank uses the following function to calculate the rate of interest (in percent
 
 $$
 \begin{array}{ll}
-15.0,& \text{if } \$10000 \lt a \leq \$100000 \\
+15.0,& \text{if } \$10000 \leq a \leq \$100000 \\
 13.5,& \text{if } \$100000 \lt a \leq \$500000 \\
 12.5,& \text{if } \$500000 \lt a \leq \$1000000 \\
 11.0,& \text{if } \$1000000 \lt a \leq \$5000000 \\
