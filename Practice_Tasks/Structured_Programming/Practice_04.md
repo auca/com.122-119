@@ -252,7 +252,7 @@ The card you picked is Ace of Spades
 
 The international standard letter/number mapping found on the telephone is shown [here](https://i.imgur.com/Zn6UdpC.png).
 
-Write a program that prompts the user to enter a letter and displays its corresponding number. Use the `switch` construct to solve the task.
+Write a program that prompts the user to enter a letter and displays its corresponding number. Use the `switch` construct to solve the task. You can use any selection construct for error checking.
 
 ### Sample Input and Output
 
@@ -282,7 +282,7 @@ Write a program that prompts the user to enter two characters and displays the m
 * `C`: Computer Science
 * `I`: Information Technology
 
-Use the `switch` construct to solve the task.
+Use the `switch` construct to solve the task. You can use any selection construct for error checking.
 
 ```
 Enter two characters: M1
