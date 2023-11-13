@@ -86,7 +86,7 @@ Number of correct answers: 2
 Number of incorrect answers: 0
 ```
 
-## Problem #5: Circles
+## Problem #4: Circles
 
 Create an application that draws many circles of random sizes, at random coordinates, and of random colors. The number of circles has to be decided by you and stored in a constant in your code.
 
