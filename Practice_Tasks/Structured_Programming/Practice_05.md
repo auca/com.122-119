@@ -123,7 +123,7 @@ Create a program that generates tests to check students' ability to add numbers.
 
 Use the `while` loop first in your solution, comment it out, then write a `for` loop solution.
 
-Use `srand` from `cstdlib` to seed the random number generator with the value of `42` to get a predictable sequence to help us evaluate your program with an automated script. Note that the examples below may not use `42` in `srand` and will produce different results compared to your program.
+Use `srand` from `cstdlib` to seed the random number generator with the value of `42` to get a predictable sequence to help us evaluate your program with an automated script. Note that the examples below may not use `42` in `srand` and will produce different results compared to your program. The minimum and maximum values for the random generator must be in the range $[-20, 20]$.
 
 ### Sample Input and Output
 
