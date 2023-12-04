@@ -1,4 +1,4 @@
-Introduction to Programming, Practice #5
+Introduction to Programming, Practice #6
 ========================================
 
 ## Developer Tools
@@ -67,120 +67,230 @@ Don't forget to replace `<executable-name>` and `<path-to-source-file>` with the
 
 The checkpoint will be graded based on the output of your programs, the correctness of the structure of your repository, and the style of your code. You may be penalized and receive a lower grade if the printed text by your program does not match (wrong letters, additional spaces, or newlines, incorrectly computed result) the correct one. Please check your code and output before submitting it to GitHub or Canvas. Ensure the outcome of your program matches the specified output on this page. Do not forget to print a `\n` control sequence to go to a new line after the last message from your program. Format real numbers precisely to the number of decimal places specified in the sample output. Ensure that your code style is consistent, meaning the code is properly indented, groups of code are separated by blank lines, variable names are consistent in naming style, and describe in a compact manner the data stored in them. Your files and directories must be properly named as per the requirements outlined at the bottom of the page. Moreover, your repository should not contain additional files with unrelated code, especially within the folder designated for lab tasks. If you are told to use a particular function, you must base your solution on that function even if there exists a better solution without the use of it. Do not hesitate to contact your practice instructor on Canvas under the Discussions tab if you have any questions.
 
-## Problem #1: Arithmetic Mean
+## Problem #1: Swap Two Numbers
 
-Create an application that calculates the arithmetic mean for a list of grades (from one to five). All grades should be read from the standard input one at a time. A zero value should be considered the end of the input and not be used in the calculation.
-
-Use the `do...while` loop in this task.
+Create a program that swaps two values provided by the user. Create a function `void swap(?)` that swaps the values of `a` and `b`. Figure out the parameter list for this function. The function should not return or print any value. The function should be called from the `main` function. The `main` function should print the values of `a` and `b` before and after the swap.
 
 ### Sample Input and Output
 
 ```
-Enter the next grade or '0' to exit: 3
-Enter the next grade or '0' to exit: 4
-Enter the next grade or '0' to exit: 2
-Enter the next grade or '0' to exit: 5
-Enter the next grade or '0' to exit: 0
-The arithmetic mean is 3.5
+Enter the first value: 2
+Enter the second value: 3
+Before swapping: a = 2; b = 3;
+After swapping: a = 3; b = 2;
 
 ```
 
-```
-Enter the next grade or '0' to exit: 5
-Enter the next grade or '0' to exit: 5
-Enter the next grade or '0' to exit: 4
-Enter the next grade or '0' to exit: 4
-Enter the next grade or '0' to exit: 0
-The arithmetic mean is 4.5
+## Problem #2: Number of Days
 
-```
-
-```
-Enter the next grade or '0' to exit: 0
-Nothing to calculate
-
-```
-
-## Problem #2: Sum of Digits
-
-Create a program that reads an integer from the standard input and finds the sum of all its digits.
-
-Use the `while` loop in this task.
+Develop a program that calculates the number of days in a specific month for a given year. To structure your code efficiently, implement two functions: `int get_days_of_month(int year, int month)`, which determines the number of days in the given month and year, and `bool is_leap(int year)`, which checks if the specified year is a leap year.
 
 ### Sample Input and Output
 
 ```
-Enter an integer: 6427572
-The sum of all digits is 33.
+Enter the year: 2000
+Enter the month: 2
+Number of days: 29
 
 ```
 
 ```
-Enter an integer: 784
-The sum of all digits is 19.
-
-```
-
-## Problem #3: Simple Math Test
-
-Create a program that generates tests to check students' ability to add numbers. The program should print each test with random operands on a separate line, read each answer from a student, and provide statistics with the number of correct and incorrect answers at the end.
-
-Use the `while` loop first in your solution, comment it out, then write a `for` loop solution.
-
-Use `srand` from `cstdlib` to seed the random number generator with the value of `42` to get a predictable sequence to help us evaluate your program with an automated script. Note that the examples below may not use `42` in `srand` and will produce different results compared to your program. The minimum and maximum values for the random generator must be in the range $[-20, 20]$.
-
-### Sample Input and Output
-
-```
-Number of tests? 3
-5 + 3 = 8
-4 + 2 = 5
--3 + 11 = 9
-Number of correct answers: 1
-Number of incorrect answers: 2
+Enter the year: 1900
+Enter the month: 2
+Number of days: 28
 
 ```
 
 ```
-Number of tests? 2
--2 + 1 = -1
-2 + (-1) = 1
-Number of correct answers: 2
-Number of incorrect answers: 0
+Enter the year: 2004
+Enter the month: 4
+Number of days: 30
 
 ```
 
-## Problem #4: Circles
+```
+Enter the year: 2004
+Enter the month: -5
+Incorrect month number.
 
-Create a `raylib` application that draws multiple circles of random sizes, at random coordinates, and in random colors. The number of circles, predetermined by you, should be stored as a constant in your code.
+```
 
-You have certain artistic liberties in the task. You can choose the number of circles and their minimum and maximum radius. All the graphics task are evaluated manually.
+## Problem #3: Stars
+
+Develop a graphics application that generates an image consisting of five stars. Each star should be animated to rotate slowly around its center, either clockwise or counterclockwise. In this application, define the function `void draw_star(unsigned int rays, float x, float y, float inner_radius, float outer_radius, Color color = WHITE, float angle = 0.0f, float line_thickness = 2)` to reduce code duplication. This function will facilitate drawing each star with specified parameters such as the number of rays, position, radii, color, initial angle, and line thickness.
 
 ### Sample
 
-![Random Circles](https://i.imgur.com/xEHP8Jy.png)
+![Star](https://i.imgur.com/JZ5oIx5.png)
 
-## Problem #5: Gradient
+## Problem #4: Greatest Common Divisor (Naive Algorithm)
 
-Create a `raylib` application that draws a series of circles in varying shades of red, centered on the screen (as shown in the screenshot below). The number of circles, chosen by you, must be stored as a constant in your code. This number should be sufficient to achieve a visual effect similar to the one in the picture below.
+Develop a program that accepts two arbitrary integers and outputs their greatest common divisor (GCD). Incorporate the function `int gcd(int a, int b)` within this program to calculate the GCD of `a` and `b`. Your solution should be straightforward and avoid using the Euclidean algorithm. Note that it's acceptable for the solution to exhibit slower performance with large numbers.
 
-### Sample
+### Sample Input and Output
 
-![Gradient](https://i.imgur.com/70XUgkS.png)
+```
+a: 25
+b: 10
+GCD(25, 10) = 5
+
+```
+
+```
+a: 0
+b: 0
+GCD(0, 0) is not defined.
+
+```
+
+## Problem #5: Greatest Common Divisor (Euclidean Algorithm)
+
+Develop an updated version of the previous program that employs the Euclidean algorithm to calculate the greatest common divisor (GCD) of two arbitrary integers. Ensure that this new program is optimized for speed and efficiency, even when handling large numbers within the `int` data type range.
+
+### Sample Input and Output
+
+```
+a: 25
+b: 10
+GCD(25, 10) = 5
+
+```
+
+```
+a: 0
+b: 0
+GCD(0, 0) is not defined.
+
+```
 
 ## Homework
 
-Read Introduction to C++ Programming, 3rd Edition by Y. Daniel Liang, Chapter 5.
+Read Introduction to C++ Programming, 3rd Edition by Y. Daniel Liang, Chapter 6
 
-* Read, try to understand, and rewrite the following code examples from Chapter 5 as they are:
+* Do programming exercises from chapter 6:
 
- 1. `TestBreak.cpp` (name your file `p06.cpp`)
- 2. `TestContinue.cpp` (name your file `p07.cpp`)
- 3. `MultiplicationTable.cpp` (name your file `p08.cpp`)
- 4. `TestPalindrome.cpp` (name your file `p09.cpp`)
- 5. `PrimeNumber.cpp` (name your file `p10.cpp`)
+  1. Exercise 6.2
+  2. Exercise 6.4
+  3. Exercise 6.5
+  4. Exercise 6.6
+  5. Exercise 6.8
 
-While you can copy and paste the code from the book, it is highly recommended to avoid doing so. Instead, try to retype the code on your own for educational purposes. This practice will aid in preparing you for the Final Exam.
+### Homework Problem #6: Exercise 6.2
+
+Write a function `double averageDigits(long n)` that computes the average of the digits in an integer. Create a test program for the function that prompts the user to enter an integer and displays the sum and average of all its digits.
+
+### Sample Input and Output
+
+```
+Enter the number: 936
+The sum of the digits is 18
+The average of the digits is 6.0
+
+```
+
+### Homework Problem #7: Exercise 6.4
+
+Write a function `void displayEven(int number)` to display the even digits in an integer. Write a test program that prompts the user to enter an integer and displays the even digits in it.
+
+### Sample Input and Output
+
+```
+Enter the number: 936
+Even digits: 6
+
+```
+
+```
+Enter the number: 234
+Even digits: 24
+
+```
+
+### Homework Problem #8: Exercise 6.5
+
+Write a function `void displayLargest(double num1, double num2, double num3)` to display the largest of three numbers. Write a test program that prompts the user to enter three numbers and invokes the function to display the largest of them. Write another function called `double findLargest(double num1, double num2, double num3)` to return the largest of three numbers. Change your `main` function to invoke this function and print the result. Analyze the difference in the two approaches. Which one is better and why? A question like this may appear on the exam.
+
+### Sample Input and Output
+
+```
+Enter the first number: 1
+Enter the second number: 2
+Enter the third number: 3
+The largest number is 3.0
+
+
+```
+
+```
+Enter the first number: 3
+Enter the second number: 2
+Enter the third number: 1
+The largest number is 3.0
+
+```
+
+```
+Enter the first number: 1
+Enter the second number: 3
+Enter the third number: 2
+The largest number is 3.0
+
+```
+
+### Homework Problem #9: Exercise 6.6
+
+Write a function to display a pattern as follows:
+
+```
+****************
+**************
+************
+...
+*
+```
+
+Create a function `void displayPattern(int n)` to display such a pattern. Write a test program that prompts the user to enter an integer and displays the pattern.
+
+### Sample Input and Output
+
+```
+Enter the number of lines: 5
+*****
+****
+***
+**
+*
+
+```
+
+### Homework Problem #10: Exercise 6.8
+
+Write the following two functions:
+
+```C++
+// Convert from millimeters to inches
+double millimetersToInches(double millimeters)
+// Convert from inches to millimeters
+double inchesToMillimeters(double inches)
+```
+
+The formula for the conversion is
+
+```C++
+millimeters = 0.39 * inches;
+```
+
+Write a test program that invokes these functions to display the following tables:
+
+```
+Millimeters    Inches    |    Inches    Millimeters
+2              0.078     |    1         65.574
+4              0.156     |    2         81.967
+...
+98             3.822     |    49        1256.41
+100            3.900     |    50        1282.05
+
+```
 
 ## Expected Repository Structure
 
@@ -188,7 +298,7 @@ Upon completion of all assignments, your repository should look like this:
 
 ```
 . (.idea, .gitignore, CMakeLists.txt, other lab dirs)
-└── lab05
+└── lab06
     ├── p01.cpp
     ├── p02.cpp
     ├── p03.cpp
@@ -220,6 +330,7 @@ If the files with assignments are named incorrectly, you will be penalized.
 * `for`: <https://en.cppreference.com/w/cpp/language/for>
 * `continue`: <https://en.cppreference.com/w/cpp/language/continue>
 * `break`: <https://en.cppreference.com/w/cpp/language/break>
+* `functions`: <https://en.cppreference.com/w/cpp/language/functions>
 
 ## `raylib`
 
