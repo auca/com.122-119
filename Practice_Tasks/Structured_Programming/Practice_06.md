@@ -117,7 +117,7 @@ Incorrect month number.
 
 ## Problem #3: Stars
 
-Develop a graphics application that generates an image consisting of five stars. Each star should be animated to rotate slowly around its center, either clockwise or counterclockwise. In this application, define the function `void draw_star(unsigned int rays, float x, float y, float inner_radius, float outer_radius, Color color = WHITE, float angle = 0.0f, float line_thickness = 2)` to reduce code duplication. This function will facilitate drawing each star with specified parameters such as the number of rays, position, radii, color, initial angle, and line thickness.
+Develop a graphics application that generates an image consisting of five stars. Each star should be animated to rotate slowly around its center, either clockwise or counterclockwise. In this application, define the function `void draw_star(unsigned int rays, float x, float y, float inner_radius, float outer_radius, Color color = WHITE, float rotation_angle = 0.0f, float line_thickness = 2)` to reduce code duplication. This function will facilitate drawing each star with specified parameters such as the number of rays, position, radii, color, initial angle, and line thickness.
 
 ### Sample
 
