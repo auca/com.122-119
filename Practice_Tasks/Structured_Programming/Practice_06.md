@@ -268,9 +268,9 @@ Write the following two functions:
 
 ```C++
 // Convert from millimeters to inches
-double millimetersToInches(double millimeters)
+double millimetersToInches(double millimeters);
 // Convert from inches to millimeters
-double inchesToMillimeters(double inches)
+double inchesToMillimeters(double inches);
 ```
 
 The formula for the conversion is
