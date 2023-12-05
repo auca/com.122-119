@@ -218,7 +218,6 @@ Enter the second number: 2
 Enter the third number: 3
 The largest number is 3.0
 
-
 ```
 
 ```
