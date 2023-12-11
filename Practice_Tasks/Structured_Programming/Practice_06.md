@@ -69,7 +69,7 @@ The checkpoint will be graded based on the output of your programs, the correctn
 
 ## Problem #1: Swap Two Numbers
 
-Create a program that swaps two values provided by the user. Create a function `void swap(?)` that swaps the values of `a` and `b`. Figure out the parameter list for this function. The function should not return or print any value. The function should be called from the `main` function. The `main` function should print the values of `a` and `b` before and after the swap.
+Create a program that swaps two integer values provided by the user. Create a function `void swap(?)` that swaps the values of `a` and `b`. Figure out the parameter list for this function. The function should not return or print any value. The function should be called from the `main` function. The `main` function should print the values of `a` and `b` before and after the swap.
 
 ### Sample Input and Output
 
@@ -276,18 +276,63 @@ double inchesToMillimeters(double inches);
 The formula for the conversion is
 
 ```C++
-millimeters = 0.39 * inches;
+millimeters = inches * 25.4;
 ```
 
-Write a test program that invokes these functions to display the following tables:
+Write a test program that invokes these functions to display the following table (note the extra whitespaces at the end):
 
 ```
 Millimeters    Inches    |    Inches    Millimeters
-2              0.078     |    1         65.574
-4              0.156     |    2         81.967
-...
-98             3.822     |    49        1256.41
-100            3.900     |    50        1282.05
+2              0.079     |    1         25.400  
+4              0.157     |    2         50.800  
+6              0.236     |    3         76.200  
+8              0.315     |    4         101.600 
+10             0.394     |    5         127.000 
+12             0.472     |    6         152.400 
+14             0.551     |    7         177.800 
+16             0.630     |    8         203.200 
+18             0.709     |    9         228.600 
+20             0.787     |    10        254.000 
+22             0.866     |    11        279.400 
+24             0.945     |    12        304.800 
+26             1.024     |    13        330.200 
+28             1.102     |    14        355.600 
+30             1.181     |    15        381.000 
+32             1.260     |    16        406.400 
+34             1.339     |    17        431.800 
+36             1.417     |    18        457.200 
+38             1.496     |    19        482.600 
+40             1.575     |    20        508.000 
+42             1.654     |    21        533.400 
+44             1.732     |    22        558.800 
+46             1.811     |    23        584.200 
+48             1.890     |    24        609.600 
+50             1.969     |    25        635.000 
+52             2.047     |    26        660.400 
+54             2.126     |    27        685.800 
+56             2.205     |    28        711.200 
+58             2.283     |    29        736.600 
+60             2.362     |    30        762.000 
+62             2.441     |    31        787.400 
+64             2.520     |    32        812.800 
+66             2.598     |    33        838.200 
+68             2.677     |    34        863.600 
+70             2.756     |    35        889.000 
+72             2.835     |    36        914.400 
+74             2.913     |    37        939.800 
+76             2.992     |    38        965.200 
+78             3.071     |    39        990.600 
+80             3.150     |    40        1016.000
+82             3.228     |    41        1041.400
+84             3.307     |    42        1066.800
+86             3.386     |    43        1092.200
+88             3.465     |    44        1117.600
+90             3.543     |    45        1143.000
+92             3.622     |    46        1168.400
+94             3.701     |    47        1193.800
+96             3.780     |    48        1219.200
+98             3.858     |    49        1244.600
+100            3.937     |    50        1270.000
 
 ```
 
