@@ -1,4 +1,4 @@
-Introduction to Programming, Practice #6
+Introduction to Programming, Practice #7
 ========================================
 
 ## Developer Tools
@@ -67,23 +67,33 @@ Don't forget to replace `<executable-name>` and `<path-to-source-file>` with the
 
 The checkpoint will be graded based on the output of your programs, the correctness of the structure of your repository, and the style of your code. You may be penalized and receive a lower grade if the printed text by your program does not match (wrong letters, additional spaces, or newlines, incorrectly computed result) the correct one. Please check your code and output before submitting it to GitHub or Canvas. Ensure the outcome of your program matches the specified output on this page. Do not forget to print a `\n` control sequence to go to a new line after the last message from your program. Format real numbers precisely to the number of decimal places specified in the sample output. Ensure that your code style is consistent, meaning the code is properly indented, groups of code are separated by blank lines, variable names are consistent in naming style, and describe in a compact manner the data stored in them. Your files and directories must be properly named as per the requirements outlined at the bottom of the page. Moreover, your repository should not contain additional files with unrelated code, especially within the folder designated for lab tasks. If you are told to use a particular function, you must base your solution on that function even if there exists a better solution without the use of it. Do not hesitate to contact your practice instructor on Canvas under the Discussions tab if you have any questions.
 
-## Problem #1: Swap Two Numbers
+## Problem #1: Dice
 
-Create a program that swaps two values provided by the user. Create a function `void swap(?)` that swaps the values of `a` and `b`. Figure out the parameter list for this function. The function should not return or print any value. The function should be called from the `main` function. The `main` function should print the values of `a` and `b` before and after the swap.
+Create a program that simulates the tosses of two six-sided dice, thrown a specified number of times. The program should output counters for all sums that appear during the throws.
+
+Use `srand` from `cstdlib` to seed the random number generator with the value of `42`. This ensures a predictable sequence, which will aid in the evaluation of the program through an automated script. Note that the examples provided below may not use `42` as the seed in `srand`, and therefore, they will produce results different from your program.
 
 ### Sample Input and Output
 
 ```
-Enter the first value: 2
-Enter the second value: 3
-Before swapping: a = 2; b = 3;
-After swapping: a = 3; b = 2;
+Enter the number of times to throw two dice: 6000
+Got 2 on the dice 166 times.
+Got 3 on the dice 338 times.
+Got 4 on the dice 475 times.
+Got 5 on the dice 629 times.
+Got 6 on the dice 831 times.
+Got 7 on the dice 1019 times.
+Got 8 on the dice 843 times.
+Got 9 on the dice 671 times.
+Got 10 on the dice 496 times.
+Got 11 on the dice 361 times.
+Got 12 on the dice 171 times.
 
 ```
 
 ## Problem #2: Number of Days
 
-Develop a program that calculates the number of days in a specific month for a given year. To structure your code efficiently, implement two functions: `int get_days_of_month(int year, int month)`, which determines the number of days in the given month and year, and `bool is_leap(int year)`, which checks if the specified year is a leap year.
+Develop a program that calculates the number of days in a specific month for a given year. To structure your code efficiently, implement two functions: `int get_days_of_month(int year, int month)`, which returns the number of days in the specified month and year, and `bool is_leap(int year)`, that checks if the given year is a leap year. In the `get_days_of_month` function, use an array to look up and return the number of days, replacing the traditional selection construct.
 
 ### Sample Input and Output
 
@@ -115,179 +125,170 @@ Incorrect month number.
 
 ```
 
-## Problem #3: Stars
+## Problem #3: Analyze Data
 
-Develop a graphics application that generates an image consisting of five stars. Each star should be animated to rotate slowly around its center, either clockwise or counterclockwise. In this application, define the function `void draw_star(unsigned int rays, float x, float y, float inner_radius, float outer_radius, Color color = WHITE, float rotation_angle = 0.0f, float line_thickness = 2)` to reduce code duplication. This function will facilitate drawing each star with specified parameters such as the number of rays, position, radii, color, initial angle, and line thickness.
+Read a list of five integer numbers. Load these numbers into an array and print the array to the screen. Then, find the minimum and maximum values in the array. Calculate the mean value and the standard deviation of the array values.
+
+The standard deviation can be calculated using the following formula:
+
+$\sigma = \sqrt{\frac{\sum{(x_{i} - \mu)^2}}{N}}$
+
+In this formula, $N$ is the array size, $\mu$ represents the mean value of the array, and $x_i$ represents each individual number in the array.
+
+### Sample Input and Output
+
+```
+Enter the element at index 0: 1
+Enter the element at index 1: 2
+Enter the element at index 2: 3
+Enter the element at index 3: 4
+Enter the element at index 4: 5
+Data:
+1 2 3 4 5
+Min: 1
+Max: 5
+Mean: 3.00
+SD: 1.58
+
+```
+
+## Problem #4: Reverse
+
+Read a list of five numbers. Load them into an array. Print the array to the screen. Then, reverse the order of the array elements in memory. Print the modified array to the screen again.
+
+### Sample Input and Output
+
+```
+Enter the element at index 0: 3
+Enter the element at index 1: 1
+Enter the element at index 2: 5
+Enter the element at index 3: 6
+Enter the element at index 4: 0
+Before reversing:
+3 1 5 6 0
+After reversing:
+0 6 5 1 3
+```
+
+## Problem #5: Stars
+
+Develop a graphics application that generates an image consisting of many stars bouncing around from one side to another. Use random values for postions, sizes, colors, speed of movement, and many other parameters. Each star should rotate around its center, either clockwise or counterclockwise. You can reuse the star code from the previous lab.
 
 ### Sample
 
-![Star](https://i.imgur.com/JZ5oIx5.png)
+You can click on the picture to watch the video.
 
-## Problem #4: Greatest Common Divisor (Naive Algorithm)
-
-Develop a program that accepts two arbitrary integers and outputs their greatest common divisor (GCD). Incorporate the function `int gcd(int a, int b)` within this program to calculate the GCD of `a` and `b`. Your solution should be straightforward and avoid using the Euclidean algorithm. Note that it's acceptable for the solution to exhibit slower performance with large numbers.
-
-### Sample Input and Output
-
-```
-a: 25
-b: 10
-GCD(25, 10) = 5
-
-```
-
-```
-a: 0
-b: 0
-GCD(0, 0) is not defined.
-
-```
-
-## Problem #5: Greatest Common Divisor (Euclidean Algorithm)
-
-Develop an updated version of the previous program that employs the Euclidean algorithm to calculate the greatest common divisor (GCD) of two arbitrary integers. Ensure that this new program is optimized for speed and efficiency, even when handling large numbers within the `int` data type range.
-
-### Sample Input and Output
-
-```
-a: 25
-b: 10
-GCD(25, 10) = 5
-
-```
-
-```
-a: 0
-b: 0
-GCD(0, 0) is not defined.
-
-```
+[![Star](https://i.imgur.com/3UTlwb1.png)](https://drive.google.com/file/d/1Gmhfrioig31BlrunWqSXgM0n3nIWixj-/view?usp=sharing)
 
 ## Homework
 
-Read Introduction to C++ Programming, 3rd Edition by Y. Daniel Liang, Chapter 6
+Read Introduction to C++ Programming, 3rd Edition by Y. Daniel Liang, Chapter 7
 
-* Do programming exercises from chapter 6:
+* Do programming exercises from chapter 7:
 
-  1. Exercise 6.2
-  2. Exercise 6.4
-  3. Exercise 6.5
-  4. Exercise 6.6
-  5. Exercise 6.8
+  1. Exercise 7.1
+  2. Exercise 7.3
+  3. Exercise 7.5
+  4. Exercise 7.10
+  5. Exercise 7.23
 
-### Homework Problem #6: Exercise 6.2
+### Homework Problem #6: Exercise 7.1
 
-Write a function `double averageDigits(long n)` that computes the average of the digits in an integer. Create a test program for the function that prompts the user to enter an integer and displays the sum and average of all its digits.
+Write a program that reads 4 student scores, gets the best score, and then assigns grades based on the following scheme:
+
+```
+Grade is A if score is >= best - 10
+Grade is B if score is >= best - 20
+Grade is C if score is >= best - 30
+Grade is D if score is >= best - 40
+Grade is F otherwise.
+
+```
+
+The program prompts the user to enter the total number of students (40 at most), then prompts the user to enter all of the scores, and concludes by displaying the grades. Here is a sample run:
 
 ### Sample Input and Output
 
 ```
-Enter the number: 936
-The sum of the digits is 18
-The average of the digits is 6.0
+Enter the number of students: 4
+Enter 4 scores: 40 55 70 58
+Student 0 score is 40 and grade is C
+Student 1 score is 55 and grade is B
+Student 2 score is 70 and grade is A
+Student 3 score is 58 and grade is B
 
 ```
 
-### Homework Problem #7: Exercise 6.4
+### Homework Problem #7: Exercise 7.3
 
-Write a function `void displayEven(int number)` to display the even digits in an integer. Write a test program that prompts the user to enter an integer and displays the even digits in it.
+Write a program that reads at most 100 integers between 1 and 100 and counts the occurrences of each. Assume the input ends with 0. Note that if a number occurs more than one time, the plural word 'times' is used in the output. Numbers are displayed in increasing order.
 
 ### Sample Input and Output
 
 ```
-Enter the number: 936
-Even digits: 6
+Enter the integers between 1 and 100: 2 5 6 5 4 3 23 43 2 0
+2 occurs 2 times
+3 occurs 1 time
+4 occurs 1 time
+5 occurs 2 times
+6 occurs 1 time
+23 occurs 1 time
+43 occurs 1 time
 
 ```
 
-```
-Enter the number: 234
-Even digits: 24
+### Homework Problem #8: Exercise 7.5
 
-```
-
-### Homework Problem #8: Exercise 6.5
-
-Write a function `void displayLargest(double num1, double num2, double num3)` to display the largest of three numbers. Write a test program that prompts the user to enter three numbers and invokes the function to display the largest of them. Write another function called `double findLargest(double num1, double num2, double num3)` to return the largest of three numbers. Change your `main` function to invoke this function and print the result. Analyze the difference in the two approaches. Which one is better and why? A question like this may appear on the exam.
+Write a program that reads in 10 numbers and displays distinct numbers (i.e., if a number appears multiple times, it is displayed only once).
 
 ### Sample Input and Output
 
 ```
-Enter the first number: 1
-Enter the second number: 2
-Enter the third number: 3
-The largest number is 3.0
+Enter ten numbers: 1 2 3 2 1 6 3 4 5 2
+The distinct numbers are: 1 2 3 6 4 5
 
 ```
 
-```
-Enter the first number: 3
-Enter the second number: 2
-Enter the third number: 1
-The largest number is 3.0
+### Homework Problem #9: Exercise 7.10
 
-```
-
-```
-Enter the first number: 1
-Enter the second number: 3
-Enter the third number: 2
-The largest number is 3.0
-
-```
-
-### Homework Problem #9: Exercise 6.6
-
-Write a function to display a pattern as follows:
-
-```
-****************
-**************
-************
-...
-*
-```
-
-Create a function `void displayPattern(int n)` to display such a pattern. Write a test program that prompts the user to enter an integer and displays the pattern.
-
-### Sample Input and Output
-
-```
-Enter the number of lines: 5
-*****
-****
-***
-**
-*
-
-```
-
-### Homework Problem #10: Exercise 6.8
-
-Write the following two functions:
+Write a function that returns the index of the largest element in an array of integers. If there are more such elements than one, return the largest index.
 
 ```C++
-// Convert from millimeters to inches
-double millimetersToInches(double millimeters);
-// Convert from inches to millimeters
-double inchesToMillimeters(double inches);
+int indexOfLargestElement(double array[], int size)
 ```
 
-The formula for the conversion is
+Write a test program that prompts the user to enter 15 numbers, invokes this function to return the index of the largest element, and displays the index.
+
+### Sample Input and Output
+
+```
+15 numbers: 10 9 8 7 6 5 4 3 2 1 4 6 3 9 10
+14
+
+```
+
+### Homework Problem #10: Exercise 7.23
+
+Two arrays `list1` and `list2` are identical if they have the same contents. Write a function that returns `true` if `list1` and `list2` are identical using the following header:
 
 ```C++
-millimeters = 0.39 * inches;
+bool isEqual(const int list1[], const int list2[], int size)
 ```
 
-Write a test program that invokes these functions to display the following tables:
+Write a test program that prompts the user to enter two lists of integers and dis- plays whether the two are identical. Here are the sample runs. Note that the first number in the input indicates the number of the elements in the list. This number is not part of the list. Assume the list size is maximum 20.
+
+### Sample Input and Output
 
 ```
-Millimeters    Inches    |    Inches    Millimeters
-2              0.078     |    1         65.574
-4              0.156     |    2         81.967
-...
-98             3.822     |    49        1256.41
-100            3.900     |    50        1282.05
+15 numbers: 10 9 8 7 6 5 4 3 2 1 4 6 3 9 10
+14
+
+```
+
+```
+Enter list1: 5 5 5 6 6 1
+Enter list2: 5 2 5 6 1 6
+Two lists are not identical
 
 ```
 
@@ -297,7 +298,7 @@ Upon completion of all assignments, your repository should look like this:
 
 ```
 . (.idea, .gitignore, CMakeLists.txt, other lab dirs)
-└── lab06
+└── lab07
     ├── p01.cpp
     ├── p02.cpp
     ├── p03.cpp
@@ -332,6 +333,8 @@ If the files with assignments are named incorrectly, you will be penalized.
 * `functions`: <https://en.cppreference.com/w/cpp/language/functions>
 * `pointers`: <https://en.cppreference.com/w/cpp/language/pointer>
 * `references`: <https://en.cppreference.com/w/cpp/language/reference>
+* `arrays`: <https://en.cppreference.com/w/cpp/language/array>
+* `struct`: <https://en.cppreference.com/w/c/language/struct>
 
 ## `raylib`
 
