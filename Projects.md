@@ -5,10 +5,6 @@ List of the course or bonus projects.
 
 ## Introduction to Programming
 
-### Project #1
+### Project #1, #2
 
-* TBD
-
-### Project #2
-
-* TBD
+* <https://github.com/toksaitov/simple-dungeon-project>
