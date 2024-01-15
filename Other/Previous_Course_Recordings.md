@@ -123,3 +123,9 @@ Previous Course Recordings
 ### Lectures and Labs
 
 * <https://youtube.com/playlist?list=PLHcEzCb_lW6f5jh5rQds77v84frszJcVq>
+
+## Fall 2023
+
+### Lectures and Labs
+
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6c0Jcc_sgouWjtSvqWiZ0Di>
