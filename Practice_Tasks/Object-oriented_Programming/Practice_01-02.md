@@ -33,6 +33,9 @@ In this problem, you will simulate the operation of the turtle and create a digi
 The following list of commands would draw and display a square, leaving the pen in the up position:
 
 ```
+Turtle Graphics
+===============
+Type your commands (`pen-up`, `pen-down`, `turn-right`, `turn-left`, `move <steps>`, `display`, `exit`) below.
 move 4
 turn-right
 move 4
@@ -85,7 +88,7 @@ Upon completion of all assignments, your repository should look like this:
 
 ```
 . (.idea, .gitignore, CMakeLists.txt, Readme.md)
-└── p01.cpp
+└── main.cpp
 ```
 
 If the files with assignments are named incorrectly, you will be penalized.
@@ -97,6 +100,9 @@ Write an application to implement the 'turtle graphics' capabilities discussed h
 ### Example
 
 ```
+Turtle Graphics
+===============
+Type your commands (`select <turtle num>`, `pen-up`, `pen-down`, `turn-right`, `turn-left`, `move <n>`, `display`, `exit`) below.
 move 1
 turn-right
 move 1
@@ -184,6 +190,9 @@ The error messages may differ in this requirement document compared to what the 
 Please, note that some empty lines in the example below contain invisible whitespace and tab sequences of characters.
 
 ```
+Turtle Graphics
+===============
+Type your commands (`select <turtle num>`, `pen-up`, `pen-down`, `turn-right`, `turn-left`, `move <n>`, `display`, `exit`) below.
 
     
 			
@@ -261,8 +270,12 @@ Upon completion of all assignments, your repository should look like this:
 ```
 . (.idea, .gitignore, CMakeLists.txt, Readme.md)
 ├── field.h
+├── field.cpp
 ├── turtle.h
-└── p01.cpp
+├── turtle.cpp
+├── cmd.h
+├── cmd.cpp
+└── main.cpp
 ```
 
 If the files with assignments are named incorrectly, you will be penalized.
