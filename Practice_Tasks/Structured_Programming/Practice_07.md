@@ -35,22 +35,15 @@ Follow these steps to install the `raylib` library in your C++ project in CLion 
 
 #### Step 4: Integrate `raylib` Into the Project
 
-- Once the installation is complete, you need to include `raylib` in your project. For that, open the `CMakeLists.txt` file in your project and add the following after the `set(CMAKE_CXX_STANDARD 17)` line:
+- Once the installation is complete, you need to integrate `raylib` into your project. On macOS, you must enable an address sanitization library since `raylib` is compiled with it on this platform. On GNU/Linux, a similar step is required, but the command differs to also include the undefined behavior sanitizer. To accomplish this, open the `CMakeLists.txt` file in your project and append the following lines after the `set(CMAKE_CXX_STANDARD 17)` line:
 
     ```cmake
     find_package(raylib CONFIG REQUIRED)
-    ```
-
-- On macOS, you also have to enable an address sanitization library by adding the following line after:
-
-    ```cmake
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fsanitize=address")
-    ```
-
-- On GNU/Linux, you should do a similar thing, but the line should be different to enable the undefined behavior sanitizer:
-
-    ```cmake
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread -fsanitize=address -fsanitize=undefined")
+    if(APPLE)
+        set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fsanitize=address")
+    elseif(UNIX)
+        set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread -fsanitize=address -fsanitize=undefined")
+    endif()
     ```
 
 #### Step 5: Link `raylib` to a Program
@@ -65,7 +58,7 @@ Don't forget to replace `<executable-name>` and `<path-to-source-file>` with the
 
 ## Important Notes
 
-The checkpoint will be graded based on the output of your programs, the correctness of the structure of your repository, and the style of your code. You may be penalized and receive a lower grade if the printed text by your program does not match (wrong letters, additional spaces, or newlines, incorrectly computed result) the correct one. Please check your code and output before submitting it to GitHub or Canvas. Ensure the outcome of your program matches the specified output on this page. Do not forget to print a `\n` control sequence to go to a new line after the last message from your program. Format real numbers precisely to the number of decimal places specified in the sample output. Ensure that your code style is consistent, meaning the code is properly indented, groups of code are separated by blank lines, variable names are consistent in naming style, and describe in a compact manner the data stored in them. Your files and directories must be properly named as per the requirements outlined at the bottom of the page. Moreover, your repository should not contain additional files with unrelated code, especially within the folder designated for lab tasks. If you are told to use a particular function, you must base your solution on that function even if there exists a better solution without the use of it. Do not hesitate to contact your practice instructor on Canvas under the Discussions tab if you have any questions.
+The checkpoint will be graded based on the output of your programs, the correctness of the structure of your repository, and the style of your code. You may be penalized and receive a lower grade if the printed text by your program does not match (wrong letters, additional spaces, or newlines, incorrectly computed result) the correct one. Please check your code and output before submitting it to GitHub or Moodle. Ensure the outcome of your program matches the specified output on this page. Do not forget to print a `\n` control sequence to go to a new line after the last message from your program. Format real numbers precisely to the number of decimal places specified in the sample output. Ensure that your code style is consistent, meaning the code is properly indented, groups of code are separated by blank lines, variable names are consistent in naming style, and describe in a compact manner the data stored in them. Your files and directories must be properly named as per the requirements outlined at the bottom of the page. Moreover, your repository should not contain additional files with unrelated code, especially within the folder designated for lab tasks. If you are told to use a particular function, you must base your solution on that function even if there exists a better solution without the use of it. Do not hesitate to contact your practice instructor if you have any questions.
 
 ## Problem #1: Dice
 
@@ -315,7 +308,7 @@ If the files with assignments are named incorrectly, you will be penalized.
 
 ## Documentation
 
-## C++
+### C++
 
 * `iostream`: <https://en.cppreference.com/w/cpp/header/iostream>
 * `iomanip`: <https://en.cppreference.com/w/cpp/header/iomanip>
@@ -336,7 +329,7 @@ If the files with assignments are named incorrectly, you will be penalized.
 * `arrays`: <https://en.cppreference.com/w/cpp/language/array>
 * `struct`: <https://en.cppreference.com/w/c/language/struct>
 
-## `raylib`
+### `raylib`
 
 * Wiki: <https://github.com/raysan5/raylib/wiki>
 * Cheatsheet: <https://www.raylib.com/cheatsheet/cheatsheet.html>
