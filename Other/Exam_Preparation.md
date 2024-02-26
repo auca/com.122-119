@@ -51,16 +51,16 @@ Read the following chapters of the course book:
 
 Redo labs 1 to 4 and try to implement the following classes in C++ on your own:
 
-* `Point2D`
-* `Point3D`
-* `Vector2`
-* `Vector3`
-* `Vector4`
-* `Matrix2x2`
-* `Matrix3x3`
-* `Complex`
-* `Queue`
-* `Vector` (simple version of `std::vector`)
+* `point2D`
+* `point3D`
+* `vector2`
+* `vector3`
+* `vector4`
+* `matrix2x2`
+* `matrix3x3`
+* `complex`
+* `queue`
+* `vector` (simple version of `std::vector`)
 
 Focus on the following concepts:
 
