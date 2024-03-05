@@ -11,6 +11,10 @@ List of the course or bonus projects.
 
 ## Object-Oriented Programming
 
-### Project #1, #2
+### Project #1
+
+* <https://github.com/toksaitov/simple-sokoban-project>
+
+### Project #2
 
 * TBD
