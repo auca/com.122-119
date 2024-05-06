@@ -82,9 +82,13 @@ Read the following chapters of the course book:
 
 * Chapter 13: File Input and Output
 * Chapter 15: Inheritance and Polymorphism
-* Chapter 16: Exception Handling (`finally`, Custom Exceptions Classes)
+* Chapter 16: Exception Handling (Custom Exceptions Classes)
 * Chapter 17: Recursion
 
 #### Practice
 
 Redo labs 5 to 8 and try to create simple GUI applications with QT to draw 2D shapes such as points, lines, circles, rectangles, and polygons to the screen upon user input (button clicks to select a shape).
+
+Programs like this will be there on the final exam:
+
+* <https://drive.google.com/file/d/1Se_tms15zgtDEY5djBQPg3SunTdkU5io/view?usp=share_link>
