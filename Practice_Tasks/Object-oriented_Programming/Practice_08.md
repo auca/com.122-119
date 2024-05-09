@@ -22,7 +22,7 @@ Read, try to understand, and rewrite the following code example from Chapter 16:
 
 Keep the names of all files and classes the same.
 
-Your program should generate the following output
+Your program should generate the following output:
 
 ```
 Perimeter is 3
@@ -33,41 +33,46 @@ Invalid triangle three sides are 1 1 4
 
 ### Homework Problem #2: Multiple Catches (16.6)
 
-Read, try to understand, and rewrite the following code example from Chapter 16:
+Following the same instructions, rewrite the code example:
 
 * Listing 16.14: `MultipleCatchDemo.cpp`
 
-Keep the names of all files and classes the same.
-
-Your program should generate the following output
+#### Sample Input and Output 1:
 
 ```
 Enter three sides: 2 2.5 2.5
-Normal execution Perimeter is 7
+Perimeter is 7
 Area is 2.29129
 
-Enter three sides: -1 1 1
-Nonpositive side –1 Nonpositive side the side is -1
+```
 
+#### Sample Input and Output 2:
+
+```
+Enter three sides: -1 1 1
+Non-positive side the side is -1
+
+```
+
+#### Sample Input and Output 3:
+
+```
 Enter three sides: 1 2 1
-Invalid triangle Invalid triangle three sides are 1 2 1
+Invalid triangle three sides are 1 2 1
 
 ```
 
 ### Homework Problem #3: Rethrowing Exceptions (16.8)
 
-Read, try to understand, and rewrite the following code example from Chapter 16:
+Following the same instructions, rewrite the code example:
 
 * Listing 16.15: `RethrowExceptionDemo.cpp`
 
-Keep the names of files and classes the same.
-
-Your program should generate the following output
+Your program should generate the following output:
 
 ```
 Exception caught in function f1
 Exception in f1
-
 Exception caught in function main
 Exception in f1
 
@@ -79,10 +84,15 @@ Upon completion of all assignments, your repository should look like this:
 
 ```
 . (.idea, .gitignore, CMakeLists.txt, Readme.md)
+├── AbstractGeometricObject.h
+├── AbstractGeometricObject.cpp
+├── TriangleException.h
+├── Triangle.h
+├── NonPositiveSideException.h
+├── NewTriangle.h
 ├── TestTriangle.cpp
 ├── MultipleCatchDemo.cpp
-├── RethrowExceptionDemo.cpp
-└── <All the Header Files Mentioned in the Book>.h
+└── RethrowExceptionDemo.cpp
 ```
 
 If the files with assignments are named incorrectly, you will be penalized.
