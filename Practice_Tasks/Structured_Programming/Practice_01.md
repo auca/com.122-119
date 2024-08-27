@@ -102,15 +102,15 @@ Do programming exercises from chapter 1:
 
 ### Homework Problem #6: Exercise 1.3
 
-Write a program that displays the pattern mentioned in the sample below. Your output must be precise up to the last character as demonstrated below. Do not use loops or selection constructs yet.
+Write a program that displays the pattern mentioned in the sample below. The output format here differs from the one in the book. Your output must be precise up to the last character as demonstrated below. Do not use loops or selection constructs yet.
 
 #### Sample Output
 
 ```
-    *        *********
-   ***        *******
-  *****        *****
- *******        ***
+*        *********
+***        *******
+*****        *****
+*******        ***
 *********        *
 
 ```
