@@ -4,17 +4,23 @@ Introduction to Programming, Practice #2
 ## Developer Tools
 
 * [CLion](https://www.jetbrains.com/clion/download)
-* [Git SCM](https://git-scm.com)
+* [Git SCM](https://git-scm.com/downloads)
 
 ## Important Notes
 
-The checkpoint will be graded based on the output of your programs, the correctness of the structure of your repository, and the style of your code. You may be penalized and receive a lower grade if the printed text by your program does not match (wrong letters, additional spaces, or newlines, incorrectly computed result) the correct one. Please check your code and output before submitting it to GitHub or Moodle. Ensure the outcome of your program matches the specified output on this page. Do not forget to print a `\n` control sequence to go to a new line after the last message from your program. Format real numbers precisely to the number of decimal places specified in the sample output. Ensure that your code style is consistent, meaning the code is properly indented, groups of code are separated by blank lines, variable names are consistent in naming style, and describe in a compact manner the data stored in them. Your files and directories must be properly named as per the requirements outlined at the bottom of the page. Moreover, your repository should not contain additional files with unrelated code, especially within the folder designated for lab tasks. If you are told to use a particular function, you must base your solution on that function even if there exists a better solution without the use of it. Do not hesitate to contact your practice instructor if you have any questions.
+The checkpoint will be graded based on the output of your programs, the correctness of the structure of your repository, and the style of your code. You may be penalized and receive a lower grade if the printed text by your program does not match (wrong letters, additional spaces, or newlines, incorrectly computed result) the correct one. Please check your code and output before submitting it to GitHub or Moodle. Ensure the outcome of your program matches the specified output on this page. Do not forget to print a \n control sequence to go to a new line after the last message from your program. Format real numbers precisely to the number of decimal places specified in the sample output. Ensure that your code style is consistent, meaning the code is properly indented, groups of code are separated by blank lines, variable names are consistent in naming style, and describe in a compact manner the data stored in them. Your files and directories must be properly named as per the requirements outlined at the bottom of the page. Moreover, your repository should not contain additional files with unrelated code, especially within the folder designated for lab tasks. If you are told to use a particular function, you must base your solution on that function even if there exists a better solution without the use of it. Do not hesitate to contact your practice instructor if you have any questions.
 
-## Problem #1: Swap Two Numbers
+---
+
+## Lab Tasks
+
+Complete the following programming exercises with your lab instructor or on your own.
+
+### Problem #1: Swap Two Numbers
 
 Declare two integer variables, `a` and `b`, and initialize them with values provided by the user. Then, print both variables, swap their values, and print the variables again.
 
-### Sample Input and Output
+#### Sample Input and Output
 
 ```
 Enter the first value: 2
@@ -24,11 +30,11 @@ After swapping: a = 3; b = 2;
 
 ```
 
-## Problem #2: Swap Two Numbers Without Temporary Variables
+### Problem #2: Swap Two Numbers Without Temporary Variables
 
 Declare two integer variables, `a` and `b`, and initialize them with values provided by the user. Then, print both variables, swap their values, and print the variables again. In this task, it is prohibited to use temporary variables.
 
-### Sample Input and Output
+#### Sample Input and Output
 
 ```
 Enter the first value: 2
@@ -38,37 +44,39 @@ After swapping: a = 3; b = 2;
 
 ```
 
-## Problem #3: Sum of Digits
+### Problem #3: Sum of Digits
 
-Read a four-digit integer from the standard input and find the sum of all its digits.
+Read a four-digit integer from standard input and calculate the sum of all its digits. Use the `abs` function from the `cstdlib` header to find the absolute value of the integer.
 
-### Sample Input and Output
+#### Sample Input and Output
 
 ```
 Enter a four-digit integer: 1237
-The sum of all digits is 13
+The sum of all digits is 13.
 
 ```
 
-## Problem #4: Inches to Centimeters Converter
+### Problem #4: Inches to Centimeters Converter
 
-Create an application that converts inches to centimeters. Note that one inch is equal to 2.54 centimeters. Try to use a constant here.
+Create an application that converts inches to centimeters. Note that one inch equals 2.54 centimeters. Use a constant to represent this conversion factor. Also, use the `fixed` and `setprecision` manipulators from the `iomanip` library to format the numeric output, ensuring that the result displays two decimal places.
 
-### Sample Input and Output
+#### Sample Input and Output
 
 ```
 Enter the length in inches: 17
-17.00 in. = 43.18 cm.
+17.00 in. = 43.18 cm;
 
 ```
 
-## Problem #5: Fahrenheit to Celsius Converter
+### Problem #5: Fahrenheit to Celsius Converter
 
 Create an application that converts degrees Fahrenheit to degrees Celsius. Use the following formula to convert the values:
 
 $\degree C = \frac{5}{9} \times ( \degree F - 32 )$
 
-### Sample Input and Output
+Use the `fixed` and `setprecision` manipulators from the `iomanip` library to format the numeric output, ensuring that the result displays two decimal places.
+
+#### Sample Input and Output
 
 ```
 Enter the temperature in degrees Fahrenheit: 114
@@ -76,11 +84,13 @@ The temperature in degrees Celsius is 45.56
 
 ```
 
+---
+
 ## Homework
 
 Read Introduction to C++ Programming, 3rd Edition by Y. Daniel Liang, Chapter 2
 
-* Do programming exercises from chapter 2:
+Do programming exercises from chapter 2:
 
   1. Exercise 2.2
   2. Exercise 2.3
@@ -96,9 +106,9 @@ $A = r^2 \pi$
 
 $V = A \times l$
 
-Ignore the sample output in the book. Instead, use the sample below to check the correctness of your solution.
+Ignore the sample output in the book. Instead, use the sample provided below to check the correctness of your solution. Use the `fixed` and `setprecision` manipulators from the `iomanip` library to format the numeric output, ensuring that the area displays four decimal places, and the volume displays one decimal place.
 
-### Sample Input and Output
+#### Sample Input and Output
 
 ```
 Enter the radius and length of a cylinder: 5.5 12
@@ -109,9 +119,11 @@ The volume is 1140.4
 
 ### Homework Problem #7: Exercise 2.3
 
-Write a program that reads a number in feet, converts it to meters, and displays the result. One foot is 0.305 meter.
+Write a program that reads a number in feet, converts it to meters, and displays the result. One foot equals 0.305 meters. Use a constant for the conversion factor where possible.
 
-### Sample Input and Output
+Use the `fixed` and `setprecision` manipulators from the `iomanip` library to format the numeric output, ensuring that the result displays four decimal places.
+
+#### Sample Input and Output
 
 ```
 Enter a value for feet: 16.5
@@ -121,9 +133,11 @@ Enter a value for feet: 16.5
 
 ### Homework Problem #8: Exercise 2.4
 
-Write a program that converts pounds into kilograms. The program prompts the user to enter a number in pounds, converts it to kilograms, and displays the result. One pound is 0.454 kilogram.
+Write a program that converts pounds to kilograms. The program should prompt the user to enter a value in pounds, convert it to kilograms, and display the result. Use a constant for the conversion factor, where one pound is equal to 0.454 kilograms.
 
-### Sample Input and Output
+Use the `fixed` and `setprecision` manipulators from the `iomanip` library to format the numeric output, ensuring that the result displays three decimal places.
+
+#### Sample Input and Output
 
 ```
 Enter a number in pounds: 55.5
@@ -135,7 +149,7 @@ Enter a number in pounds: 55.5
 
 Write a program that prompts the user to enter the minutes (e.g., 1 billion) and displays the maximum number of years and remaining days for the minutes. For simplicity, assume that a year has 365 days.
 
-### Sample Input and Output
+#### Sample Input and Output
 
 ```
 Enter the number of minutes: 1000000000
@@ -151,7 +165,7 @@ Use the `round` function from `cmath` to round calculations performed on `double
 
 Ignore the sample output in the book. Instead, use the sample below to check the correctness of your solution.
 
-### Sample Input and Output
+#### Sample Input and Output
 
 ```
 Enter the number of years: 5
@@ -159,26 +173,29 @@ The population in 5 years is 325932970
 
 ```
 
+---
+
 ## Expected Repository Structure
 
 Upon completion of all assignments, your repository should look like this:
 
 ```
-. (.idea, .gitignore, CMakeLists.txt, other lab dirs)
-└── lab02
-    ├── p01.cpp
-    ├── p02.cpp
-    ├── p03.cpp
-    ├── p04.cpp
-    ├── p05.cpp
-    ├── p06.cpp
-    ├── p07.cpp
-    ├── p08.cpp
-    ├── p09.cpp
-    └── p10.cpp
+. (.idea, .gitignore, CMakeLists.txt, Readme.md)
+├── problem01.cpp
+├── problem02.cpp
+├── problem03.cpp
+├── problem04.cpp
+├── problem05.cpp
+├── problem06.cpp
+├── problem07.cpp
+├── problem08.cpp
+├── problem09.cpp
+└── problem10.cpp
 ```
 
 If the files with assignments are named incorrectly, you will be penalized.
+
+---
 
 ## Documentation
 
