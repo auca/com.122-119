@@ -161,7 +161,7 @@ Enter the number of minutes: 1000000000
 
 Rewrite Programming Exercise 1.11 to prompt the user to enter the number of years and display the population after the number of years.
 
-Use the `round` function from `cmath` to round calculations performed on `double` values. Use the `static_cast` operator to convert the result of `round` to an `int` value to avoid the need of `fixed` and `setprecision` from `iomanip` for `cout`.
+Use the `round` function from `cmath` to round calculations performed on `double` values. Use the `static_cast` operator to convert the result of `round` to an integer value to avoid the need of `fixed` and `setprecision` from `iomanip` for `cout`.
 
 Ignore the sample output in the book. Instead, use the sample below to check the correctness of your solution.
 
