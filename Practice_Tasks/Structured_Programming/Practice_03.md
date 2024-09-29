@@ -4,17 +4,23 @@ Introduction to Programming, Practice #3
 ## Developer Tools
 
 * [CLion](https://www.jetbrains.com/clion/download)
-* [Git SCM](https://git-scm.com)
+* [Git SCM](https://git-scm.com/downloads)
 
 ## Important Notes
 
-The checkpoint will be graded based on the output of your programs, the correctness of the structure of your repository, and the style of your code. You may be penalized and receive a lower grade if the printed text by your program does not match (wrong letters, additional spaces, or newlines, incorrectly computed result) the correct one. Please check your code and output before submitting it to GitHub or Moodle. Ensure the outcome of your program matches the specified output on this page. Do not forget to print a `\n` control sequence to go to a new line after the last message from your program. Format real numbers precisely to the number of decimal places specified in the sample output. Ensure that your code style is consistent, meaning the code is properly indented, groups of code are separated by blank lines, variable names are consistent in naming style, and describe in a compact manner the data stored in them. Your files and directories must be properly named as per the requirements outlined at the bottom of the page. Moreover, your repository should not contain additional files with unrelated code, especially within the folder designated for lab tasks. If you are told to use a particular function, you must base your solution on that function even if there exists a better solution without the use of it. Do not hesitate to contact your practice instructor if you have any questions.
+The checkpoint will be graded based on the output of your programs, the correctness of the structure of your repository, and the style of your code. You may be penalized and receive a lower grade if the printed text by your program does not match (wrong letters, additional spaces, or newlines, incorrectly computed result) the correct one. Please check your code and output before submitting it to GitHub or Moodle. Ensure the outcome of your program matches the specified output on this page. Do not forget to print a \n control sequence to go to a new line after the last message from your program. Format real numbers precisely to the number of decimal places specified in the sample output. Ensure that your code style is consistent, meaning the code is properly indented, groups of code are separated by blank lines, variable names are consistent in naming style, and describe in a compact manner the data stored in them. Your files and directories must be properly named as per the requirements outlined at the bottom of the page. Moreover, your repository should not contain additional files with unrelated code, especially within the folder designated for lab tasks. If you are told to use a particular function, you must base your solution on that function even if there exists a better solution without the use of it. Do not hesitate to contact your practice instructor if you have any questions.
 
-## Problem #1: Absolute Value
+---
 
-Create a program that reads a real number from the standard input and then outputs its absolute value.
+## Lab Tasks
 
-### Sample Input and Output
+Complete the following programming exercises with your lab instructor or on your own.
+
+### Problem #1: Absolute Value
+
+Create a program that reads a real number from standard input and outputs its absolute value. Do NOT use the `abs` function from the `cmath` library. Instead, use a one-way if statement. Format the numbers appropriately to match the example output.
+
+#### Sample Input and Output
 
 ```
 Enter a real number: -123.345
@@ -28,11 +34,11 @@ Enter a real number: 12.4
 
 ```
 
-## Problem #2: Pass or Fail
+### Problem #2: Pass or Fail
 
-Create a program that reads the total number of points earned by a student in the course 'Intro to Programming' and prints whether a student passed or failed the course (reminder, that anything less than 40% is 'F').
+Create a program that reads the total number of points earned by a student in the 'Intro to Programming' course and prints whether the student passed or failed. Reminder: anything less than 60% is an 'F' this year. Only integer values are allowed as input for this problem.
 
-### Sample Input and Output
+#### Sample Input and Output
 
 ```
 Enter the number of points: 77
@@ -41,16 +47,22 @@ You have passed the "Intro to Programming" course.
 ```
 
 ```
-Enter the number of points: 22
+Enter the number of points: 60
+You have passed the "Intro to Programming" course.
+
+```
+
+```
+Enter the number of points: 59
 You have failed the "Intro to Programming" course.
 
 ```
 
-## Problem #3: Comparing Numbers
+### Problem #3: Comparing Numbers
 
-Create a program that compares two integers and prints the larger one. If the numbers are equal, print a message stating that the numbers are equal.
+Create a program that compares two integers and prints the larger one. If the integers are equal, print a message stating that they are equal.
 
-### Sample Input and Output
+#### Sample Input and Output
 
 ```
 Enter the first number: 2
@@ -73,23 +85,23 @@ The numbers are equal.
 
 ```
 
-## Problem #4: Leap Year
+### Problem #4: Leap Year
 
-Create a program that determines whether a certain year is a leap year or not.
+Create a program that determines whether a given year is a [leap year](https://en.wikipedia.org/wiki/Leap_year).
 
-### Test data:
+#### Test data:
 
-*Leap years*:
+*Leap Years*:
 1796, 1804, 1896, 1904, 1992, 1996, 2000, 2004, 2008
 
-*Common years*:
+*Common Years*:
 1799, 1800, 1801, 1802, 1803, 1805, 1899, 1900, 1901
 
-### Sample Input and Output
+#### Sample Input and Output
 
 ```
-Enter the year: 2000
-2000 is a leap year.
+Enter the year: 2024
+2024 is a leap year.
 
 ```
 
@@ -99,9 +111,9 @@ Enter the year: 1800
 
 ```
 
-## Problem #5: Grades
+### Problem #5: Grades
 
-Create a program that for a given grade in points displays the alphabetical grade.
+Create a program that, given a numerical grade, displays the corresponding letter grade.
 
 Conversion table:
 
@@ -115,7 +127,7 @@ $$
 \end{array}
 $$
 
-### Sample Input and Output
+#### Sample Input and Output
 
 ```
 Enter the number of points: 73
@@ -129,11 +141,19 @@ Enter the number of points: 120
 
 ```
 
+```
+Enter the number of points: -1
+-1 is not in the permitted range.
+
+```
+
+---
+
 ## Homework
 
 Read Introduction to C++ Programming, 3rd Edition by Y. Daniel Liang, Chapter 3
 
-* Do programming exercises from chapter 3:
+Do programming exercises from chapter 3:
 
   1. Exercise 3.1
   2. Exercise 3.5
@@ -157,7 +177,7 @@ Write a program that prompts the user to enter values for $a$, $b$, and $c$ and 
 
 Note you can use `pow(x, 0.5)` or `sqrt(x)` to compute $\sqrt{x}$.
 
-### Sample Input and Output
+#### Sample Input and Output
 
 ```
 Enter a, b, c: 1.0 3 1
@@ -181,7 +201,7 @@ The equation has no real roots
 
 Write a program that prompts the user to enter an integer for today’s day of the week (Sunday is 0, Monday is 1, ..., and Saturday is 6). Also prompt the user to enter the number of days after today for a future day and display the future day of the week.
 
-### Sample Input and Output
+#### Sample Input and Output
 
 ```
 Enter today's day: 1
@@ -201,7 +221,7 @@ Today is Sunday and the future day is Wednesday
 
 Write a program that prompts the user to enter three integers and display the integers in non-decreasing order.
 
-### Sample Input and Output
+#### Sample Input and Output
 
 ```
 Enter three integer numbers: 5 2 10
@@ -215,7 +235,7 @@ Enter three integer numbers: 5 2 10
 
 Write a program that prompts the user to enter a three-digit integer. The program displays the sum of all digits in the integer if the input is valid; otherwise, it displays a message indicating that the integer is not a three-digit number and hence, is invalid.
 
-### Sample Input and Output
+#### Sample Input and Output
 
 ```
 Enter a three-digit integer: 123
@@ -245,6 +265,8 @@ $\sqrt{(x_1 - x_2)^2+(y_1 - y_2)^2}$
 
 Test your program to cover all cases.
 
+#### Sample Input and Output
+
 ```
 Enter a point with two coordinates: 4 5
 Point (4.0, 5.0) is in the circle
@@ -257,31 +279,34 @@ Point (9.0, 9.0) is not in the circle
 
 ```
 
+---
+
 ## Expected Repository Structure
 
 Upon completion of all assignments, your repository should look like this:
 
 ```
-. (.idea, .gitignore, CMakeLists.txt, other lab dirs)
-└── lab03
-    ├── p01.cpp
-    ├── p02.cpp
-    ├── p03.cpp
-    ├── p04.cpp
-    ├── p05.cpp
-    ├── p06.cpp
-    ├── p07.cpp
-    ├── p08.cpp
-    ├── p09.cpp
-    └── p10.cpp
+. (.idea, .gitignore, CMakeLists.txt, Readme.md)
+├── problem01.cpp
+├── problem02.cpp
+├── problem03.cpp
+├── problem04.cpp
+├── problem05.cpp
+├── problem06.cpp
+├── problem07.cpp
+├── problem08.cpp
+├── problem09.cpp
+└── problem10.cpp
 ```
 
 If the files with assignments are named incorrectly, you will be penalized.
+
+---
 
 ## Documentation
 
 * `iostream`: <https://en.cppreference.com/w/cpp/header/iostream>
 * `iomanip`: <https://en.cppreference.com/w/cpp/header/iomanip>
 * `cmath`: <https://en.cppreference.com/w/cpp/header/cmath>
-* `operators`: <https://en.cppreference.com/w/cpp/language/operator_precedence>
 * `if`: <https://en.cppreference.com/w/cpp/language/if>
+* `operators`: <https://en.cppreference.com/w/cpp/language/operator_precedence>
