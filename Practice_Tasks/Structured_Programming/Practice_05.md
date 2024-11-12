@@ -4,7 +4,7 @@ Introduction to Programming, Practice #5
 ## Developer Tools
 
 * [CLion](https://www.jetbrains.com/clion/download)
-* [Git SCM](https://git-scm.com)
+* [Git SCM](https://git-scm.com/downloads)
 
 ### Installing `raylib` in CLion using `vcpkg`
 
@@ -39,6 +39,7 @@ Follow these steps to install the `raylib` library in your C++ project in CLion 
 
     ```cmake
     find_package(raylib CONFIG REQUIRED)
+    find_package(glfw3  CONFIG REQUIRED)
     if(APPLE)
         set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fsanitize=address")
     elseif(UNIX)
@@ -51,22 +52,50 @@ Follow these steps to install the `raylib` library in your C++ project in CLion 
 - Finally, to enable the library for a particular lab or project executable, you have to configure the linker to attach the compiled library to your code. For that, after every `add_executable(<executable-name>, <path-to-source-file>)` line of a lab task with graphics, add the following line:
 
     ```cmake
-    target_link_libraries(<executable-name> PRIVATE raylib)
+    target_link_libraries(<executable-name> PRIVATE raylib glfw)
     ```
 
 Don't forget to replace `<executable-name>` and `<path-to-source-file>` with the correct values.
+
+---
 
 ## Important Notes
 
 The checkpoint will be graded based on the output of your programs, the correctness of the structure of your repository, and the style of your code. You may be penalized and receive a lower grade if the printed text by your program does not match (wrong letters, additional spaces, or newlines, incorrectly computed result) the correct one. Please check your code and output before submitting it to GitHub or Moodle. Ensure the outcome of your program matches the specified output on this page. Do not forget to print a `\n` control sequence to go to a new line after the last message from your program. Format real numbers precisely to the number of decimal places specified in the sample output. Ensure that your code style is consistent, meaning the code is properly indented, groups of code are separated by blank lines, variable names are consistent in naming style, and describe in a compact manner the data stored in them. Your files and directories must be properly named as per the requirements outlined at the bottom of the page. Moreover, your repository should not contain additional files with unrelated code, especially within the folder designated for lab tasks. If you are told to use a particular function, you must base your solution on that function even if there exists a better solution without the use of it. Do not hesitate to contact your practice instructor if you have any questions.
 
-## Problem #1: Arithmetic Mean
+---
 
-Create an application that calculates the arithmetic mean for a list of grades (from one to five). All grades should be read from the standard input one at a time. A zero value should be considered the end of the input and not be used in the calculation.
+## Lab Tasks
 
-Use the `do...while` loop in this task.
+Complete the following programming exercises with your lab instructor or on your own.
 
-### Sample Input and Output
+### Problem #1: Sum of Digits
+
+Create a program that reads an integer from standard input and calculates the sum of all its digits.
+
+You must use a `while` loop for this task. Use the `abs` function from the `cstdlib` header to obtain the absolute value of the integer.
+
+#### Sample Input and Output
+
+```
+Enter an integer: 6427572
+The sum of all digits is 33.
+
+```
+
+```
+Enter an integer: -784
+The sum of all digits is 19.
+
+```
+
+### Problem #2: Arithmetic Mean
+
+Create an application that calculates the arithmetic mean of a list of grades (ranging from one to five). All grades should be read as integers from standard input, one at a time. Format the output to one decimal place. A zero value should be considered the end of input and should not be included in the calculation.
+
+You must use a `do...while` loop for this task. You do not need to check whether the input is within the range of 0 to 5, as we guarantee that all grades will fall within this specified range for this task.
+
+#### Sample Output
 
 ```
 Enter the next grade or '0' to exit: 3
@@ -94,33 +123,13 @@ Nothing to calculate
 
 ```
 
-## Problem #2: Sum of Digits
-
-Create a program that reads an integer from the standard input and finds the sum of all its digits.
-
-Use the `while` loop in this task.
-
-### Sample Input and Output
-
-```
-Enter an integer: 6427572
-The sum of all digits is 33.
-
-```
-
-```
-Enter an integer: 784
-The sum of all digits is 19.
-
-```
-
 ## Problem #3: Simple Math Test
 
-Create a program that generates tests to check students' ability to add numbers. The program should print each test with random operands on a separate line, read each answer from a student, and provide statistics with the number of correct and incorrect answers at the end.
+Create a program that generates tests to assess students' ability to add numbers. The program should print each test with random operands on a separate line, read each answer from the student, and provide statistics at the end, showing the number of correct and incorrect answers.
 
-Use the `while` loop first in your solution, comment it out, then write a `for` loop solution.
+Begin with a solution using a `while` loop. Comment it out, then write a solution using a `for` loop. The number of tests is guaranteed to be an integer greater than or equal to 0.
 
-Use `srand` from `cstdlib` to seed the random number generator with the value of `42` to get a predictable sequence to help us evaluate your program with an automated script. Note that the examples below may not use `42` in `srand` and will produce different results compared to your program. The minimum and maximum values for the random generator must be in the range $[-20, 20]$.
+Use `srand` from `cstdlib` to seed the random number generator with the value `42` to produce a predictable sequence, which will help us evaluate your program with an automated script. Note that the examples below may not use `42` in `srand`, so their results may differ from those generated by your program. The minimum and maximum values for the random number generator should be in the range $[-20, 20]$.
 
 ### Sample Input and Output
 
@@ -137,64 +146,69 @@ Number of incorrect answers: 2
 ```
 Number of tests? 2
 -2 + 1 = -1
-2 + (-1) = 1
+2 + -1 = 1
 Number of correct answers: 2
 Number of incorrect answers: 0
 
 ```
 
-## Problem #4: Circles
+### Problem #4: Circles
 
-Create a `raylib` application that draws multiple circles of random sizes, at random coordinates, and in random colors. The number of circles, predetermined by you, should be stored as a constant in your code.
+Create a `raylib` application that draws multiple circles of random sizes, at random coordinates, and in random colors. The number of circles, predetermined by you, should be stored as a constant in your code. The resolution of the window should be 800x450 pixels.
 
-You have certain artistic liberties in the task. You can choose the number of circles and their minimum and maximum radius. All the graphics task are evaluated manually.
+You have some artistic liberty in this task. You may choose the number of circles as well as their minimum and maximum radius. All graphics tasks will be evaluated manually. Please ensure that the grader generates a screenshot with the correct graphical content for the TA to download from the GitHub Actions pages to check.
 
-### Sample
+#### Sample
 
 ![Random Circles](https://i.imgur.com/xEHP8Jy.png)
 
-## Problem #5: Gradient
+### Problem #5: Gradient
 
-Create a `raylib` application that draws a series of circles in varying shades of red, centered on the screen (as shown in the screenshot below). The number of circles, chosen by you, must be stored as a constant in your code. This number should be sufficient to achieve a visual effect similar to the one in the picture below.
+Create a `raylib` application that draws a series of circles in varying shades of red, centered on the screen (as shown in the screenshot below). The number of circles, chosen by you, should be stored as a constant in your code. This number should be sufficient to achieve a visual effect similar to the one in the picture below. The resolution of the window should be 800x450 pixels.
 
-### Sample
+#### Sample
 
 ![Gradient](https://i.imgur.com/70XUgkS.png)
 
+---
+
 ## Homework
 
-Read Introduction to C++ Programming, 3rd Edition by Y. Daniel Liang, Chapter 5.
+Read Introduction to C++ Programming, 3rd Edition by Y. Daniel Liang, Chapter 5
 
-* Read, try to understand, and rewrite the following code examples from Chapter 5 as they are:
+Read, try to understand, and rewrite the following code examples from Chapter 5 as they are:
 
- 1. `TestBreak.cpp` (name your file `p06.cpp`)
- 2. `TestContinue.cpp` (name your file `p07.cpp`)
- 3. `MultiplicationTable.cpp` (name your file `p08.cpp`)
- 4. `TestPalindrome.cpp` (name your file `p09.cpp`)
- 5. `PrimeNumber.cpp` (name your file `p10.cpp`)
+  1. `TestBreak.cpp` (name your file `problem06.cpp`)
+  2. `TestContinue.cpp` (name your file `problem07.cpp`)
+  3. `MultiplicationTable.cpp` (name your file `problem08.cpp`)
+  4. `TestPalindrome.cpp` (name your file `problem09.cpp`)
+  5. `PrimeNumber.cpp` (name your file `problem10.cpp`)
 
-While you can copy and paste the code from the book, it is highly recommended to avoid doing so. Instead, try to retype the code on your own for educational purposes. This practice will aid in preparing you for the Final Exam.
+While you can copy and paste the code from the book, it is highly recommended to avoid doing so. Instead, try retyping the code yourself for educational purposes: compile it, run it, and evaluate the flow of execution in a debugger. This practice will help prepare you for the final exam.
+
+---
 
 ## Expected Repository Structure
 
 Upon completion of all assignments, your repository should look like this:
 
 ```
-. (.idea, .gitignore, CMakeLists.txt, other lab dirs)
-└── lab05
-    ├── p01.cpp
-    ├── p02.cpp
-    ├── p03.cpp
-    ├── p04.cpp
-    ├── p05.cpp
-    ├── p06.cpp
-    ├── p07.cpp
-    ├── p08.cpp
-    ├── p09.cpp
-    └── p10.cpp
+. (.idea, .gitignore, CMakeLists.txt, Readme.md)
+├── problem01.cpp
+├── problem02.cpp
+├── problem03.cpp
+├── problem04.cpp
+├── problem05.cpp
+├── problem06.cpp
+├── problem07.cpp
+├── problem08.cpp
+├── problem09.cpp
+└── problem10.cpp
 ```
 
 If the files with assignments are named incorrectly, you will be penalized.
+
+---
 
 ## Documentation
 
@@ -203,13 +217,14 @@ If the files with assignments are named incorrectly, you will be penalized.
 * `iostream`: <https://en.cppreference.com/w/cpp/header/iostream>
 * `iomanip`: <https://en.cppreference.com/w/cpp/header/iomanip>
 * `cmath`: <https://en.cppreference.com/w/cpp/header/cmath>
+* `cctype`: <https://en.cppreference.com/w/cpp/header/cctype>
 * `operators`: <https://en.cppreference.com/w/cpp/language/operator_precedence>
 * `if`: <https://en.cppreference.com/w/cpp/language/if>
 * `switch`: <https://en.cppreference.com/w/cpp/language/switch>
 * `srand`: <https://en.cppreference.com/w/cpp/numeric/random/srand>
 * `rand`: <https://en.cppreference.com/w/cpp/numeric/random/rand>
-* `do...while`: <https://en.cppreference.com/w/cpp/language/do>
 * `while`: <https://en.cppreference.com/w/cpp/language/while>
+* `do...while`: <https://en.cppreference.com/w/cpp/language/do>
 * `for`: <https://en.cppreference.com/w/cpp/language/for>
 * `continue`: <https://en.cppreference.com/w/cpp/language/continue>
 * `break`: <https://en.cppreference.com/w/cpp/language/break>
