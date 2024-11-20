@@ -4,7 +4,7 @@ Introduction to Programming, Practice #6
 ## Developer Tools
 
 * [CLion](https://www.jetbrains.com/clion/download)
-* [Git SCM](https://git-scm.com)
+* [Git SCM](https://git-scm.com/downloads)
 
 ### Installing `raylib` in CLion using `vcpkg`
 
@@ -39,6 +39,7 @@ Follow these steps to install the `raylib` library in your C++ project in CLion 
 
     ```cmake
     find_package(raylib CONFIG REQUIRED)
+    find_package(glfw3  CONFIG REQUIRED)
     if(APPLE)
         set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fsanitize=address")
     elseif(UNIX)
@@ -51,20 +52,28 @@ Follow these steps to install the `raylib` library in your C++ project in CLion 
 - Finally, to enable the library for a particular lab or project executable, you have to configure the linker to attach the compiled library to your code. For that, after every `add_executable(<executable-name>, <path-to-source-file>)` line of a lab task with graphics, add the following line:
 
     ```cmake
-    target_link_libraries(<executable-name> PRIVATE raylib)
+    target_link_libraries(<executable-name> PRIVATE raylib glfw)
     ```
 
 Don't forget to replace `<executable-name>` and `<path-to-source-file>` with the correct values.
+
+---
 
 ## Important Notes
 
 The checkpoint will be graded based on the output of your programs, the correctness of the structure of your repository, and the style of your code. You may be penalized and receive a lower grade if the printed text by your program does not match (wrong letters, additional spaces, or newlines, incorrectly computed result) the correct one. Please check your code and output before submitting it to GitHub or Moodle. Ensure the outcome of your program matches the specified output on this page. Do not forget to print a `\n` control sequence to go to a new line after the last message from your program. Format real numbers precisely to the number of decimal places specified in the sample output. Ensure that your code style is consistent, meaning the code is properly indented, groups of code are separated by blank lines, variable names are consistent in naming style, and describe in a compact manner the data stored in them. Your files and directories must be properly named as per the requirements outlined at the bottom of the page. Moreover, your repository should not contain additional files with unrelated code, especially within the folder designated for lab tasks. If you are told to use a particular function, you must base your solution on that function even if there exists a better solution without the use of it. Do not hesitate to contact your practice instructor if you have any questions.
 
-## Problem #1: Swap Two Numbers
+---
 
-Create a program that swaps two integer values provided by the user. Create a function `void swap(?)` that swaps the values of `a` and `b`. Figure out the parameter list for this function. The function should not return or print any value. The function should be called from the `main` function. The `main` function should print the values of `a` and `b` before and after the swap.
+## Lab Tasks
 
-### Sample Input and Output
+Complete the following programming exercises with your lab instructor or on your own.
+
+### Problem #1: Swap Two Numbers
+
+Create a program that swaps two integer values provided by the user. Define a function `void swap(?)` that swaps the values of `a` and `b`. Determine the appropriate parameter list for this function. The function should not return or print any values. It should be called from the `main` function. The `main` function should display the values of `a` and `b` both before and after the swap.
+
+#### Sample Input and Output
 
 ```
 Enter the first value: 2
@@ -74,11 +83,14 @@ After swapping: a = 3; b = 2;
 
 ```
 
-## Problem #2: Number of Days
+### Problem #2: Number of Days
 
-Develop a program that calculates the number of days in a specific month for a given year. To structure your code efficiently, implement two functions: `int get_days_of_month(int year, int month)`, which determines the number of days in the given month and year, and `bool is_leap(int year)`, which checks if the specified year is a leap year.
+Develop a program that calculates the number of days in a specific month for a given year. To structure your code efficiently, implement two functions:
 
-### Sample Input and Output
+- `int get_days_of_month(int year, int month)`: Determines the number of days in the specified month and year. Returns -1 if the month number is incorrect.
+- `bool is_leap(int year)`: Checks whether the given year is a leap year.
+
+#### Sample Output
 
 ```
 Enter the year: 2000
@@ -108,17 +120,9 @@ Incorrect month number.
 
 ```
 
-## Problem #3: Stars
+## Problem #3: Greatest Common Divisor (Naive Algorithm)
 
-Develop a graphics application that generates an image consisting of five stars. Each star should be animated to rotate slowly around its center, either clockwise or counterclockwise. In this application, define the function `void draw_star(unsigned int rays, float x, float y, float inner_radius, float outer_radius, Color color = WHITE, float rotation_angle = 0.0f, float line_thickness = 2)` to reduce code duplication. This function will facilitate drawing each star with specified parameters such as the number of rays, position, radii, color, initial angle, and line thickness.
-
-### Sample
-
-![Star](https://i.imgur.com/JZ5oIx5.png)
-
-## Problem #4: Greatest Common Divisor (Naive Algorithm)
-
-Develop a program that accepts two arbitrary integers and outputs their greatest common divisor (GCD). Incorporate the function `int gcd(int a, int b)` within this program to calculate the GCD of `a` and `b`. Your solution should be straightforward and avoid using the Euclidean algorithm. Note that it's acceptable for the solution to exhibit slower performance with large numbers.
+Develop a program that accepts two arbitrary long integers and outputs their greatest common divisor (GCD). Incorporate the function `long long gcd(long long a, long long b)` within this program to calculate the GCD of `a` and `b`. The solution should be straightforward and avoid using the Euclidean algorithm. Note that slower performance with large numbers is acceptable.
 
 ### Sample Input and Output
 
@@ -136,16 +140,16 @@ GCD(0, 0) is not defined.
 
 ```
 
-## Problem #5: Greatest Common Divisor (Euclidean Algorithm)
+### Problem #4: Greatest Common Divisor (Euclidean Algorithm)
 
-Develop an updated version of the previous program that employs the Euclidean algorithm to calculate the greatest common divisor (GCD) of two arbitrary integers. Ensure that this new program is optimized for speed and efficiency, even when handling large numbers within the `int` data type range.
+Develop an updated version of the previous program using the Euclidean algorithm to calculate the greatest common divisor (GCD) of two arbitrary long integers. Ensure the new program is optimized for speed and efficiency, even when processing large numbers within the range of the `long long` data type.
 
 ### Sample Input and Output
 
 ```
-a: 25
-b: 10
-GCD(25, 10) = 5
+a: 2000000000
+b: 2000000001
+GCD(2000000000, 2000000001) = 1
 
 ```
 
@@ -155,200 +159,139 @@ b: 0
 GCD(0, 0) is not defined.
 
 ```
+
+### Problem #5: Star
+
+Develop a graphics application that generates an image of a star similar to the one shown in the sample below. To draw the star, you must define and use a function:
+
+```cpp
+void draw_star(
+         int rays,
+         float x, float y,
+         float inner_radius, float outer_radius,
+         float rotation_angle,
+         float thickness, Color color
+     )
+```
+
+Try to determine the meaning of each parameter by examining the sample image and the parameter names.
+
+The image should be resolution-independent, meaning it should look good at any window size. However, the window size should be set to 800x450 pixels.
+
+#### Sample
+
+![Star](https://i.imgur.com/JhYjR46.png)
+
+---
 
 ## Homework
 
 Read Introduction to C++ Programming, 3rd Edition by Y. Daniel Liang, Chapter 6
 
-* Do programming exercises from chapter 6:
+Create the following graphics applications using the `raylib` library.
 
-  1. Exercise 6.2
-  2. Exercise 6.4
-  3. Exercise 6.5
-  4. Exercise 6.6
-  5. Exercise 6.8
+### Homework Problem #6: Stars
 
-### Homework Problem #6: Exercise 6.2
+Develop a graphics application that generates an image of stars, similar to the one shown in the sample below. To draw the stars, you must define and use a function `draw_star` from Problem #5.
 
-Write a function `double averageDigits(long n)` that computes the average of the digits in an integer. Create a test program for the function that prompts the user to enter an integer and displays the sum and average of all its digits.
+Use randomly generated values (with any seed) for the parameters of the `draw_star` function, which will be called in a loop. The number of stars should be specified by you. You have some artistic freedom, but the image should resemble the one shown in the sample below.
 
-### Sample Input and Output
+The image should be resolution-independent, meaning it should look good at any window size. However, the window size should be set to 800x450 pixels.
 
-```
-Enter the number: 936
-The sum of the digits is 18
-The average of the digits is 6.0
+#### Sample
 
-```
+![Stars](https://i.imgur.com/1v8aBA6.png)
 
-### Homework Problem #7: Exercise 6.4
+### Homework Problem #7: Spiral
 
-Write a function `void displayEven(int number)` to display the even digits in an integer. Write a test program that prompts the user to enter an integer and displays the even digits in it.
+Develop a graphics application that generates an image of a spiral similar to the one shown in the sample below. To draw the spiral, you must define and use a function:
 
-### Sample Input and Output
-
-```
-Enter the number: 936
-Even digits: 6
-
+```cpp
+void draw_spiral(
+         int segments,
+         int cycles,
+         float x, float y,
+         float radius,
+         float rotation_angle,
+         float thickness, Color color
+     )
 ```
 
-```
-Enter the number: 234
-Even digits: 24
+Try to determine the meaning of each parameter by examining the sample image and the parameter names.
 
-```
+The image should be resolution-independent, meaning it should look good at any window size. However, the window size should be set to 800x450 pixels.
 
-### Homework Problem #8: Exercise 6.5
+#### Sample
 
-Write a function `void displayLargest(double num1, double num2, double num3)` to display the largest of three numbers. Write a test program that prompts the user to enter three numbers and invokes the function to display the largest of them. Write another function called `double findLargest(double num1, double num2, double num3)` to return the largest of three numbers. Change your `main` function to invoke this function and print the result. Analyze the difference in the two approaches. Which one is better and why? A question like this may appear on the exam.
+![Spiral](https://i.imgur.com/Ns1q7IM.png)
 
-### Sample Input and Output
+### Homework Problem #8: Spirals
 
-```
-Enter the first number: 1
-Enter the second number: 2
-Enter the third number: 3
-The largest number is 3.0
+Develop a graphics application that generates an image of spirals, similar to the one shown in the sample below. To draw the spirals, you must define and use a function `draw_spiral` from Problem #7.
 
-```
+The image should resemble the one shown in the sample below. The image should be resolution-independent, meaning it should look good at any window size. However, the window size should be set to 800x450 pixels.
 
-```
-Enter the first number: 3
-Enter the second number: 2
-Enter the third number: 1
-The largest number is 3.0
+#### Sample
 
-```
+![Spirals](https://i.imgur.com/lL54oVf.png)
 
-```
-Enter the first number: 1
-Enter the second number: 3
-Enter the third number: 2
-The largest number is 3.0
+### Homework Problem #9: Sine Wave
 
+Develop a graphics application that generates an image of a sine wave similar to the one shown in the sample below. To draw the sine wave, you must define and use a function:
+
+```cpp
+void draw_sine_wave(
+         int segments,
+         int cycles,
+         float start_x, float start_y,
+         float end_x, float end_y,
+         float amplitude,
+         float phase_offset,
+         float thickness, Color color
+     )
 ```
 
-### Homework Problem #9: Exercise 6.6
+Try to determine the meaning of each parameter by examining the sample image and the parameter names.
 
-Write a function to display a pattern as follows:
+The image should be resolution-independent, meaning it should look good at any window size. However, the window size should be set to 800x450 pixels.
 
-```
-****************
-**************
-************
-...
-*
-```
+#### Sample
 
-Create a function `void displayPattern(int n)` to display such a pattern. Write a test program that prompts the user to enter an integer and displays the pattern.
+![Sine Wave](https://i.imgur.com/kU6dmNz.png)
 
-### Sample Input and Output
+### Homework Problem #8: Sine Waves
 
-```
-Enter the number of lines: 5
-*****
-****
-***
-**
-*
+Develop a graphics application that generates an image of sine waves, similar to the one shown in the sample below. To draw the spirals, you must define and use a function `draw_sine_wave` from Problem #9.
 
-```
+The image should resemble the one shown in the sample below. The image should be resolution-independent, meaning it should look good at any window size. However, the window size should be set to 800x450 pixels.
 
-### Homework Problem #10: Exercise 6.8
+#### Sample
 
-Write the following two functions:
+![Sine Waves](https://i.imgur.com/nUyc1fl.png)
 
-```C++
-// Convert from millimeters to inches
-double millimetersToInches(double millimeters);
-// Convert from inches to millimeters
-double inchesToMillimeters(double inches);
-```
-
-The formula for the conversion is
-
-```C++
-millimeters = inches * 25.4;
-```
-
-Write a test program that invokes these functions to display the following table (note the extra whitespaces at the end):
-
-```
-Millimeters    Inches    |    Inches    Millimeters
-2              0.079     |    1         25.400  
-4              0.157     |    2         50.800  
-6              0.236     |    3         76.200  
-8              0.315     |    4         101.600 
-10             0.394     |    5         127.000 
-12             0.472     |    6         152.400 
-14             0.551     |    7         177.800 
-16             0.630     |    8         203.200 
-18             0.709     |    9         228.600 
-20             0.787     |    10        254.000 
-22             0.866     |    11        279.400 
-24             0.945     |    12        304.800 
-26             1.024     |    13        330.200 
-28             1.102     |    14        355.600 
-30             1.181     |    15        381.000 
-32             1.260     |    16        406.400 
-34             1.339     |    17        431.800 
-36             1.417     |    18        457.200 
-38             1.496     |    19        482.600 
-40             1.575     |    20        508.000 
-42             1.654     |    21        533.400 
-44             1.732     |    22        558.800 
-46             1.811     |    23        584.200 
-48             1.890     |    24        609.600 
-50             1.969     |    25        635.000 
-52             2.047     |    26        660.400 
-54             2.126     |    27        685.800 
-56             2.205     |    28        711.200 
-58             2.283     |    29        736.600 
-60             2.362     |    30        762.000 
-62             2.441     |    31        787.400 
-64             2.520     |    32        812.800 
-66             2.598     |    33        838.200 
-68             2.677     |    34        863.600 
-70             2.756     |    35        889.000 
-72             2.835     |    36        914.400 
-74             2.913     |    37        939.800 
-76             2.992     |    38        965.200 
-78             3.071     |    39        990.600 
-80             3.150     |    40        1016.000
-82             3.228     |    41        1041.400
-84             3.307     |    42        1066.800
-86             3.386     |    43        1092.200
-88             3.465     |    44        1117.600
-90             3.543     |    45        1143.000
-92             3.622     |    46        1168.400
-94             3.701     |    47        1193.800
-96             3.780     |    48        1219.200
-98             3.858     |    49        1244.600
-100            3.937     |    50        1270.000
-
-```
+---
 
 ## Expected Repository Structure
 
 Upon completion of all assignments, your repository should look like this:
 
 ```
-. (.idea, .gitignore, CMakeLists.txt, other lab dirs)
-└── lab06
-    ├── p01.cpp
-    ├── p02.cpp
-    ├── p03.cpp
-    ├── p04.cpp
-    ├── p05.cpp
-    ├── p06.cpp
-    ├── p07.cpp
-    ├── p08.cpp
-    ├── p09.cpp
-    └── p10.cpp
+. (.idea, .gitignore, CMakeLists.txt, Readme.md)
+├── problem01.cpp
+├── problem02.cpp
+├── problem03.cpp
+├── problem04.cpp
+├── problem05.cpp
+├── problem06.cpp
+├── problem07.cpp
+├── problem08.cpp
+├── problem09.cpp
+└── problem10.cpp
 ```
 
 If the files with assignments are named incorrectly, you will be penalized.
+
+---
 
 ## Documentation
 
@@ -357,13 +300,14 @@ If the files with assignments are named incorrectly, you will be penalized.
 * `iostream`: <https://en.cppreference.com/w/cpp/header/iostream>
 * `iomanip`: <https://en.cppreference.com/w/cpp/header/iomanip>
 * `cmath`: <https://en.cppreference.com/w/cpp/header/cmath>
+* `cctype`: <https://en.cppreference.com/w/cpp/header/cctype>
 * `operators`: <https://en.cppreference.com/w/cpp/language/operator_precedence>
 * `if`: <https://en.cppreference.com/w/cpp/language/if>
 * `switch`: <https://en.cppreference.com/w/cpp/language/switch>
 * `srand`: <https://en.cppreference.com/w/cpp/numeric/random/srand>
 * `rand`: <https://en.cppreference.com/w/cpp/numeric/random/rand>
-* `do...while`: <https://en.cppreference.com/w/cpp/language/do>
 * `while`: <https://en.cppreference.com/w/cpp/language/while>
+* `do...while`: <https://en.cppreference.com/w/cpp/language/do>
 * `for`: <https://en.cppreference.com/w/cpp/language/for>
 * `continue`: <https://en.cppreference.com/w/cpp/language/continue>
 * `break`: <https://en.cppreference.com/w/cpp/language/break>
