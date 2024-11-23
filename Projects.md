@@ -5,9 +5,9 @@ List of the course or bonus projects.
 
 ## Introduction to Programming
 
-### Project #1, #2
+### Project
 
-* <https://github.com/toksaitov/simple-dungeon-project>
+* <https://github.com/toksaitov/simple-platformer-project>
 
 ## Object-Oriented Programming
 
