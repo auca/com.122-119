@@ -4,7 +4,7 @@ Introduction to Programming, Practice #7
 ## Developer Tools
 
 * [CLion](https://www.jetbrains.com/clion/download)
-* [Git SCM](https://git-scm.com)
+* [Git SCM](https://git-scm.com/downloads)
 
 ### Installing `raylib` in CLion using `vcpkg`
 
@@ -39,6 +39,7 @@ Follow these steps to install the `raylib` library in your C++ project in CLion 
 
     ```cmake
     find_package(raylib CONFIG REQUIRED)
+    find_package(glfw3  CONFIG REQUIRED)
     if(APPLE)
         set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fsanitize=address")
     elseif(UNIX)
@@ -51,44 +52,61 @@ Follow these steps to install the `raylib` library in your C++ project in CLion 
 - Finally, to enable the library for a particular lab or project executable, you have to configure the linker to attach the compiled library to your code. For that, after every `add_executable(<executable-name>, <path-to-source-file>)` line of a lab task with graphics, add the following line:
 
     ```cmake
-    target_link_libraries(<executable-name> PRIVATE raylib)
+    target_link_libraries(<executable-name> PRIVATE raylib glfw)
     ```
 
 Don't forget to replace `<executable-name>` and `<path-to-source-file>` with the correct values.
+
+---
 
 ## Important Notes
 
 The checkpoint will be graded based on the output of your programs, the correctness of the structure of your repository, and the style of your code. You may be penalized and receive a lower grade if the printed text by your program does not match (wrong letters, additional spaces, or newlines, incorrectly computed result) the correct one. Please check your code and output before submitting it to GitHub or Moodle. Ensure the outcome of your program matches the specified output on this page. Do not forget to print a `\n` control sequence to go to a new line after the last message from your program. Format real numbers precisely to the number of decimal places specified in the sample output. Ensure that your code style is consistent, meaning the code is properly indented, groups of code are separated by blank lines, variable names are consistent in naming style, and describe in a compact manner the data stored in them. Your files and directories must be properly named as per the requirements outlined at the bottom of the page. Moreover, your repository should not contain additional files with unrelated code, especially within the folder designated for lab tasks. If you are told to use a particular function, you must base your solution on that function even if there exists a better solution without the use of it. Do not hesitate to contact your practice instructor if you have any questions.
 
-## Problem #1: Dice
+---
 
-Create a program that simulates the tosses of two six-sided dice, thrown a specified number of times. The program should output counters for all sums that appear during the throws.
+## Lab Tasks
 
-Use `srand` from `cstdlib` to seed the random number generator with the value of `42`. This ensures a predictable sequence, which will aid in the evaluation of the program through an automated script. Note that the examples provided below may not use `42` as the seed in `srand`, and therefore, they will produce results different from your program.
+Complete the following programming exercises with your lab instructor or on your own.
 
-### Sample Input and Output
+### Problem #1: Dice
 
-```
-Enter the number of times to throw two dice: 6000
-Got 2 on the dice 166 times.
-Got 3 on the dice 338 times.
-Got 4 on the dice 475 times.
-Got 5 on the dice 629 times.
-Got 6 on the dice 831 times.
-Got 7 on the dice 1019 times.
-Got 8 on the dice 843 times.
-Got 9 on the dice 671 times.
-Got 10 on the dice 496 times.
-Got 11 on the dice 361 times.
-Got 12 on the dice 171 times.
+Create a program that simulates the tosses of two six-sided dice, thrown a specified number of times. The program should calculate and display the frequency of each possible sum from the dice rolls. The output table should be properly formatted using the `setw`, `left`, and `right` manipulators.
 
+Use `srand` from `cstdlib` to seed the random number generator with the value `42`. This ensures a predictable sequence, aiding in the automated evaluation of your program. Note that the examples provided below may use a different seed value, so their results may not match those of your program. Use the following function to generate random numbers, ensuring consistency with the automated script:
+
+```c++
+int rand_from_to(int from, int to)
+{
+    return from + std::rand() % (to - from + 1);
+}
 ```
 
-## Problem #2: Number of Days
+#### Sample Input and Output
 
-Develop a program that calculates the number of days in a specific month for a given year. To structure your code efficiently, implement two functions: `int get_days_of_month(int year, int month)`, which returns the number of days in the specified month and year, and `bool is_leap(int year)`, that checks if the given year is a leap year. In the `get_days_of_month` function, use an array to look up and return the number of days, replacing the traditional selection construct.
+```
+Enter the number of times to throw two dice: 6000 
+Sum      Count
+2          168
+3          357
+4          452
+5          689
+6          839
+7          981
+8          871
+9          655
+10         490
+11         332
+12         166
 
-### Sample Input and Output
+```
+
+
+### Problem #2: Number of Days
+
+Develop a program that calculates the number of days in a specific month for a given year. To structure your code efficiently, implement two functions: `int get_days_of_month(int year, int month)`, which returns the number of days in the specified month and year, and `bool is_leap(int year)`, which checks whether the given year is a leap year. In the `get_days_of_month` function, use an `int` array called `days` to look up and return the number of days, replacing traditional selection constructs.
+
+#### Sample Output
 
 ```
 Enter the year: 2000
@@ -118,9 +136,9 @@ Incorrect month number.
 
 ```
 
-## Problem #3: Analyze Data
+### Problem #3: Analyze Data
 
-Read a list of five integer numbers. Load these numbers into an array and print the array to the screen. Then, find the minimum and maximum values in the array. Calculate the mean value and the standard deviation of the array values.
+Read a list of five integer numbers. Store these numbers in an array and print the array to the screen. Then, find the minimum and maximum values in the array. Calculate the mean value and the standard deviation of the array values.
 
 The standard deviation can be calculated using the following formula:
 
@@ -128,7 +146,9 @@ $\sigma = \sqrt{\frac{\sum{(x_{i} - \mu)^2}}{N}}$
 
 In this formula, $N$ is the array size, $\mu$ represents the mean value of the array, and $x_i$ represents each individual number in the array.
 
-### Sample Input and Output
+You must create an `int` array called `numbers` and use it even if it is possible to solve the problem without it.
+
+#### Sample Input and Output
 
 ```
 Enter the element at index 0: 1
@@ -145,11 +165,11 @@ SD: 1.41
 
 ```
 
-## Problem #4: Reverse
+### Problem #4: Reverse
 
-Read a list of five numbers. Load them into an array. Print the array to the screen. Then, reverse the order of the array elements in memory. Print the modified array to the screen again.
+Read a list of five numbers and store them in an array. Print the array to the screen. Next, reverse the order of the elements in the array in memory. Perform the reversal in place without creating a new array. Print the modified array to the screen again. Use an `int` array called `data` for this task.
 
-### Sample Input and Output
+#### Sample Input and Output
 
 ```
 Enter the element at index 0: 3
@@ -161,150 +181,108 @@ Before reversing:
 3 1 5 6 0
 After reversing:
 0 6 5 1 3
+
 ```
 
-## Problem #5: Stars
+### Problem #5: Circles
 
-Develop a graphics application that generates an image consisting of many stars bouncing around from one side to another. Use random values for postions, sizes, colors, speed of movement, and many other parameters. Each star should rotate around its center, either clockwise or counterclockwise. You can reuse the star code from the previous lab.
+Develop a graphics application that generates an animation of two circles moving from side to side across the screen, leaving a trail behind as demonstrated in the sample below.
 
-### Sample
+Note that the window size should be set to 450x450 pixels. You may use arrays for this task, but it is not mandatory.
+
+#### Sample
 
 You can click on the picture to watch the video.
 
-[![Star](https://i.imgur.com/3UTlwb1.png)](https://drive.google.com/file/d/1Gmhfrioig31BlrunWqSXgM0n3nIWixj-/view?usp=sharing)
+[![Circles](https://i.imgur.com/fSOmTIC.png)](https://drive.google.com/file/d/1u5YN1zqQDG8Nx2mmIG-_rQkWLL7wB94I/view?usp=share_link)
+
+---
 
 ## Homework
 
-Read Introduction to C++ Programming, 3rd Edition by Y. Daniel Liang, Chapter 7
+Read Introduction to C++ Programming, 3rd Edition by Y. Daniel Liang, Chapter 7, 8
 
-* Do programming exercises from chapter 7:
+Create the following graphics applications using the `raylib` library.
 
-  1. Exercise 7.1
-  2. Exercise 7.3
-  3. Exercise 7.5
-  4. Exercise 7.10
-  5. Exercise 7.23
+### Homework Problem #6: Ping-Pong
 
-### Homework Problem #6: Exercise 7.1
+Develop a graphics application that generates an animation of two circles moving side to side at a 45-degree angle across the screen. The circles should leave a trail behind them, as demonstrated in the sample below.
 
-Write a program that reads 4 student scores, gets the best score, and then assigns grades based on the following scheme:
+Note that the window size should be set to 800x450 pixels. You may use arrays for this task, but it is not mandatory.
 
-```
-Grade is A if score is >= best - 10
-Grade is B if score is >= best - 20
-Grade is C if score is >= best - 30
-Grade is D if score is >= best - 40
-Grade is F otherwise.
+#### Sample
 
-```
+You can click on the picture to watch the video.
 
-The program prompts the user to enter the total number of students (40 at most), then prompts the user to enter all of the scores, and concludes by displaying the grades. Here is a sample run:
+[![Ping](https://i.imgur.com/N3evDwY.png)](https://drive.google.com/file/d/1O2afvCYdF20ChfssGhL8CKrIfb9cRvYU/view?usp=share_link)
 
-### Sample Input and Output
+### Homework Problem #7: Lines
 
-```
-Enter the number of students: 4
-Enter 4 scores: 40 55 70 58
-Student 0 score is 40 and grade is C
-Student 1 score is 55 and grade is B
-Student 2 score is 70 and grade is A
-Student 3 score is 58 and grade is B
+Develop a graphics application that generates an animation of two small circles moving side to side at a 45-degree angle across the screen connected with a red line. The circles and the line should leave a trail behind them, as demonstrated in the sample below.
 
-```
+Note that the window size should be set to 800x450 pixels. You may use arrays for this task, but it is not mandatory.
 
-### Homework Problem #7: Exercise 7.3
+#### Sample
 
-Write a program that reads at most 100 integers between 1 and 100 and counts the occurrences of each. Assume the input ends with 0. Note that if a number occurs more than one time, the plural word 'times' is used in the output. Numbers are displayed in increasing order.
+You can click on the picture to watch the video.
 
-### Sample Input and Output
+[![Lines](https://i.imgur.com/Cpl6mBP.png)](https://drive.google.com/file/d/1fXWOf_w_sCwTOHT6RyJsk2OsGcmD-HDQ/view?usp=share_link)
 
-```
-Enter the integers between 1 and 100: 2 5 6 5 4 3 23 43 2 0
-2 occurs 2 times
-3 occurs 1 time
-4 occurs 1 time
-5 occurs 2 times
-6 occurs 1 time
-23 occurs 1 time
-43 occurs 1 time
+### Homework Problem #8: Spark
 
-```
+Develop a graphics application that generates an animation of two small circles with outlines moving side to side at a 45-degree angle across the screen. The circles should be connected by lines simulating a spark of electricity. Both the circles and the lines should leave a small trail behind them, as demonstrated in the sample below.
 
-### Homework Problem #8: Exercise 7.5
+Note that the window size should be set to 800x450 pixels. You may use arrays for this task, but it is not mandatory.
 
-Write a program that reads in 10 numbers and displays distinct numbers (i.e., if a number appears multiple times, it is displayed only once).
+#### Sample
 
-### Sample Input and Output
+[![Spark](https://i.imgur.com/yvqryzy.png)](https://drive.google.com/file/d/1lF1xsWnXCxSaGAoHofyDcGr0YKAZGJky/view?usp=share_link)
 
-```
-Enter ten numbers: 1 2 3 2 1 6 3 4 5 2
-The distinct numbers are: 1 2 3 6 4 5
+### Homework Problem #9: Motion
 
-```
+Develop a graphics application that generates an animation of numerous small circles moving side to side at various angles across the screen. Use random values (with any seed) to determine positions, movement speed, and other parameters. The circles should leave a trail behind them, as shown in the sample below.
 
-### Homework Problem #9: Exercise 7.10
+Note that the window size should be set to 800x450 pixels. You MUST use arrays to store the circles' data.
 
-Write a function that returns the index of the largest element in an array of integers. If there are more such elements than one, return the largest index.
+#### Sample
 
-```C++
-int indexOfLargestElement(double array[], int size)
-```
+[![Motion](https://i.imgur.com/ZeK6TcP.png)](https://drive.google.com/file/d/1MGJqy6Pat51okNIlyaqoMyrLDUdXB_gg/view?usp=share_link)
 
-Write a test program that prompts the user to enter 15 numbers, invokes this function to return the index of the largest element, and displays the index.
+### Homework Problem #10: Stars
 
-### Sample Input and Output
+Develop a graphics application that generates an animation featuring many stars bouncing around from one side of the screen to the other. Use random values (with any seed) for positions, sizes, colors, speed of movement, and other parameters. Each star should rotate around its center, either clockwise or counterclockwise. You have some artistic freedom, but the animation should resemble the one shown in the sample below. You can reuse the star code from the previous lab.
 
-```
-15 numbers: 10 9 8 7 6 5 4 3 2 1 4 6 3 9 10
-14
+Note, that the window size should be set to 800x450 pixels. You MUST use arrays to store the stars' data.
 
-```
+#### Sample
 
-### Homework Problem #10: Exercise 7.23
+You can click on the picture to watch the video.
 
-Two arrays `list1` and `list2` are identical if they have the same contents. Write a function that returns `true` if `list1` and `list2` are identical using the following header:
+[![Stars](https://i.imgur.com/3UTlwb1.png)](https://drive.google.com/file/d/1Gmhfrioig31BlrunWqSXgM0n3nIWixj-/view?usp=sharing)
 
-```C++
-bool isEqual(const int list1[], const int list2[], int size)
-```
-
-Write a test program that prompts the user to enter two lists of integers and dis- plays whether the two are identical. Here are the sample runs. Note that the first number in the input indicates the number of the elements in the list. This number is not part of the list. Assume the list size is maximum 20.
-
-### Sample Input and Output
-
-```
-15 numbers: 10 9 8 7 6 5 4 3 2 1 4 6 3 9 10
-14
-
-```
-
-```
-Enter list1: 5 5 5 6 6 1
-Enter list2: 5 2 5 6 1 6
-Two lists are not identical
-
-```
+---
 
 ## Expected Repository Structure
 
 Upon completion of all assignments, your repository should look like this:
 
 ```
-. (.idea, .gitignore, CMakeLists.txt, other lab dirs)
-└── lab07
-    ├── p01.cpp
-    ├── p02.cpp
-    ├── p03.cpp
-    ├── p04.cpp
-    ├── p05.cpp
-    ├── p06.cpp
-    ├── p07.cpp
-    ├── p08.cpp
-    ├── p09.cpp
-    └── p10.cpp
+. (.idea, .gitignore, CMakeLists.txt, Readme.md)
+├── problem01.cpp
+├── problem02.cpp
+├── problem03.cpp
+├── problem04.cpp
+├── problem05.cpp
+├── problem06.cpp
+├── problem07.cpp
+├── problem08.cpp
+├── problem09.cpp
+└── problem10.cpp
 ```
 
 If the files with assignments are named incorrectly, you will be penalized.
+
+---
 
 ## Documentation
 
@@ -313,19 +291,20 @@ If the files with assignments are named incorrectly, you will be penalized.
 * `iostream`: <https://en.cppreference.com/w/cpp/header/iostream>
 * `iomanip`: <https://en.cppreference.com/w/cpp/header/iomanip>
 * `cmath`: <https://en.cppreference.com/w/cpp/header/cmath>
+* `cctype`: <https://en.cppreference.com/w/cpp/header/cctype>
 * `operators`: <https://en.cppreference.com/w/cpp/language/operator_precedence>
 * `if`: <https://en.cppreference.com/w/cpp/language/if>
 * `switch`: <https://en.cppreference.com/w/cpp/language/switch>
 * `srand`: <https://en.cppreference.com/w/cpp/numeric/random/srand>
 * `rand`: <https://en.cppreference.com/w/cpp/numeric/random/rand>
-* `do...while`: <https://en.cppreference.com/w/cpp/language/do>
 * `while`: <https://en.cppreference.com/w/cpp/language/while>
+* `do...while`: <https://en.cppreference.com/w/cpp/language/do>
 * `for`: <https://en.cppreference.com/w/cpp/language/for>
 * `continue`: <https://en.cppreference.com/w/cpp/language/continue>
 * `break`: <https://en.cppreference.com/w/cpp/language/break>
 * `functions`: <https://en.cppreference.com/w/cpp/language/functions>
 * `pointers`: <https://en.cppreference.com/w/cpp/language/pointer>
-* `references`: <https://en.cppreference.com/w/cpp/language/reference>
+* `references`: <https://en.cppreference.com/w/cpp/language/reference>>
 * `arrays`: <https://en.cppreference.com/w/cpp/language/array>
 * `struct`: <https://en.cppreference.com/w/c/language/struct>
 
