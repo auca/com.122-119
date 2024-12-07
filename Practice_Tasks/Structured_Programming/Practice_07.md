@@ -71,7 +71,7 @@ Complete the following programming exercises with your lab instructor or on your
 
 ### Problem #1: Dice
 
-Create a program that simulates the tosses of two six-sided dice, thrown a specified number of times. The program should calculate and display the frequency of each possible sum from the dice rolls. The output table should be properly formatted using the `setw`, `left`, and `right` manipulators.
+Create a program that simulates the tosses of two six-sided dice, thrown a specified number of times. The program should calculate and display the frequency of each possible sum from the dice rolls. The output table should be properly formatted using the `setw`, `left`, and `right` manipulators. Use widths of 4 and 10 spaces for the first and second columns, respectively.
 
 Use `srand` from `cstdlib` to seed the random number generator with the value `42`. This ensures a predictable sequence, aiding in the automated evaluation of your program. Note that the examples provided below may use a different seed value, so their results may not match those of your program. Use the following function to generate random numbers, ensuring consistency with the automated script:
 
@@ -167,7 +167,7 @@ SD: 1.41
 
 ### Problem #4: Reverse
 
-Read a list of five numbers and store them in an array. Print the array to the screen. Next, reverse the order of the elements in the array in memory. Perform the reversal in place without creating a new array. Print the modified array to the screen again. Use an `int` array called `data` for this task.
+Read a list of five numbers and store them in an array. Print the array to the screen. Next, reverse the order of the elements in the array in memory. Perform the reversal in place without creating a new array. Print the modified array to the screen again. Use an `int` array called `data` for this task. Create functions such as `void print_data(...)` and `void reverse_data(...)` to structure your code efficiently. Determine the appropriate parameters and their types for these functions.
 
 #### Sample Input and Output
 
