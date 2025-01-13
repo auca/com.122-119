@@ -139,3 +139,13 @@ Previous Course Recordings
 ### Extra Lectures
 
 * <https://youtube.com/playlist?list=PLHcEzCb_lW6c97RMmRijoPtFAf4yEW8dr>
+
+## Fall 2024
+
+### Lectures and Labs
+
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6eYqbP09EYvY0-mC1IpALW->
+
+### Extra Lectures
+
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6fACJXwnxI-Zt1YTiU4P9YF>
