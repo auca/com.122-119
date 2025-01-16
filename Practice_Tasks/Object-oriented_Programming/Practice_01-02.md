@@ -1,14 +1,18 @@
-Object-oriented Programming, Practice #1, #2
-============================================
+Object-oriented Programming, Practice #1
+========================================
 
 ## Developer Tools
 
 * [CLion](https://www.jetbrains.com/clion/download)
-* [Git SCM](https://git-scm.com)
+* [Git SCM](https://git-scm.com/downloads)
+
+---
 
 ## Important Notes
 
-The checkpoints will be graded based on the output of your programs, the correctness of the structure of your repository, and the style of your code. You may be penalized and receive a lower grade if the printed text by your program does not match (wrong letters, additional spaces, or newlines, incorrectly computed result) the correct one. Please check your code and output before submitting it to GitHub or Moodle. Ensure the outcome of your program matches the specified output on this page. Do not forget to print a `\n` control sequence to go to a new line after the last message from your program. Format real numbers precisely to the number of decimal places specified in the sample output. Ensure that your code style is consistent, meaning the code is properly indented, groups of code are separated by blank lines, variable names are consistent in naming style, and describe in a compact manner the data stored in them. Your files and directories must be properly named as per the requirements outlined at the bottom of the page. Moreover, your repository should not contain additional files with unrelated code, especially within the folder designated for lab tasks. If you are told to use a particular function, you must base your solution on that function even if there exists a better solution without the use of it. Do not hesitate to contact your practice instructor if you have any questions.
+The checkpoint will be graded based on the output of your programs, the correctness of the structure of your repository, and the style of your code. You may be penalized and receive a lower grade if the printed text by your program does not match (wrong letters, additional spaces, or newlines, incorrectly computed result) the correct one. Please check your code and output before submitting it to GitHub or Moodle. Ensure the outcome of your program matches the specified output on this page. Do not forget to print a `\n` control sequence to go to a new line after the last message from your program. Format real numbers precisely to the number of decimal places specified in the sample output. Ensure that your code style is consistent, meaning the code is properly indented, groups of code are separated by blank lines, variable names are consistent in naming style, and describe in a compact manner the data stored in them. Your files and directories must be properly named as per the requirements outlined at the bottom of the page. Moreover, your repository should not contain additional files with unrelated code, especially within the folder designated for lab tasks. If you are told to use a particular function, you must base your solution on that function even if there exists a better solution without the use of it. Do not hesitate to contact your practice instructor if you have any questions.
+
+---
 
 ## Practice #1, Problem #1: Turtle Graphics, Procedural Style
 
@@ -20,7 +24,7 @@ The checkpoints will be graded based on the output of your programs, the correct
 
 — H. M. Deitel
 
-In this problem, you will simulate the operation of a virtual turtle and create a digital sketchpad. Represent the field using a 20-by-20 rectangular 2-D array, initially filled with the character `.`. Sequentially read and execute the user's commands to the turtle. The program should keep track of the turtle's current position and the state of its pen (either up or down). The process stops when the user types `exit` or triggers the [EOF](https://en.wikipedia.org/wiki/End-of-file) condition on the keyboard. Assume that the turtle always starts at the location (0, 0), its initial direction is to the right, and its pen is in the up position.
+In this problem, you will simulate the operation of a virtual turtle and create a digital sketchpad. Represent the field as a 20-by-20 rectangular 2-D array, initially filled with the character `.`. Sequentially read and execute the user's commands to control the turtle. The program should track the turtle's current position and the state of its pen (either up or down). The process stops when the user types `exit` or triggers the [EOF](https://en.wikipedia.org/wiki/End-of-file) condition on the keyboard. The program should ignore invalid input. Assume the turtle always starts at location (0, 0), with its initial direction set to the right and its pen in the up position.
 
 | Command    | Meaning                |
 | ---------: | :--------------------- |
@@ -82,9 +86,13 @@ exit
 
 As the turtle moves with its pen in the 'down' position, we set the corresponding elements of the array to `*` to represent its path.
 
+---
+
 ## Homework
 
 Read Introduction to C++ Programming, 3rd Edition by Y. Daniel Liang, Chapter 9, 10, 11
+
+---
 
 ## Expected Repository Structure
 
@@ -92,25 +100,28 @@ Upon completion of all assignments, your repository should look like this:
 
 ```
 . (.idea, .gitignore, CMakeLists.txt, Readme.md)
-└── main.cpp
+└── turtle.cpp
 ```
 
 If the files with assignments are named incorrectly, you will be penalized.
 
+---
+
 ## Documentation
 
 * `iostream`: <https://en.cppreference.com/w/cpp/header/iostream>
-* `iomanip`: <https://en.cppreference.com/w/cpp/header/iomanip>
 * `sstream`: <https://en.cppreference.com/w/cpp/header/sstream>
 * `cerr`: <https://en.cppreference.com/w/cpp/io/cerr>
+* `iomanip`: <https://en.cppreference.com/w/cpp/header/iomanip>
 * `cmath`: <https://en.cppreference.com/w/cpp/header/cmath>
+* `cctype`: <https://en.cppreference.com/w/cpp/header/cctype>
 * `operators`: <https://en.cppreference.com/w/cpp/language/operator_precedence>
 * `if`: <https://en.cppreference.com/w/cpp/language/if>
 * `switch`: <https://en.cppreference.com/w/cpp/language/switch>
 * `srand`: <https://en.cppreference.com/w/cpp/numeric/random/srand>
 * `rand`: <https://en.cppreference.com/w/cpp/numeric/random/rand>
-* `do...while`: <https://en.cppreference.com/w/cpp/language/do>
 * `while`: <https://en.cppreference.com/w/cpp/language/while>
+* `do...while`: <https://en.cppreference.com/w/cpp/language/do>
 * `for`: <https://en.cppreference.com/w/cpp/language/for>
 * `continue`: <https://en.cppreference.com/w/cpp/language/continue>
 * `break`: <https://en.cppreference.com/w/cpp/language/break>
@@ -119,6 +130,8 @@ If the files with assignments are named incorrectly, you will be penalized.
 * `references`: <https://en.cppreference.com/w/cpp/language/reference>
 * `arrays`: <https://en.cppreference.com/w/cpp/language/array>
 * `struct`: <https://en.cppreference.com/w/c/language/struct>
+
+---
 
 ## Practice #2, Problem #1: Turtle Graphics, OOP Style
 
@@ -282,9 +295,13 @@ T...................
 exit
 ```
 
+---
+
 ## Homework
 
 Read Introduction to C++ Programming, 3rd Edition by Y. Daniel Liang, Chapter 9, 10, 11
+
+---
 
 ## Expected Repository Structure
 
@@ -302,6 +319,8 @@ Upon completion of all assignments, your repository should look like this:
 ```
 
 If the files with assignments are named incorrectly, you will be penalized.
+
+---
 
 ## Documentation
 
