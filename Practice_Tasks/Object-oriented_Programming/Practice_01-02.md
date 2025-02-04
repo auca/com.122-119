@@ -133,16 +133,16 @@ If the files with assignments are named incorrectly, you will be penalized.
 
 ---
 
-## Practice #2, Problem #1: Turtle Graphics, OOP Style
+## Practice #2, Problem #1: Turtle Graphics, Object-oriented Style
 
-Write an application to implement the same Turtle Graphics program discussed here using an *object-oriented programming* style. Design and implement the `turtle`, `field`, and `cmd` classes. In the `main` function, instantiate all the objects. Place two turtles on the field and enable the selection of a turtle using the command `select <turtle number (1 or 2)>`. Position one turtle in the lower right corner of the field, facing the left side. Use instances of the `cmd` class to parse text input in order to extract the command type and its arguments.
+Write an application to implement the same Turtle Graphics program discussed in Practice #1 using an *object-oriented programming* style. Design and implement the `turtle`, `field`, and `cmd` classes. In the `main` function, instantiate all the objects. Place two turtles on the field and enable the selection of a turtle using the command `select <turtle number (1 or 2)>`. Position the second turtle in the lower right corner of the field, facing the left side. Use instances of the `cmd` class to parse text input in order to extract the command type and its arguments.
 
 ### Example
 
 ```
 Turtle Graphics
 ===============
-Type your commands (`select <turtle num>`, `pen-up`, `pen-down`, `turn-right`, `turn-left`, `move <n>`, `display`, `exit`) below.
+Type your commands (`select <turtle number>`, `pen-up`, `pen-down`, `turn-right`, `turn-left`, `move <steps>`, `display`, `exit`) below.
 move 1
 turn-right
 move 1
@@ -181,7 +181,7 @@ exit
 
 ### Error Handling
 
-Check for incorrect input in the constructor of the `cmd` instances and throw exceptions. There should be one central location in `main` to catch these exceptions. This central location is for formatting and printing errors to the screen, which helps avoid code repetition. Use the `std::runtime_error` class from the `stdexcept` header where appropriate (do not create your own exception classes yet). Your program should check for at least the following error conditions:
+Check for incorrect input in the constructor of the `cmd` instances and throw exceptions. There should be one central location in `main` to catch these exceptions. This central location is for formatting and printing errors to the screen, which helps avoid code repetition. Use the `std::invalid_argument` class from the `stdexcept` header where appropriate (do not create your own exception classes yet). Your program should check for at least the following error conditions:
 
 1. No input (e.g., an empty line with or without whitespaces was provided)
 
@@ -221,14 +221,14 @@ Check for incorrect input in the constructor of the `cmd` instances and throw ex
 
 All error conditions listed above must be recoverable; the program must not stop or crash. Additionally, all errors must be printed to the STDERR stream, including the `Please, try again.` message that must follow the error description on the same line.
 
-### Example
+#### Example
 
 Please, note that some empty lines in the example below contain invisible whitespace and tab sequences of characters.
 
 ```
 Turtle Graphics
 ===============
-Type your commands (`select <turtle num>`, `pen-up`, `pen-down`, `turn-right`, `turn-left`, `move <n>`, `display`, `exit`) below.
+Type your commands (`select <turtle number>`, `pen-up`, `pen-down`, `turn-right`, `turn-left`, `move <steps>`, `display`, `exit`) below.
 
     
 			
@@ -299,7 +299,7 @@ exit
 
 ## Homework
 
-Read Introduction to C++ Programming, 3rd Edition by Y. Daniel Liang, Chapter 9, 10, 11
+Read Introduction to C++ Programming, 3rd Edition by Y. Daniel Liang, Chapter 9, 10, 11, 16
 
 ---
 
@@ -309,13 +309,13 @@ Upon completion of all assignments, your repository should look like this:
 
 ```
 . (.idea, .gitignore, CMakeLists.txt, Readme.md)
+├── main.cpp
+├── cmd.h
+├── cmd.cpp
 ├── field.h
 ├── field.cpp
 ├── turtle.h
-├── turtle.cpp
-├── cmd.h
-├── cmd.cpp
-└── main.cpp
+└── turtle.cpp
 ```
 
 If the files with assignments are named incorrectly, you will be penalized.
@@ -330,6 +330,6 @@ If the files with assignments are named incorrectly, you will be penalized.
 * `access-specifier`: <https://en.cppreference.com/w/cpp/language/access>
 * `static`: <https://en.cppreference.com/w/cpp/language/static>
 * `throw`: <https://en.cppreference.com/w/cpp/language/throw>
-* `try-block`: <https://en.cppreference.com/w/cpp/language/try_catch>
+* `try-block`: <https://en.cppreference.com/w/cpp/language/try>
 * `stdexcept`: <https://en.cppreference.com/w/cpp/header/stdexcept>
-* `runtime_error`: <https://en.cppreference.com/w/cpp/error/runtime_error>
+* `invalid_argument`: <https://en.cppreference.com/w/cpp/error/invalid_argument>
