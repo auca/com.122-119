@@ -13,8 +13,8 @@ List of the course or bonus projects.
 
 ### Project #1
 
-* <https://github.com/toksaitov/simple-sokoban-project>
+* <https://github.com/toksaitov/platformer-project>
 
 ### Project #2
 
-* <https://github.com/toksaitov/simple-graphics-editor-project>
+* TBD
