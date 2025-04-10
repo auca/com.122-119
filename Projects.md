@@ -17,4 +17,4 @@ List of the course or bonus projects.
 
 ### Project #2
 
-* TBD
+* <https://github.com/toksaitov/platformer-level-editor-project>
