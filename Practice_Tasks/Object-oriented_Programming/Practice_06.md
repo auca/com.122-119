@@ -3,66 +3,53 @@ Object-oriented Programming, Practice #6
 
 ## Developer Tools
 
-* [Git](https://git-scm.com)
-* [CMake](https://cmake.org)
-* [Python](https://www.python.org)
-* [Conan](https://conan.io)
-* [CLion](https://www.jetbrains.com/clion)
+* [CLion](https://www.jetbrains.com/clion/download)
+* [Git SCM](https://git-scm.com/downloads)
 
 ## Libraries
 
-* [Qt 6](https://www.qt.io/product/qt6)
+* [Qt 6](https://www.qt.io)
 
-### Compiling and Installing Qt 6
+### Installing Qt 6
 
-Please follow the instructor's [directives](https://www.youtube.com/watch?v=WNS7AMa4JII) to install Qt 6 on your system. Note that the installation involves several steps and may require a significant amount of time. It is advisable to start this process as soon as possible and also contact your instructors as soon as possible in case of problems. Failure to complete the library setup in time could hinder your ability to complete and submit the practical tasks by their deadlines. Please be aware that no extensions will be granted, and failing to set up the library will result in a zero for all online and offline assessments.
+In this lab, you will be building simple GUI applications using the popular library Qt (pronounced "cute"). First, you will need to install the library on your system. Our labs already have the library installed. On your personal computer, you must follow the instructions below to install the library for your operating system. It is advisable to install the library as soon as possible and to contact your instructors in case of any problems. Failure to complete the library setup in time could hinder your ability to complete and submit the practical tasks by their deadlines. Please be aware that no extensions will be granted, and failing to set up the library will result in a zero for all online and offline assessments.
 
-0. Ensure you have installed all the necessary software mentioned in the video available [here](https://www.youtube.com/watch?v=WNS7AMa4JII).
+#### Windows
 
-1. Ensure the Conan package manager has at least the default compiler profile:
+1. Download the following [archive](https://drive.google.com/file/d/14iCNNsdpZTj4t9ZNz4Mdi79Hd6pWwuab/view) and extract it to the `C:` drive. Ensure that after extraction there is a directory named `Qt` (`C:\Qt`), and inside it, a directory named `6.8.2` (`C:\Qt\6.8.2`). If you do not trust our package, you can install Qt 6 yourself using the official online [installer](https://www.qt.io/download-open-source). Select only the library for the MSVC compiler, version `6.8.2`; do not install any additional components, as the full installation requires significant disk space.
+2. Run PowerShell as an administrator. Once open, execute the code below to set global OS variables that will help build tools locate your Qt 6 installation:
 
-   ```
-   conan profile detect --force
-   ```
+```powershell
+[System.Environment]::SetEnvironmentVariable("Qt6_DIR", "C:\Qt\6.8.2\msvc2022_64", "Machine")
 
-   If the generated profile has the C++ 14 standard selected, [edit](https://youtu.be/WNS7AMa4JII?t=3649) the profile file to change it to C++ 17.
+$currentPath = [System.Environment]::GetEnvironmentVariable("Path", "Machine")
+$newDir = "C:\Qt\6.8.2\msvc2022_64\bin"
+if ($currentPath -notlike "*$newDir*") {
+    $updatedPath = "$currentPath;$newDir"
+    [System.Environment]::SetEnvironmentVariable("Path", $updatedPath, "Machine")
+}
+```
 
-2. Install dependencies using Conan for the `Debug` configuration:
+#### macOS
 
-    ```bash
-    conan install . --build missing --settings build_type=Debug
-    ```
+1. Install or update the [Homebrew](https://brew.sh) package manager.
+2. Install Qt 6 with Homebrew by running `brew install qt6` in the Terminal application.
 
-    On Ubuntu, additional system packages might be required. Follow the recommendations in the output from the previous command or rerun Conan with the following options to install the necessary packages automatically:
+#### Ubuntu
 
-    ```bash
-    sudo apt install pkg-config
-    conan install . --build missing --conf tools.system.package_manager:mode=install --conf tools.system.package_manager:sudo=True --settings build_type=Debug
-    ```
+1. Install Qt 6 with the system package manager by running `sudo apt install qt6-base-dev` in the Terminal application.
 
-3. Generate build files:
-
-    ```bash
-    # On Windows
-    cmake --preset conan-default
-
-    # On macOS, GNU/Linux, or Windows with WSL
-    cmake --preset conan-debug
-    ```
-
-4. Build the project:
-
-    ```bash
-    cmake --build --preset conan-debug
-    ```
+---
 
 ## Important Notes
 
-The checkpoints will be graded based on the text and visual output of your programs, the correctness of the structure of your repository, and the style of your code. Ensure that your code style is consistent, meaning the code is properly indented, groups of code are separated by blank lines, variable names are consistent in naming style, and describe in a compact manner the data stored in them. Your files and directories must be properly named as per the requirements outlined at the bottom of the page. Moreover, your repository should not contain additional files with unrelated code, especially within the folder designated for lab tasks. If you are told to use a particular function, you must base your solution on that function even if there exists a better solution without the use of it. Do not hesitate to contact your practice instructor if you have any questions.
+The checkpoints will be graded based on the visual output of your GUI programs, the correctness of your repository’s structure, and the style of your code. Ensure that your code style is consistent: your code should be properly indented, groups of code should be separated by blank lines, and variable names should follow a consistent naming convention while concisely describing the data they represent. Your files and directories must be named according to the requirements outlined at the bottom of the page. Moreover, your repository should not contain additional files with unrelated code, especially within the folder designated for lab tasks. If you are instructed to use a particular function, you must base your solution on that function, even if a better solution exists without it. Do not hesitate to contact your practice instructor if you have any questions.
+
+---
 
 ## Problem #1: Prototype of a Graphics Editor, Version 0.1
 
-Create a console application to prototype important parts of a vector graphics editor that you will further develop in Project 2. In this prototype, a user can provide coordinates on a virtual canvas to select one of several test rectangles that you have created, and display its properties.
+Create a console application to prototype [model classes](https://en.wikipedia.org/wiki/Model–view–controller) of a simple vector graphics editor. In this prototype, a user can provide coordinates on a virtual canvas to select one of several test rectangles that you have created, and display its properties.
 
 For this prototype, you need to design a class to represent a rectangle parametrically. Follow the [UML](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-uml) class diagram below to implement your class:
 
@@ -175,7 +162,7 @@ Enter the 'x' coordinate: ^D/Z/C
 
 ## Problem #3: Prototype of a Graphics Editor, Version 0.3
 
-Copy the code from the previous program and modify it to store both `rectangle` and `circle` instances in a single `std::vector` collection. Achieve this by introducing a base `shape` class from which the child classes `rectangle` and `circle` will inherit common data. Enforce that child classes implement the `paint`, `contains`, and `operator std::string` methods. Remove unnecessary loops from the `main` function.
+Copy the code from the previous program and modify it to store both `rectangle` and `circle` instances in a single `std::vector` collection. Do this by introducing a base `shape` class from which the derived classes `rectangle` and `circle` inherit common data. You will need to use pointers to avoid [object slicing](https://en.wikipedia.org/wiki/Object_slicing); try using [smart pointers](https://en.cppreference.com/w/cpp/memory/unique_ptr) instead of raw pointers. Ensure that the derived classes implement the `paint` and `contains` member functions, and provide a conversion operator to `std::string`. To effectively use the conversion operator to `std::string` in an inheritance hierarchy, you may need to introduce additional private helper functions (for example, a `to_string` method) that the base class’s conversion operator can call. Remove any unnecessary code from the `main` function. Follow the [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) principle.
 
 ```mermaid
 classDiagram
@@ -240,7 +227,7 @@ Enter the 'x' coordinate: ^D/Z/C
 
 ## Problem #4: Prototype of a Graphics Editor, Version 0.4
 
-Copy the code from the previous program and modify the main loop to allow commands such as 'paint', 'click', 'move', and 'exit' for user interaction. The code for printing the `std::vector` of shapes should only be executed when the 'paint' command is issued by the user. Similarly, the logic to select a shape at a given point should now occur upon the issuance of the 'click' command. The 'move' command should prompt the user to specify the `x` and `y` coordinates of the shape to move and the `dx` and `dy` values by which to move the shape. If multiple shapes are located under the `x` and `y` coordinates, only the one closest to the end of the `std::vector` should be selected for movement. To support shape movement, add a `move` member function to the `shape` class (as shown in the UML diagram below). Do not override the `move` function in child classes.
+Copy the code from the previous program, and then modify the main loop to allow commands such as 'paint', 'click', 'move', and 'exit' for user interaction. The code that prints the `std::vector` of shapes should execute only when the 'paint' command is issued by the user. Similarly, the logic to select a shape at a given point should trigger when the 'click' command is issued. The 'move' command should prompt the user to specify the `x` and `y` coordinates of the shape to be moved, as well as the `dx` and `dy` values by which to move the shape. If multiple shapes are located under the specified coordinates, only the one closest to the end of the `std::vector` should be selected for movement. To support shape movement, add a `move` member function to the `shape` class (as shown in the UML diagram below). Do not override the `move` function in child classes.
 
 ```mermaid
 classDiagram
@@ -314,11 +301,19 @@ Enter the command ('paint', 'click', 'move', 'exit'): exit
 
 <img src="https://i.imgur.com/9Y8Auux.png" width="600" alt="Problem 5" />
 
-Utilize the model classes created in previous programs to develop a graphics editor prototype using the Qt 6 library. This editor should allow users to draw rectangles and circles of a fixed size and color (selected by you) with a left mouse click on the virtual canvas. Right-clicking should select a shape, highlighting it with a distinguishable border. Users should be able to move the selected shape around the canvas by holding the right mouse button and moving the cursor. Pressing the `Delete` key (`Qt::Key_Delete`) should delete the currently selected shape.
+Utilize the model classes created in previous programs to develop a graphics editor prototype using the Qt 6 library. This editor should allow users to draw rectangles and circles of a fixed size and color (selected by you) with a left mouse click on the virtual canvas. Right-clicking should select a shape, highlighting it with a distinguishable border. Users should be able to move the selected shape around the canvas by holding the right mouse button and moving the cursor. Pressing the `Delete` key (`Qt::Key_Delete`) should delete the currently selected shape. The program window MUST have the title 'Problem #5' and MUST be 500 by 500 pixels in size. Ensure that your program generates a screenshot similar to the one demonstrated below for the inputs in the grader.
+
+<img src="https://i.imgur.com/2K7Aprl.png" width="500" alt="Correct Problem 5 Output" />
+
+If you are wondering what happened to version 1.0 of the program, note that in some academic semesters, students were required to build version 1.0 as a second project. This is not the case for this semester.
+
+---
 
 ## Homework
 
 Read Introduction to C++ Programming, 3rd Edition by Y. Daniel Liang, Chapter 9, 10, 11, 12, 14, 15, 16
+
+---
 
 ## Expected Repository Structure
 
@@ -326,15 +321,16 @@ Upon completion of all assignments, your repository should look like this:
 
 ```
 . (.idea, .gitignore, CMakeLists.txt, Readme.md)
-├── data...
-├── problem1.cpp
-├── problem2.cpp
-├── problem3.cpp
-├── problem4.cpp
-└── problem5.cpp
+├── problem01.cpp
+├── problem02.cpp
+├── problem03.cpp
+├── problem04.cpp
+└── problem05.cpp
 ```
 
 If the files with assignments are named incorrectly, you will be penalized.
+
+---
 
 ## Documentation
 
@@ -346,7 +342,7 @@ If the files with assignments are named incorrectly, you will be penalized.
 * `access-specifier`: <https://en.cppreference.com/w/cpp/language/access>
 * `static`: <https://en.cppreference.com/w/cpp/language/static>
 * `throw`: <https://en.cppreference.com/w/cpp/language/throw>
-* `try-block`: <https://en.cppreference.com/w/cpp/language/try_catch>
+* `try-block`: <https://en.cppreference.com/w/cpp/language/try>
 * `stdexcept`: <https://en.cppreference.com/w/cpp/header/stdexcept>
 * `operator overloading`: <https://en.cppreference.com/w/cpp/language/operators>
 * `friend`: <https://en.cppreference.com/w/cpp/language/friend>
