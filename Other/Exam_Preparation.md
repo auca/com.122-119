@@ -32,6 +32,8 @@ Read the following chapters of the course book:
 
 Redo labs 5 to 8.
 
+---
+
 ## COM-119: Object-Oriented Programming
 
 ### Midterm

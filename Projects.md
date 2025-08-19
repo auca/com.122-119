@@ -7,14 +7,14 @@ List of the course or bonus projects.
 
 ### Project
 
-* <https://github.com/toksaitov/simple-platformer-project>
+* TBD
 
 ## Object-Oriented Programming
 
 ### Project #1
 
-* <https://github.com/toksaitov/platformer-project>
+* TBD
 
 ### Project #2
 
-* <https://github.com/toksaitov/platformer-level-editor-project>
+* TBD

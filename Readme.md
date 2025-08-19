@@ -11,8 +11,8 @@ General course information, time, rules, grading, and books
 
 View this semester's class recordings
 
-* <https://youtube.com/playlist?list=PLHcEzCb_lW6eyX7V1Ftk_0CmRzdRCGOWY>
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6d_PnAPR10HiaVgCHDPaUct>
 
 View this semester's extra lectures
 
-* <https://youtube.com/playlist?list=PLHcEzCb_lW6foTk3WN-kx_XmfGCKwLj45>
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6eIRf0N28Frxyd-cnwmq6cT>
