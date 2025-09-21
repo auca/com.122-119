@@ -6,9 +6,19 @@ Introduction to Programming, Practice #2
 * [CLion](https://www.jetbrains.com/clion/download)
 * [Git SCM](https://git-scm.com/downloads)
 
+---
+
 ## Important Notes
 
-The checkpoint will be graded based on the output of your programs, the correctness of the structure of your repository, and the style of your code. You may be penalized and receive a lower grade if the printed text by your program does not match (wrong letters, additional spaces, or newlines, incorrectly computed result) the correct one. Please check your code and output before submitting it to GitHub or Moodle. Ensure the outcome of your program matches the specified output on this page. Do not forget to print a \n control sequence to go to a new line after the last message from your program. Format real numbers precisely to the number of decimal places specified in the sample output. Ensure that your code style is consistent, meaning the code is properly indented, groups of code are separated by blank lines, variable names are consistent in naming style, and describe in a compact manner the data stored in them. Your files and directories must be properly named as per the requirements outlined at the bottom of the page. Moreover, your repository should not contain additional files with unrelated code, especially within the folder designated for lab tasks. If you are told to use a particular function, you must base your solution on that function even if there exists a better solution without the use of it. Do not hesitate to contact your practice instructor if you have any questions.
+The checkpoint will be graded based on your programs' output, the correctness of your repository structure, and the style of your code. You may be penalized and receive a lower grade if your program's output does not exactly match the expected output (wrong letters, extra spaces or newlines, or an incorrectly computed result). Please check your code and output before submitting your work to GitHub or Moodle. Ensure your program's output matches the specified output on this page. Print a `\n` newline after the final line of your program's output. Format real numbers precisely to the number of decimal places specified in the sample output.
+
+Ensure your code style is consistent: indent code properly, separate logical blocks with a blank line, and use variable names that follow a consistent naming style and concisely describe the data they store. The code style for all files must conform to the configuration in `.clang-format`. By default, `.clang-format` is set to the WebKit style; see the [WebKit Code Style Guidelines](https://webkit.org/code-style-guidelines) for details. If you prefer a different style, update `.clang-format` accordingly. Ensure that your source files adhere to the selected style. If you receive the error `The file is not formatted consistently with the '.clang-format' configuration.` from the grader, it means you failed to follow the selected style in the `.clang-format` file. Format your source code manually or use CLion's autoformatting tools. However, we recommend starting with manual formatting to build good programming habits.
+
+Your files and directories must be named according to the requirements outlined at the bottom of this page. Moreover, your repository must not contain extraneous files or unrelated code, especially within the folder designated for lab tasks.
+
+If you are instructed to use a particular function, you must base your solution on that function, even if a better solution exists without it.
+
+Do not hesitate to contact your practice instructor if you have any questions.
 
 ---
 
@@ -46,7 +56,7 @@ After swapping: a = 3; b = 2;
 
 ### Problem #3: Sum of Digits
 
-Read a four-digit integer from standard input and calculate the sum of all its digits. Use the `abs` function from the `cstdlib` header to find the absolute value of the integer.
+Read a four-digit integer from standard input and calculate the sum of all its digits. Use the `abs` function from `cstdlib` to find the absolute value of the integer.
 
 #### Sample Input and Output
 
@@ -58,7 +68,7 @@ The sum of all digits is 13.
 
 ### Problem #4: Inches to Centimeters Converter
 
-Create an application that converts inches to centimeters. Note that one inch equals 2.54 centimeters. Use a constant to represent this conversion factor. Also, use the `fixed` and `setprecision` manipulators from the `iomanip` library to format the numeric output, ensuring that the result displays two decimal places.
+Create an application that converts inches to centimeters. Note that one inch equals 2.54 centimeters. Use a compile-time constant with the `constexpr` keyword to represent this conversion factor. Also, use the `fixed` and `setprecision` manipulators from `iomanip` to format the numeric output, ensuring that the result displays two decimal places.
 
 #### Sample Input and Output
 
@@ -74,7 +84,7 @@ Create an application that converts degrees Fahrenheit to degrees Celsius. Use t
 
 $\degree C = \frac{5}{9} \times ( \degree F - 32 )$
 
-Use the `fixed` and `setprecision` manipulators from the `iomanip` library to format the numeric output, ensuring that the result displays two decimal places.
+Use the `fixed` and `setprecision` manipulators from `iomanip` to format the numeric output, ensuring that the result displays two decimal places.
 
 #### Sample Input and Output
 
@@ -106,7 +116,7 @@ $A = r^2 \pi$
 
 $V = A \times l$
 
-Ignore the sample output in the book. Instead, use the sample provided below to check the correctness of your solution. Use the `fixed` and `setprecision` manipulators from the `iomanip` library to format the numeric output, ensuring that the area displays four decimal places, and the volume displays one decimal place.
+Ignore the sample output in the book. Instead, use the sample provided below to check your solution's correctness. Use the `fixed` and `setprecision` manipulators from `<iomanip>` to format the numeric output, ensuring that the area displays four decimal places and the volume displays one decimal place. Use the `numbers::pi` constant from `<numbers>` to represent the value of $\pi$.
 
 #### Sample Input and Output
 
@@ -119,9 +129,9 @@ The volume is 1140.4
 
 ### Homework Problem #7: Exercise 2.3
 
-Write a program that reads a number in feet, converts it to meters, and displays the result. One foot equals 0.305 meters. Use a constant for the conversion factor where possible.
+Write a program that reads a number in feet, converts it to meters, and displays the result. One foot equals 0.305 meters. Use a compile-time constant (`constexpr`) for the conversion factor where possible.
 
-Use the `fixed` and `setprecision` manipulators from the `iomanip` library to format the numeric output, ensuring that the result displays four decimal places.
+Use the `fixed` and `setprecision` manipulators from `iomanip` to format the numeric output according to the example below.
 
 #### Sample Input and Output
 
@@ -133,9 +143,9 @@ Enter a value for feet: 16.5
 
 ### Homework Problem #8: Exercise 2.4
 
-Write a program that converts pounds to kilograms. The program should prompt the user to enter a value in pounds, convert it to kilograms, and display the result. Use a constant for the conversion factor, where one pound is equal to 0.454 kilograms.
+Write a program that converts pounds to kilograms. The program should prompt the user to enter a value in pounds, convert it to kilograms, and display the result. Use a compile-time constant (`constexpr`) for the conversion factor, where one pound is equal to 0.454 kilograms.
 
-Use the `fixed` and `setprecision` manipulators from the `iomanip` library to format the numeric output, ensuring that the result displays three decimal places.
+Use the `fixed` and `setprecision` manipulators from `iomanip` to format the numeric output according to the example below.
 
 #### Sample Input and Output
 
@@ -161,7 +171,7 @@ Enter the number of minutes: 1000000000
 
 Rewrite Programming Exercise 1.11 to prompt the user to enter the number of years and display the population after the number of years.
 
-Use the `round` function from `cmath` to round calculations performed on `double` values. Use the `static_cast` operator to convert the result of `round` to an integer value to avoid the need of `fixed` and `setprecision` from `iomanip` for `cout`.
+Use `round` from `<cmath>` to round the results of calculations on `double` values. Use `static_cast` to convert the result of `round` to an integer type (not necessarily `int`) to avoid using `fixed` and `setprecision` from `<iomanip>` when printing with `cout`.
 
 Ignore the sample output in the book. Instead, use the sample below to check the correctness of your solution.
 
@@ -180,7 +190,7 @@ The population in 5 years is 325932970
 Upon completion of all assignments, your repository should look like this:
 
 ```
-. (.idea, .gitignore, CMakeLists.txt, Readme.md)
+. (.idea, .gitignore, .clang-format, CMakeLists.txt, Readme.md)
 ├── problem01.cpp
 ├── problem02.cpp
 ├── problem03.cpp
@@ -202,3 +212,7 @@ If the files with assignments are named incorrectly, you will be penalized.
 * `iostream`: <https://en.cppreference.com/w/cpp/header/iostream>
 * `iomanip`: <https://en.cppreference.com/w/cpp/header/iomanip>
 * `cmath`: <https://en.cppreference.com/w/cpp/header/cmath>
+* `const`: <https://en.cppreference.com/w/cpp/language/cv.html>
+* `constexpr`: <https://en.cppreference.com/w/cpp/language/constexpr.html>
+* `math constants`: <https://en.cppreference.com/w/cpp/numeric/constants.html>
+* `static_cast`: <https://en.cppreference.com/w/cpp/language/static_cast.html>
