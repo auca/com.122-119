@@ -6,36 +6,40 @@ Introduction to Programming, Practice #5
 * [CLion](https://www.jetbrains.com/clion/download)
 * [Git SCM](https://git-scm.com/downloads)
 
-### Installing `raylib` in CLion using `vcpkg`
+### Installing raylib in CLion using vcpkg
 
-Follow these steps to install the `raylib` library in your C++ project in CLion using the `vcpkg` package manager. The `raylib` C library enables you to create interactive, cross-platform, hardware-accelerated graphical applications using structured and procedural code.
+Follow these steps to install the raylib library in your C++ project in CLion using the vcpkg package manager. The raylib C library enables you to create interactive, cross-platform, hardware-accelerated graphical applications using structured and procedural code.
+
+If you are unable to install the raylib library and get the test program to display at least a window, please schedule an office hours session with your instructors to resolve any installation issues related to the software described in this requirements document. Do not delay such meetings; failure to prepare a development environment on time will be reflected in the academic evaluation for this lab.
 
 #### Step 0: OS-based Preparations
 
-- On Windows, install [Visual Studio Community](https://visualstudio.microsoft.com/vs/community), with the [Desktop development with C++](https://learn.microsoft.com/en-us/cpp/build/vscpp-step-0-installation?view=msvc-170) packages.
-- On macOS, first install [brew](https://brew.sh) through the `Terminal.app` on macOS, then with `brew` install the following libraries by running the `brew install libxinerama libxcursor xorg-server pkg-config glfw` command in the same terminal.
-- On GNU/Linux, first install `libxinerama-dev libxcursor-dev xorg-dev libglu1-mesa-dev pkg-config curl zip unzip tar` libraries with the package manager of your distribution. Note that the names of the packages may differ slightly depending on the package manager and its repositories used. Refer to the documentation of your GNU/Linux distribution for more information.
+* On Windows, install [Visual Studio Community](https://visualstudio.microsoft.com/vs/community), with the [Desktop development with C++](https://learn.microsoft.com/en-us/cpp/build/vscpp-step-0-installation?view=msvc-170) packages.
+* On macOS, first install [brew](https://brew.sh) through the `Terminal.app` on macOS, then with `brew` install the following libraries by running the `brew install xorg-server libxcursor libxinerama pkg-config glfw` command in the same terminal.
+* On GNU/Linux, first install `libx11-dev libxcursor-dev libxinerama-dev libxrandr-dev libgl1-mesa-dev libglu1-mesa-dev pkg-config` libraries with the package manager of your distribution. Note that the names of the packages may differ slightly depending on the package manager and its repositories used. Refer to the documentation of your GNU/Linux distribution for more information.
 
-#### Step 1: Accessing the `Vcpkg` Panel
+Additional packages may be required, depending on the specific version of your operating system and its configuration. Follow any suggestions provided by the software and libraries during installation.
 
-- In CLion, open the `Vcpkg` panel by clicking on the `View` menu, then clicking on the `Tool Windows` submenu, and finally selecting the `Vcpkg` item from the list.
+#### Step 1: Accessing the Vcpkg Panel
 
-#### Step 2: Install `Vcpkg`
+* In CLion, open the Vcpkg panel by clicking on the `View` menu, then clicking on the `Tool Windows` submenu, and finally selecting the `Vcpkg` item from the list.
 
-- Install `Vcpkg` by clicking on the `+` button in the `Vcpkg` panel.
-- Leave the `Name` and `URL` fields to default values.
-- If on a lab machine, change the `Directory` field to `Z:\.vcpkg-clion\vcpkg`, otherwise leave it at the default value.
-- Check the option `Add vcpkg integration to existing CMake profiles`.
-- Check the option `Debug`.
+#### Step 2: Install Vcpkg
 
-#### Step 3: Installing `raylib`
+* Install Vcpkg by clicking on the `+` button in the Vcpkg panel.
+* Leave the `Name` and `URL` fields to default values.
+* If on a lab machine, change the `Directory` field to `Z:\.vcpkg-clion\vcpkg`, otherwise leave it at the default value.
+* Check the option `Add vcpkg integration to existing CMake profiles`.
+* Check the option `Debug`.
 
-- Find `raylib` in the `Vcpkg` panel by typing the name of the library in the search field.
-- Select `raylib` in the search result, and click on the `Install` button in the `Vcpkg` panel.
+#### Step 3: Installing raylib
 
-#### Step 4: Integrate `raylib` Into the Project
+* Find `raylib` in the Vcpkg panel by typing the name of the library in the search field.
+* Select `raylib` in the search result, and click on the `Install` button in the Vcpkg panel. If you see the `Remove from vcpkg.json` button instead of `Install`, you don't need to install the package, it was installed automatically. You can move on to the next step.
 
-- Once the installation is complete, you need to integrate `raylib` into your project. On macOS, you must enable an address sanitization library since `raylib` is compiled with it on this platform. On GNU/Linux, a similar step is required, but the command differs to also include the undefined behavior sanitizer. To accomplish this, open the `CMakeLists.txt` file in your project and append the following lines after the `set(CMAKE_CXX_STANDARD 17)` line:
+#### Step 4: Integrate raylib Into the Project
+
+* Once the installation is complete, you need to integrate raylib into your project. On macOS, you must enable an address sanitization library since raylib is compiled with it on this platform. On GNU/Linux, a similar step is required, but the command differs to also include the undefined behavior sanitizer. To accomplish this, open your project's `CMakeLists.txt` file and, after the `set(CMAKE_CXX_STANDARD 20)` line, either uncomment or append the following lines:
 
     ```cmake
     find_package(raylib CONFIG REQUIRED)
@@ -47,9 +51,9 @@ Follow these steps to install the `raylib` library in your C++ project in CLion 
     endif()
     ```
 
-#### Step 5: Link `raylib` to a Program
+#### Step 5: Link raylib to a Program
 
-- Finally, to enable the library for a particular lab or project executable, you have to configure the linker to attach the compiled library to your code. For that, after every `add_executable(<executable-name>, <path-to-source-file>)` line of a lab task with graphics, add the following line:
+* Finally, to enable the library for a particular lab or project executable, you have to configure the linker to attach the compiled library to your code. For that, after every `add_executable(<executable-name>, <path-to-source-file>)` line of a lab task with graphics, add the following line:
 
     ```cmake
     target_link_libraries(<executable-name> PRIVATE raylib glfw)
@@ -61,7 +65,15 @@ Don't forget to replace `<executable-name>` and `<path-to-source-file>` with the
 
 ## Important Notes
 
-The checkpoint will be graded based on the output of your programs, the correctness of the structure of your repository, and the style of your code. You may be penalized and receive a lower grade if the printed text by your program does not match (wrong letters, additional spaces, or newlines, incorrectly computed result) the correct one. Please check your code and output before submitting it to GitHub or Moodle. Ensure the outcome of your program matches the specified output on this page. Do not forget to print a `\n` control sequence to go to a new line after the last message from your program. Format real numbers precisely to the number of decimal places specified in the sample output. Ensure that your code style is consistent, meaning the code is properly indented, groups of code are separated by blank lines, variable names are consistent in naming style, and describe in a compact manner the data stored in them. Your files and directories must be properly named as per the requirements outlined at the bottom of the page. Moreover, your repository should not contain additional files with unrelated code, especially within the folder designated for lab tasks. If you are told to use a particular function, you must base your solution on that function even if there exists a better solution without the use of it. Do not hesitate to contact your practice instructor if you have any questions.
+The checkpoint will be graded based on your programs' output, the correctness of your repository structure, and the style of your code. You may be penalized and receive a lower grade if your program's output does not exactly match the expected output (wrong letters, extra spaces or newlines, or an incorrectly computed result). Please check your code and output before submitting your work to GitHub or Moodle. Ensure your program's output matches the specified output on this page. Print a `\n` newline after the final line of your program's output. Format real numbers precisely to the number of decimal places specified in the sample output.
+
+Ensure your code style is consistent: indent code properly, separate logical blocks with a blank line, and use variable names that follow a consistent naming style and concisely describe the data they store. The code style for all files must conform to the configuration in `.clang-format`. By default, `.clang-format` is set to the WebKit style; see the [WebKit Code Style Guidelines](https://webkit.org/code-style-guidelines) for details. If you prefer a different style, update `.clang-format` accordingly. Ensure that your source files adhere to the selected style. If you receive the error `The file is not formatted consistently with the '.clang-format' configuration.` from the grader, it means you failed to follow the selected style in the `.clang-format` file. Format your source code manually or use CLion's autoformatting tools. However, we recommend starting with manual formatting to build good programming habits.
+
+Your files and directories must be named according to the requirements outlined at the bottom of this page. Moreover, your repository must not contain extraneous files or unrelated code, especially within the folder designated for lab tasks.
+
+If you are instructed to use a particular function, you must base your solution on that function, even if a better solution exists without it.
+
+Do not hesitate to contact your practice instructor if you have any questions.
 
 ---
 
@@ -123,7 +135,7 @@ Nothing to calculate
 
 ```
 
-## Problem #3: Simple Math Test
+### Problem #3: Simple Math Test
 
 Create a program that generates tests to assess students' ability to add numbers. The program should print each test with random operands on a separate line, read each answer from the student, and provide statistics at the end, showing the number of correct and incorrect answers.
 
@@ -131,7 +143,7 @@ Begin with a solution using a `while` loop. Comment it out, then write a solutio
 
 Use `srand` from `cstdlib` to seed the random number generator with the value `42` to produce a predictable sequence, which will help us evaluate your program with an automated script. Note that the examples below may not use `42` in `srand`, so their results may differ from those generated by your program. The minimum and maximum values for the random number generator should be in the range $[-20, 20]$.
 
-### Sample Input and Output
+#### Sample Input and Output
 
 ```
 Number of tests? 3
@@ -154,7 +166,7 @@ Number of incorrect answers: 0
 
 ### Problem #4: Circles
 
-Create a `raylib` application that draws multiple circles of random sizes, at random coordinates, and in random colors. The number of circles, predetermined by you, should be stored as a constant in your code. The resolution of the window should be 800x450 pixels.
+Create a raylib application that draws multiple circles of random sizes, at random coordinates, and in random colors. The number of circles, predetermined by you, should be stored as a constant in your code. The resolution of the window should be 800x450 pixels.
 
 You have some artistic liberty in this task. You may choose the number of circles as well as their minimum and maximum radius. All graphics tasks will be evaluated manually. Please ensure that the grader generates a screenshot with the correct graphical content for the TA to download from the GitHub Actions pages to check.
 
@@ -164,7 +176,7 @@ You have some artistic liberty in this task. You may choose the number of circle
 
 ### Problem #5: Gradient
 
-Create a `raylib` application that draws a series of circles in varying shades of red, centered on the screen (as shown in the screenshot below). The number of circles, chosen by you, should be stored as a constant in your code. This number should be sufficient to achieve a visual effect similar to the one in the picture below. The resolution of the window should be 800x450 pixels.
+Create a raylib application that draws a series of circles in varying shades of red, centered on the screen (as shown in the screenshot below). The number of circles, chosen by you, should be stored as a constant in your code. This number should be sufficient to achieve a visual effect similar to the one in the picture below. The resolution of the window should be 800x450 pixels.
 
 #### Sample
 
@@ -193,7 +205,7 @@ While you can copy and paste the code from the book, it is highly recommended to
 Upon completion of all assignments, your repository should look like this:
 
 ```
-. (.idea, .gitignore, CMakeLists.txt, Readme.md)
+. (.idea, .gitignore, .clang-format, CMakeLists.txt, Readme.md)
 ├── problem01.cpp
 ├── problem02.cpp
 ├── problem03.cpp
@@ -217,19 +229,23 @@ If the files with assignments are named incorrectly, you will be penalized.
 * `iostream`: <https://en.cppreference.com/w/cpp/header/iostream>
 * `iomanip`: <https://en.cppreference.com/w/cpp/header/iomanip>
 * `cmath`: <https://en.cppreference.com/w/cpp/header/cmath>
-* `cctype`: <https://en.cppreference.com/w/cpp/header/cctype>
-* `operators`: <https://en.cppreference.com/w/cpp/language/operator_precedence>
+* `const`: <https://en.cppreference.com/w/cpp/language/cv.html>
+* `constexpr`: <https://en.cppreference.com/w/cpp/language/constexpr.html>
+* `math constants`: <https://en.cppreference.com/w/cpp/numeric/constants.html>
+* `static_cast`: <https://en.cppreference.com/w/cpp/language/static_cast.html>
 * `if`: <https://en.cppreference.com/w/cpp/language/if>
+* `operators`: <https://en.cppreference.com/w/cpp/language/operator_precedence>
 * `switch`: <https://en.cppreference.com/w/cpp/language/switch>
 * `srand`: <https://en.cppreference.com/w/cpp/numeric/random/srand>
-* `rand`: <https://en.cppreference.com/w/cpp/numeric/random/rand>
+* `rand`: <https://en.cppreference.com/w/cpp    /numeric/random/rand>
+* `cctype`: <https://en.cppreference.com/w/cpp/header/cctype>
 * `while`: <https://en.cppreference.com/w/cpp/language/while>
 * `do...while`: <https://en.cppreference.com/w/cpp/language/do>
 * `for`: <https://en.cppreference.com/w/cpp/language/for>
 * `continue`: <https://en.cppreference.com/w/cpp/language/continue>
 * `break`: <https://en.cppreference.com/w/cpp/language/break>
 
-### `raylib`
+### raylib
 
 * Wiki: <https://github.com/raysan5/raylib/wiki>
 * Cheatsheet: <https://www.raylib.com/cheatsheet/cheatsheet.html>
