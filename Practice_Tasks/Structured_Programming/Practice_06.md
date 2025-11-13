@@ -271,7 +271,7 @@ The image should be resolution-independent, meaning it should look good at any w
 
 ![Sine Wave](https://i.imgur.com/kU6dmNz.png)
 
-### Homework Problem #8: Sine Waves
+### Homework Problem #10: Sine Waves
 
 Develop a graphics application that generates an image of sine waves, similar to the one shown in the sample below. To draw the spirals, you must define and use a function `draw_sine_wave` from Problem #9.
 
@@ -320,7 +320,7 @@ If the files with assignments are named incorrectly, you will be penalized.
 * `operators`: <https://en.cppreference.com/w/cpp/language/operator_precedence>
 * `switch`: <https://en.cppreference.com/w/cpp/language/switch>
 * `srand`: <https://en.cppreference.com/w/cpp/numeric/random/srand>
-* `rand`: <https://en.cppreference.com/w/cpp    /numeric/random/rand>
+* `rand`: <https://en.cppreference.com/w/cpp/numeric/random/rand>
 * `cctype`: <https://en.cppreference.com/w/cpp/header/cctype>
 * `while`: <https://en.cppreference.com/w/cpp/language/while>
 * `do...while`: <https://en.cppreference.com/w/cpp/language/do>
