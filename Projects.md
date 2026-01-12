@@ -11,10 +11,6 @@ List of the course or bonus projects.
 
 ## Object-Oriented Programming
 
-### Project #1
-
-* TBD
-
-### Project #2
+### Project
 
 * TBD
