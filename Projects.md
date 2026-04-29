@@ -13,4 +13,4 @@ List of the course or bonus projects.
 
 ### Project
 
-* TBD
+* <https://github.com/toksaitov/simple-notepad-project>
