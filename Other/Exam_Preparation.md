@@ -27,6 +27,7 @@ Read the following chapters of the course book:
 * Chapter 6: Functions
 * Chapter 7: Single-Dimensional Arrays and C-Strings
 * Chapter 8: Multidimensional Arrays
+* Chapter 17: Recursion
 
 #### Practice
 
@@ -85,12 +86,9 @@ Read the following chapters of the course book:
 * Chapter 13: File Input and Output
 * Chapter 15: Inheritance and Polymorphism
 * Chapter 16: Exception Handling (Custom Exceptions Classes)
-* Chapter 17: Recursion
 
 #### Practice
 
-Redo labs 5 to 8 and try to create simple GUI applications with QT to draw 2D shapes such as points, lines, circles, rectangles, and polygons to the screen upon user input (button clicks to select a shape).
+Redo labs 5 to 8 and try to create simple GUI applications with Qt to transform text (change case, remove spaces or punctuation).
 
-Programs like this will be there on the final exam:
-
-* <https://drive.google.com/file/d/1Se_tms15zgtDEY5djBQPg3SunTdkU5io/view?usp=share_link>
+* <https://raw.githubusercontent.com/rachmiroff/images/refs/heads/main/auca/com-119/spring-2026/final/01.png>
