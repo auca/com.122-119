@@ -199,3 +199,15 @@ Previous Course Recordings
 ### Extra Lectures
 
 * <https://youtube.com/playlist?list=PLHcEzCb_lW6eIRf0N28Frxyd-cnwmq6cT>
+
+---
+
+## Spring 2026
+
+### Lecture and Labs
+
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6c3EVPTitvlzTPTLYto0b99>
+
+### Extra Lectures
+
+* <https://youtube.com/playlist?list=PLHcEzCb_lW6dEIkoWWEUfSdM9uNKmWcXa>
