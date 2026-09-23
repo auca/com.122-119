@@ -3,22 +3,20 @@ Introduction to Programming, Practice #3
 
 ## Developer Tools
 
-* [CLion](https://www.jetbrains.com/clion/download)
+* [Visual Studio Code](https://code.visualstudio.com/download)
 * [Git SCM](https://git-scm.com/downloads)
 
 ---
 
 ## Important Notes
 
-The checkpoint will be graded based on your programs' output, the correctness of your repository structure, and the style of your code. You may be penalized and receive a lower grade if your program's output does not exactly match the expected output (wrong letters, extra spaces or newlines, or an incorrectly computed result). Please check your code and output before submitting your work to GitHub or Moodle. Ensure your program's output matches the specified output on this page. Print a `\n` newline after the final line of your program's output. Format real numbers precisely to the number of decimal places specified in the sample output.
+The checkpoint will be graded based on your programs' output, the correctness of your repository structure, and the style of your code. You may receive a lower grade if your program's output does not exactly match the expected output (incorrect characters, extra spaces or newlines, or an incorrectly computed result). Please check your code and output before submitting your work to GitHub or Moodle. Ensure your program's output matches the specified output on this page. End the final line of your own program's output with a newline (`\n`). For textbook examples assigned for retyping, preserve the book's printed output unless a course grading note explicitly specifies a difference. Format real numbers using the number of decimal places specified in the sample output.
 
-Ensure your code style is consistent: indent code properly, separate logical blocks with a blank line, and use variable names that follow a consistent naming style and concisely describe the data they store. The code style for all files must conform to the configuration in `.clang-format`. By default, `.clang-format` is set to the WebKit style; see the [WebKit Code Style Guidelines](https://webkit.org/code-style-guidelines) for details. If you prefer a different style, update `.clang-format` accordingly. Ensure that your source files adhere to the selected style. If you receive the error `The file is not formatted consistently with the '.clang-format' configuration.` from the grader, it means you failed to follow the selected style in the `.clang-format` file. Format your source code manually or use CLion's autoformatting tools. However, we recommend starting with manual formatting to build good programming habits.
+Ensure your code style is consistent: indent code properly, separate logical blocks with a blank line, and use variable names that follow a consistent naming style and concisely describe the data they store. The code style for all files must conform to the configuration in `.clang-format`. By default, `.clang-format` is set to the WebKit style; see the [WebKit Code Style Guidelines](https://webkit.org/code-style-guidelines) for details. If you prefer a different style, update `.clang-format` accordingly. Ensure that your source files adhere to the selected style. If you receive the error `The file is not formatted consistently with the '.clang-format' configuration.` from the grader, it means your code does not match the style specified in `.clang-format`. Format your source code manually or use VS Code's `Format Document` command (`Shift+Alt+F` on Windows, `Shift+Option+F` on macOS, `Ctrl+Shift+I` on GNU/Linux). However, we recommend starting with manual formatting to build good programming habits.
 
-Your files and directories must be named according to the requirements outlined at the bottom of this page. Moreover, your repository must not contain extraneous files or unrelated code, especially within the folder designated for lab tasks.
+Use the file and directory names shown in the Expected Repository Structure section, and keep your repository free of unrelated files and code. When a task requires a particular function, base your solution on that function, even if you know a better approach. Your programs must also run without memory errors or undefined behavior; any such error detected by the grader will cause the automated checks to fail.
 
-If you are instructed to use a particular function, you must base your solution on that function, even if a better solution exists without it.
-
-Do not hesitate to contact your practice instructor if you have any questions.
+If anything in the requirements is unclear or you need help with a task, contact your practice instructor.
 
 ---
 
@@ -29,6 +27,10 @@ Complete the following programming exercises with your lab instructor or on your
 ### Problem #1: Absolute Value
 
 Create a program that reads a real number from standard input and outputs its absolute value. Do NOT use the `abs` function from the `cmath` library. Instead, use a one-way if statement. Format the numbers appropriately to match the example output.
+
+#### Course Grading Notes
+
+Use the `fixed` and `setprecision` manipulators from `iomanip` to print four decimal places.
 
 #### Sample Input and Output
 
@@ -47,6 +49,10 @@ Enter a real number: 12.4
 ### Problem #2: Pass or Fail
 
 Create a program that reads the total number of points earned by a student in the 'Intro to Programming' course and prints whether the student passed or failed. Reminder: anything less than 60% is an 'F' this year. Only integer values are allowed as input for this problem.
+
+#### Course Grading Notes
+
+The variable names `t`, `tmp`, and `temp` are not permitted in this task. Use names that describe the stored values.
 
 #### Sample Input and Output
 
@@ -70,7 +76,7 @@ You have failed the "Intro to Programming" course.
 
 ### Problem #3: Comparing Numbers
 
-Create a program that compares two integers and prints the larger one. If the integers are equal, print a message stating that they are equal.
+Create a program that compares two integers and prints whether the first one is less than or greater than the second one. If the integers are equal, print a message stating that they are equal.
 
 #### Sample Input and Output
 
@@ -95,33 +101,7 @@ The numbers are equal.
 
 ```
 
-### Problem #4: Leap Year
-
-Create a program that determines whether a given year is a [leap year](https://en.wikipedia.org/wiki/Leap_year).
-
-#### Test data:
-
-*Leap Years*:
-1796, 1804, 1896, 1904, 1992, 1996, 2000, 2004, 2008
-
-*Common Years*:
-1799, 1800, 1801, 1802, 1803, 1805, 1899, 1900, 1901
-
-#### Sample Input and Output
-
-```
-Enter the year: 2024
-2024 is a leap year.
-
-```
-
-```
-Enter the year: 1800
-1800 is not a leap year.
-
-```
-
-### Problem #5: Grades
+### Problem #4: Grades
 
 Create a program that, given a numerical grade, displays the corresponding letter grade.
 
@@ -157,13 +137,39 @@ Enter the number of points: -1
 
 ```
 
+### Problem #5: Leap Year
+
+Create a program that determines whether a given year is a [leap year](https://en.wikipedia.org/wiki/Leap_year).
+
+#### Test Data
+
+*Leap Years*:
+1796, 1804, 1896, 1904, 1992, 1996, 2000, 2004, 2008
+
+*Common Years*:
+1799, 1800, 1801, 1802, 1803, 1805, 1899, 1900, 1901
+
+#### Sample Input and Output
+
+```
+Enter the year: 2024
+2024 is a leap year.
+
+```
+
+```
+Enter the year: 1800
+1800 is not a leap year.
+
+```
+
 ---
 
 ## Homework
 
-Read Introduction to C++ Programming, 3rd Edition by Y. Daniel Liang, Chapter 3
+Read Chapter 3 of Introduction to C++ Programming, 3rd Edition, by Y. Daniel Liang.
 
-Do programming exercises from chapter 3:
+Complete the following programming exercises from Chapter 3:
 
   1. Exercise 3.1
   2. Exercise 3.5
@@ -181,11 +187,15 @@ and
 
 $r_2 = \frac{-b - \sqrt{b^2 - 4ac}}{2a}$
 
-$b2 - 4ac$ is called the discriminant of the quadratic equation. If it is positive, the equation has two real roots. If it is zero, the equation has one root. If it is negative, the equation has no real roots.
+$b^2 - 4ac$ is called the discriminant of the quadratic equation. If it is positive, the equation has two real roots. If it is zero, the equation has one root. If it is negative, the equation has no real roots.
 
 Write a program that prompts the user to enter values for $a$, $b$, and $c$ and displays the result based on the discriminant. If the discriminant is positive, display two roots. If the discriminant is 0, display one root. Otherwise, display "The equation has no real roots."
 
 Note you can use `pow(x, 0.5)` or `sqrt(x)` from `cmath` to compute $\sqrt{x}$.
+
+#### Course Grading Notes
+
+Use the `fixed` and `setprecision` manipulators from `iomanip` to print four decimal places. For automated grading, print `The equation has no real roots` without a final period, as shown in the sample.
 
 #### Sample Input and Output
 
@@ -245,6 +255,10 @@ Enter three integer numbers: 5 2 10
 
 Write a program that prompts the user to enter a three-digit integer. The program displays the sum of all digits in the integer if the input is valid; otherwise, it displays a message indicating that the integer is not a three-digit number and hence, is invalid.
 
+#### Course Grading Notes
+
+For this course, determine the magnitude without calling the `abs` function.
+
 #### Sample Input and Output
 
 ```
@@ -275,6 +289,10 @@ $\sqrt{(x_1 - x_2)^2+(y_1 - y_2)^2}$
 
 Test your program to cover all cases.
 
+#### Course Grading Notes
+
+Use the `fixed` and `setprecision` manipulators from `iomanip` to print the coordinates with one decimal place.
+
 #### Sample Input and Output
 
 ```
@@ -293,10 +311,10 @@ Point (9.0, 9.0) is not in the circle
 
 ## Expected Repository Structure
 
-Upon completion of all assignments, your repository should look like this:
+Upon completion of all assignments, your repository should have the following solution files. This is an abbreviated view; keep the existing project configuration and grader files as well:
 
 ```
-. (.idea, .gitignore, .clang-format, CMakeLists.txt, Readme.md)
+. (.idea, .vscode, .gitignore, .clang-format, CMakeLists.txt, Readme.md)
 ├── problem01.cpp
 ├── problem02.cpp
 ├── problem03.cpp
@@ -309,11 +327,13 @@ Upon completion of all assignments, your repository should look like this:
 └── problem10.cpp
 ```
 
-If the files with assignments are named incorrectly, you will be penalized.
+If your solution files are named incorrectly, you will be penalized.
 
 ---
 
 ## Documentation
+
+### C++
 
 * `iostream`: <https://en.cppreference.com/w/cpp/header/iostream>
 * `iomanip`: <https://en.cppreference.com/w/cpp/header/iomanip>

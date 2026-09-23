@@ -3,22 +3,20 @@ Introduction to Programming, Practice #4
 
 ## Developer Tools
 
-* [CLion](https://www.jetbrains.com/clion/download)
+* [Visual Studio Code](https://code.visualstudio.com/download)
 * [Git SCM](https://git-scm.com/downloads)
 
 ---
 
 ## Important Notes
 
-The checkpoint will be graded based on your programs' output, the correctness of your repository structure, and the style of your code. You may be penalized and receive a lower grade if your program's output does not exactly match the expected output (wrong letters, extra spaces or newlines, or an incorrectly computed result). Please check your code and output before submitting your work to GitHub or Moodle. Ensure your program's output matches the specified output on this page. Print a `\n` newline after the final line of your program's output. Format real numbers precisely to the number of decimal places specified in the sample output.
+The checkpoint will be graded based on your programs' output, the correctness of your repository structure, and the style of your code. You may receive a lower grade if your program's output does not exactly match the expected output (incorrect characters, extra spaces or newlines, or an incorrectly computed result). Please check your code and output before submitting your work to GitHub or Moodle. Ensure your program's output matches the specified output on this page. End the final line of your own program's output with a newline (`\n`). For textbook examples assigned for retyping, preserve the book's printed output unless a course grading note explicitly specifies a difference. Format real numbers using the number of decimal places specified in the sample output.
 
-Ensure your code style is consistent: indent code properly, separate logical blocks with a blank line, and use variable names that follow a consistent naming style and concisely describe the data they store. The code style for all files must conform to the configuration in `.clang-format`. By default, `.clang-format` is set to the WebKit style; see the [WebKit Code Style Guidelines](https://webkit.org/code-style-guidelines) for details. If you prefer a different style, update `.clang-format` accordingly. Ensure that your source files adhere to the selected style. If you receive the error `The file is not formatted consistently with the '.clang-format' configuration.` from the grader, it means you failed to follow the selected style in the `.clang-format` file. Format your source code manually or use CLion's autoformatting tools. However, we recommend starting with manual formatting to build good programming habits.
+Ensure your code style is consistent: indent code properly, separate logical blocks with a blank line, and use variable names that follow a consistent naming style and concisely describe the data they store. The code style for all files must conform to the configuration in `.clang-format`. By default, `.clang-format` is set to the WebKit style; see the [WebKit Code Style Guidelines](https://webkit.org/code-style-guidelines) for details. If you prefer a different style, update `.clang-format` accordingly. Ensure that your source files adhere to the selected style. If you receive the error `The file is not formatted consistently with the '.clang-format' configuration.` from the grader, it means your code does not match the style specified in `.clang-format`. Format your source code manually or use VS Code's `Format Document` command (`Shift+Alt+F` on Windows, `Shift+Option+F` on macOS, `Ctrl+Shift+I` on GNU/Linux). However, we recommend starting with manual formatting to build good programming habits.
 
-Your files and directories must be named according to the requirements outlined at the bottom of this page. Moreover, your repository must not contain extraneous files or unrelated code, especially within the folder designated for lab tasks.
+Use the file and directory names shown in the Expected Repository Structure section, and keep your repository free of unrelated files and code. When a task requires a particular function, base your solution on that function, even if you know a better approach. Your programs must also run without memory errors or undefined behavior; any such error detected by the grader will cause the automated checks to fail.
 
-If you are instructed to use a particular function, you must base your solution on that function, even if a better solution exists without it.
-
-Do not hesitate to contact your practice instructor if you have any questions.
+If anything in the requirements is unclear or you need help with a task, contact your practice instructor.
 
 ---
 
@@ -31,6 +29,10 @@ Complete the following programming exercises with your lab instructor or on your
 Create a variable named `result` of type `double` and initialize it to 0. Then, add 0.1 to it ten times. Compare the final value of `result` with 1.0. If the values are equal, print "Equal"; otherwise, print "Not equal". Be sure to include a newline character ('\n') at the end of the output.
 
 Next, explain the outcome of this comparison. Write a correct solution that compares floating-point values accurately and prints "Equal".
+
+#### Course Grading Notes
+
+Use the `abs` function from `cmath` when comparing the difference with a suitable tolerance.
 
 #### Sample Output
 
@@ -139,6 +141,10 @@ Incorrect month number.
 
 Create a program that determines the number of days in a specific month for a given year.
 
+#### Course Grading Notes
+
+Use a `switch` statement to select the number of days for the month.
+
 #### Sample Input and Output
 
 ```
@@ -173,9 +179,9 @@ Incorrect month number.
 
 ## Homework
 
-Read Introduction to C++ Programming, 3rd Edition by Y. Daniel Liang, Chapter 3, 4
+Read Chapters 3 and 4 of Introduction to C++ Programming, 3rd Edition, by Y. Daniel Liang.
 
-Do programming exercises from chapter 3 and 4:
+Complete the following programming exercises from Chapters 3 and 4:
 
   1. Exercise 3.11
   2. Exercise 3.20
@@ -185,7 +191,7 @@ Do programming exercises from chapter 3 and 4:
 
 ### Homework Problem #6: Exercise 3.11
 
-A bank uses the following function to calculate the rate of interest (in percentage) for a particular loan amount (in lakhs of dollars).
+A bank uses the following function to calculate the rate of interest (in percentage) for a particular loan amount.
 
 $$
 \begin{array}{ll}
@@ -199,6 +205,10 @@ $$
 Write a program that prompts the user to enter the amount of the loan and displays the rate of interest. If the amount is less than $10000 or more than $5000000, display a message "Loan cannot be provided."
 
 Use any selection construct to solve the task. The loan amount is guaranteed to be an integer.
+
+#### Course Grading Notes
+
+Use the `fixed` and `setprecision` manipulators from `iomanip` to print the rate of interest with one decimal place.
 
 #### Sample Input and Output
 
@@ -234,6 +244,10 @@ A point is in the rectangle if its horizontal distance to $(0, 0)$ is less than 
 
 Use any selection construct to solve the task.
 
+#### Course Grading Notes
+
+Use the `fixed` and `setprecision` manipulators from `iomanip` to print the coordinates with one decimal place.
+
 #### Sample Input and Output
 
 ```
@@ -252,9 +266,15 @@ Point (6.0, 4.0) is not in the rectangle
 
 Write a program that simulates picking a card from a deck of 52 cards. Your program should display the rank (Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King) and suit (Clubs, Diamonds, Hearts, Spades) of the card.
 
-Use `srand` from `cstdlib` to seed the random number generator with the value of `42` to get a predicatable sequence to help us evaluate your program with an automated script. Other `srand` values to make the values less predictable will be discussed in the next lecture. Note that the examples below may not use `42` in `srand` and will produce different results compared to your program.
-
 Use the `switch` construct to solve the task.
+
+#### Course Grading Notes
+
+Use `srand` from `cstdlib` to seed the random number generator with `42` before generating any random numbers. The examples below may use a different seed, so their random results may differ from those of your program.
+
+Generate the card rank first with `rand() % 13`, then the suit with `rand() % 4`. Map ranks 0 through 12 to Ace, 2 through 10, Jack, Queen, and King, respectively. Map suits 0 through 3 to Clubs, Diamonds, Hearts, and Spades, respectively. Do not make extra random-number calls before these two draws.
+
+The reference environment for deterministic random output is Ubuntu 26.04 LTS on x86-64, using the GNU C Library (glibc) 2.43. Follow the exact seed, generation formula, and order of calls specified here. The same seed can produce different sequences on macOS, Windows, or a different C library.
 
 #### Sample Output
 
@@ -340,10 +360,10 @@ Invalid status code
 
 ## Expected Repository Structure
 
-Upon completion of all assignments, your repository should look like this:
+Upon completion of all assignments, your repository should have the following solution files. This is an abbreviated view; keep the existing project configuration and grader files as well:
 
 ```
-. (.idea, .gitignore, .clang-format, CMakeLists.txt, Readme.md)
+. (.idea, .vscode, .gitignore, .clang-format, CMakeLists.txt, Readme.md)
 ├── problem01.cpp
 ├── problem02.cpp
 ├── problem03.cpp
@@ -356,11 +376,13 @@ Upon completion of all assignments, your repository should look like this:
 └── problem10.cpp
 ```
 
-If the files with assignments are named incorrectly, you will be penalized.
+If your solution files are named incorrectly, you will be penalized.
 
 ---
 
 ## Documentation
+
+### C++
 
 * `iostream`: <https://en.cppreference.com/w/cpp/header/iostream>
 * `iomanip`: <https://en.cppreference.com/w/cpp/header/iomanip>

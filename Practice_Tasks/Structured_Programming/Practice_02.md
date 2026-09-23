@@ -3,22 +3,20 @@ Introduction to Programming, Practice #2
 
 ## Developer Tools
 
-* [CLion](https://www.jetbrains.com/clion/download)
+* [Visual Studio Code](https://code.visualstudio.com/download)
 * [Git SCM](https://git-scm.com/downloads)
 
 ---
 
 ## Important Notes
 
-The checkpoint will be graded based on your programs' output, the correctness of your repository structure, and the style of your code. You may be penalized and receive a lower grade if your program's output does not exactly match the expected output (wrong letters, extra spaces or newlines, or an incorrectly computed result). Please check your code and output before submitting your work to GitHub or Moodle. Ensure your program's output matches the specified output on this page. Print a `\n` newline after the final line of your program's output. Format real numbers precisely to the number of decimal places specified in the sample output.
+The checkpoint will be graded based on your programs' output, the correctness of your repository structure, and the style of your code. You may receive a lower grade if your program's output does not exactly match the expected output (incorrect characters, extra spaces or newlines, or an incorrectly computed result). Please check your code and output before submitting your work to GitHub or Moodle. Ensure your program's output matches the specified output on this page. End the final line of your own program's output with a newline (`\n`). For textbook examples assigned for retyping, preserve the book's printed output unless a course grading note explicitly specifies a difference. Format real numbers using the number of decimal places specified in the sample output.
 
-Ensure your code style is consistent: indent code properly, separate logical blocks with a blank line, and use variable names that follow a consistent naming style and concisely describe the data they store. The code style for all files must conform to the configuration in `.clang-format`. By default, `.clang-format` is set to the WebKit style; see the [WebKit Code Style Guidelines](https://webkit.org/code-style-guidelines) for details. If you prefer a different style, update `.clang-format` accordingly. Ensure that your source files adhere to the selected style. If you receive the error `The file is not formatted consistently with the '.clang-format' configuration.` from the grader, it means you failed to follow the selected style in the `.clang-format` file. Format your source code manually or use CLion's autoformatting tools. However, we recommend starting with manual formatting to build good programming habits.
+Ensure your code style is consistent: indent code properly, separate logical blocks with a blank line, and use variable names that follow a consistent naming style and concisely describe the data they store. The code style for all files must conform to the configuration in `.clang-format`. By default, `.clang-format` is set to the WebKit style; see the [WebKit Code Style Guidelines](https://webkit.org/code-style-guidelines) for details. If you prefer a different style, update `.clang-format` accordingly. Ensure that your source files adhere to the selected style. If you receive the error `The file is not formatted consistently with the '.clang-format' configuration.` from the grader, it means your code does not match the style specified in `.clang-format`. Format your source code manually or use VS Code's `Format Document` command (`Shift+Alt+F` on Windows, `Shift+Option+F` on macOS, `Ctrl+Shift+I` on GNU/Linux). However, we recommend starting with manual formatting to build good programming habits.
 
-Your files and directories must be named according to the requirements outlined at the bottom of this page. Moreover, your repository must not contain extraneous files or unrelated code, especially within the folder designated for lab tasks.
+Use the file and directory names shown in the Expected Repository Structure section, and keep your repository free of unrelated files and code. When a task requires a particular function, base your solution on that function, even if you know a better approach. Your programs must also run without memory errors or undefined behavior; any such error detected by the grader will cause the automated checks to fail.
 
-If you are instructed to use a particular function, you must base your solution on that function, even if a better solution exists without it.
-
-Do not hesitate to contact your practice instructor if you have any questions.
+If anything in the requirements is unclear or you need help with a task, contact your practice instructor.
 
 ---
 
@@ -43,6 +41,10 @@ After swapping: a = 3; b = 2;
 ### Problem #2: Swap Two Numbers Without Temporary Variables
 
 Declare two integer variables, `a` and `b`, and initialize them with values provided by the user. Then, print both variables, swap their values, and print the variables again. In this task, it is prohibited to use temporary variables.
+
+#### Course Grading Notes
+
+Each input is in the signed 32-bit integer range, from -2147483648 to 2147483647. Use `long long` for `a` and `b` so intermediate addition or subtraction during the swap does not overflow. Do not introduce a temporary variable.
 
 #### Sample Input and Output
 
@@ -98,9 +100,9 @@ The temperature in degrees Celsius is 45.56
 
 ## Homework
 
-Read Introduction to C++ Programming, 3rd Edition by Y. Daniel Liang, Chapter 2
+Read Chapter 2 of Introduction to C++ Programming, 3rd Edition, by Y. Daniel Liang.
 
-Do programming exercises from chapter 2:
+Complete the following programming exercises from Chapter 2:
 
   1. Exercise 2.2
   2. Exercise 2.3
@@ -116,7 +118,9 @@ $A = r^2 \pi$
 
 $V = A \times l$
 
-Ignore the sample output in the book. Instead, use the sample provided below to check your solution's correctness. Use the `fixed` and `setprecision` manipulators from `<iomanip>` to format the numeric output, ensuring that the area displays four decimal places and the volume displays one decimal place. Use the `numbers::pi` constant from `<numbers>` to represent the value of $\pi$.
+#### Course Grading Notes
+
+Ignore the sample output in the book. Instead, use the sample provided below to check your solution's correctness. Use the `fixed` and `setprecision` manipulators from `iomanip` to format the numeric output, ensuring that the area displays four decimal places and the volume displays one decimal place. Use the `numbers::pi` constant from `numbers` to represent the value of $\pi$.
 
 #### Sample Input and Output
 
@@ -129,9 +133,9 @@ The volume is 1140.4
 
 ### Homework Problem #7: Exercise 2.3
 
-Write a program that reads a number in feet, converts it to meters, and displays the result. One foot equals 0.305 meters. Use a compile-time constant (`constexpr`) for the conversion factor where possible.
+Write a program that reads a number in feet, converts it to meters, and displays the result. One foot equals 0.305 meters. Use a compile-time constant (`constexpr`) for the conversion factor.
 
-Use the `fixed` and `setprecision` manipulators from `iomanip` to format the numeric output according to the example below.
+Use the `fixed` and `setprecision` manipulators from `iomanip` to format the numeric output, ensuring that the feet display one decimal place and the meters display four decimal places.
 
 #### Sample Input and Output
 
@@ -145,7 +149,7 @@ Enter a value for feet: 16.5
 
 Write a program that converts pounds to kilograms. The program should prompt the user to enter a value in pounds, convert it to kilograms, and display the result. Use a compile-time constant (`constexpr`) for the conversion factor, where one pound is equal to 0.454 kilograms.
 
-Use the `fixed` and `setprecision` manipulators from `iomanip` to format the numeric output according to the example below.
+Use the `fixed` and `setprecision` manipulators from `iomanip` to format the numeric output, ensuring that the pounds display one decimal place and the kilograms display three decimal places.
 
 #### Sample Input and Output
 
@@ -159,6 +163,10 @@ Enter a number in pounds: 55.5
 
 Write a program that prompts the user to enter the minutes (e.g., 1 billion) and displays the maximum number of years and remaining days for the minutes. For simplicity, assume that a year has 365 days.
 
+#### Course Grading Notes
+
+The number of minutes can be larger than 2147483647, the upper limit of the signed 32-bit integer range. Use `long long` for the minutes so the value does not overflow.
+
 #### Sample Input and Output
 
 ```
@@ -171,7 +179,9 @@ Enter the number of minutes: 1000000000
 
 Rewrite Programming Exercise 1.11 to prompt the user to enter the number of years and display the population after the number of years.
 
-Use `round` from `<cmath>` to round the results of calculations on `double` values. Use `static_cast` to convert the result of `round` to an integer type (not necessarily `int`) to avoid using `fixed` and `setprecision` from `<iomanip>` when printing with `cout`.
+#### Course Grading Notes
+
+Use `round` from `cmath` to round the results of calculations on `double` values. Use `static_cast` to convert the result of `round` to an integer type (not necessarily `int`) to avoid using `fixed` and `setprecision` from `iomanip` when printing with `cout`.
 
 Ignore the sample output in the book. Instead, use the sample below to check the correctness of your solution.
 
@@ -187,10 +197,10 @@ The population in 5 years is 325932970
 
 ## Expected Repository Structure
 
-Upon completion of all assignments, your repository should look like this:
+Upon completion of all assignments, your repository should have the following solution files. This is an abbreviated view; keep the existing project configuration and grader files as well:
 
 ```
-. (.idea, .gitignore, .clang-format, CMakeLists.txt, Readme.md)
+. (.idea, .vscode, .gitignore, .clang-format, CMakeLists.txt, Readme.md)
 ├── problem01.cpp
 ├── problem02.cpp
 ├── problem03.cpp
@@ -203,11 +213,13 @@ Upon completion of all assignments, your repository should look like this:
 └── problem10.cpp
 ```
 
-If the files with assignments are named incorrectly, you will be penalized.
+If your solution files are named incorrectly, you will be penalized.
 
 ---
 
 ## Documentation
+
+### C++
 
 * `iostream`: <https://en.cppreference.com/w/cpp/header/iostream>
 * `iomanip`: <https://en.cppreference.com/w/cpp/header/iomanip>
