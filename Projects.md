@@ -7,10 +7,10 @@ List of the course or bonus projects.
 
 ### Project
 
-* <https://github.com/toksaitov/simple-breakout-project>
+* <https://github.com/toksaitov/rockstar-project>
 
 ## Object-Oriented Programming
 
 ### Project
 
-* <https://github.com/toksaitov/simple-notepad-project>
+* TBD
